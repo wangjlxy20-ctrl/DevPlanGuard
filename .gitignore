@@ -1,0 +1,36 @@
+# 依赖
+node_modules/
+package-lock.json.bak
+
+# 环境变量与密钥
+.env
+.env.local
+.env.*.local
+
+# 构建产物
+dist/
+build/
+*.log
+
+# 数据库/上传文件
+*.sqlite
+*.db
+uploads/
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# 忽略所有 jar 文件
+*.jar
+
+# 忽略所有 png 文件
+*.png
+
+# 常规忽略（按需添加）
+node_modules/
+.env
+*.log
+dist/
+build/
