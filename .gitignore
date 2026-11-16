@@ -1,4 +1,4 @@
-# 1. 常规忽略（不管 front 还是 backen 都不提交的）
+# 1. 常规忽略（不管哪个端都要忽略的杂物）
 *.class
 *.jar
 *.png
@@ -7,21 +7,23 @@
 *.db
 *.sqlite
 node_modules/
+.idea/
+.gradle/
 .DS_Store
 Thumbs.db
 
-# 2. 忽略整个 backen 目录
-/backen/*
+# 2. 忽略整个 backend 目录
+/backend/*
 
-# 3. 逐层放行 job 目录（Git 要求父目录也必须被放行才能进入）
-!/backen/dev/
-/backen/dev/*
-!/backen/dev/ex_bl/
-/backen/dev/ex_bl/*
-!/backen/dev/ex_bl/src_bl/
-/backen/dev/ex_bl/src_bl/*
-!/backen/dev/ex_bl/src_bl/WEB-INF/
-/backen/dev/ex_bl/src_bl/WEB-INF/*
-!/backen/dev/ex_bl/src_bl/WEB-INF/src/
-/backen/dev/ex_bl/src_bl/WEB-INF/src/*
-!/backen/dev/ex_bl/src_bl/WEB-INF/src/job/
+# 3. 逐层放行 job 目录（注意路径拼写）
+!/backend/dev/
+/backend/dev/*
+!/backend/dev/ex_bl/
+/backend/dev/ex_bl/*
+!/backend/dev/ex_bl/src_bl/
+/backend/dev/ex_bl/src_bl/*
+!/backend/dev/ex_bl/src_bl/WEB-INF/
+/backend/dev/ex_bl/src_bl/WEB-INF/*
+!/backend/dev/ex_bl/src_bl/WEB-INF/src/
+/backend/dev/ex_bl/src_bl/WEB-INF/src/*
+!/backend/dev/ex_bl/src_bl/WEB-INF/src/job/
