@@ -1,36 +1,27 @@
-# 依赖
-node_modules/
-package-lock.json.bak
-
-# 环境变量与密钥
-.env
-.env.local
-.env.*.local
-
-# 构建产物
-dist/
-build/
+# 1. 常规忽略（不管 front 还是 backen 都不提交的）
+*.class
+*.jar
+*.png
 *.log
-
-# 数据库/上传文件
-*.sqlite
+.env
 *.db
-uploads/
-
-# 编辑器与系统
-.vscode/
-.idea/
+*.sqlite
+node_modules/
 .DS_Store
 Thumbs.db
-# 忽略所有 jar 文件
-*.jar
 
-# 忽略所有 png 文件
-*.png
+# 2. 忽略整个 backen 目录
+/backen/*
 
-# 常规忽略（按需添加）
-node_modules/
-.env
-*.log
-dist/
-build/
+# 3. 逐层放行 job 目录（Git 要求父目录也必须被放行才能进入）
+!/backen/dev/
+/backen/dev/*
+!/backen/dev/ex_bl/
+/backen/dev/ex_bl/*
+!/backen/dev/ex_bl/src_bl/
+/backen/dev/ex_bl/src_bl/*
+!/backen/dev/ex_bl/src_bl/WEB-INF/
+/backen/dev/ex_bl/src_bl/WEB-INF/*
+!/backen/dev/ex_bl/src_bl/WEB-INF/src/
+/backen/dev/ex_bl/src_bl/WEB-INF/src/*
+!/backen/dev/ex_bl/src_bl/WEB-INF/src/job/
