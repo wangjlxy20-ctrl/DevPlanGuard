@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Expires" content="0">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Cache-Control" content="no-cache, private"><!-- ========== HEADER ======================================== --> <!-- ========== CSS =========================================== -->
+  <link type="text/css" rel="stylesheet" href="./css/common.css"><!-- ========================================================== --> <!-- ========== USER CSS ====================================== -->
+  <style type="text/css">
+      /* <![CDATA[ */
+      /* The user's original style can be described here */
+      .project-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 13px;
+        margin-top: 14px;
+      }
+      .project-table th,
+      .project-table td {
+        border: 1px solid #bbb;
+        padding: 6px;
+        text-align: left;
+        vertical-align: middle;
+      }
+      .project-table th {
+        background-color: #f5f5f5;
+        font-weight: bold;
+      }
+      .project-table td.action-cell {
+        text-align: center;
+        width: 90px;
+      }
+      /* ]]> */
+    </style><!-- ========================================================== --> <!-- ========== SCRIPT ======================================== -->
+  <script type="text/javascript" src="./js/denyDirectAccess.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/jquery.min.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/buttonDef.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/navigation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/objectManipulation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/dataCheck.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/dataUtil.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/timeManipulation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/svg.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/common.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/gb_gf_ezg.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/finalTaskForUserCommon.js" charset="UTF-8"></script><!-- ========================================================== --> <!-- ========== MENU ========================================== -->
+  <script type="text/javascript">
+      writeTitle();
+    </script>
+  <script type="text/javascript">
+      //<![CDATA[
+      // Common header output
+      // gf_page   : Page output (current page / all pages)
+      // gf_title1 : Screen title 1 (up to 27 double-byte characters)
+      // gf_title2 : Screen title 21 (up to 30 double-byte characters)
+      // gf_id     : Screen ID
+      // gf_comment: Screen comment
+      // gf_onload : Specify the script when loading the screen (describe only when there is processing)
+    gf_page=   "";
+    gf_title1= "DevPlanGuard";
+    gf_title2= "DevPlanGuaed Member's project preview";
+    gf_id=     "DPGL200";
+    gf_remarks="Show the projects members have attened";
+    gf_onload= "";
+      CreateHideMenu(gf_page, gf_title1, gf_title2, gf_id, gf_onload);
+      //]]>
+    </script><!-- ========================================================== --> <!-- ========== INPUT CHECK SCRIPT ============================ -->
+  <script type="text/javascript">
+      //<![CDATA[
+      function _chkInputValue() {
+        return true;
+      }
+      //]]>
+    </script><!-- ========================================================== --> <!-- ========== USER SCRIPT =================================== -->
+  <script type="text/javascript">
+      //<![CDATA[
+      // You can write your own script here
+      function finalTaskForUser() {
+        // You can describe the process immediately after the screen is displayed here.
+      }
+      //]]>
+    </script><!-- ========================================================== -->
+  <title>dummytitle</title><!-- ========================================================== -->
+ </head><!-- ========== CUSTOMIZE ===================================== -->
+ <body>
+  <div id="wrapper">
+   <!-- ===== 通用按钮栏：Back / Dashboard / Logout ===== -->
+   <div id="nav-bar" style="
+          position: sticky;
+          top: 0;
+          z-index: 999;
+          display: flex;
+          justify-content: flex-end;
+          gap: 6px;
+          padding: 4px 8px;
+          background: #f7f7f7;
+          border-bottom: 1px solid #ddd;
+        ">
+    <input class="BTNCMD" name="BTNCMD_FILES" onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_FILES';
+            SendBTN(this.name);
+          " readonly size="" type="text" value="FILES"> <input class="BTNCMD" name="BTNCMD_SEARCH" onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_SEARCH';
+            SendBTN(this.name);
+          " readonly size="" type="text" value="SUBMITTED TASKS"> <input type="text" class="BTNCMD" name="BTNCMD_BACK" value="Back" readonly onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_BACK';
+            SendBTN(this.name);
+          "> <input type="text" class="BTNCMD" name="BTNCMD_MAIN" value="Main" readonly onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_MAIN';
+            SendBTN(this.name);
+          "> <input type="text" class="BTNCMD" name="BTNCMD_LOGOUT" value="Logout" readonly onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_LOGOUT';
+            SendBTN(this.name);
+          ">
+   </div>
+   <div style="position: absolute; top: 104px; right: 6px; z-index: 999">
+    <input class="BTNCMD" name="BTNCMD_JOIN_NEW_PROJECT" onclick="
+            document.main.COMMAND_NAME.value =
+              'COMMAND_BTNCMD_JOIN_NEW_PROJECT';
+            SendBTN(this.name);
+          " readonly size="" type="text" value="JOIN NEW PR0JECT">
+   </div><!-- ===== /通用按钮栏 ===== --> <input type="hidden" id="grandsight_ex_disp_date_format" name="grandsight_ex_disp_date_format" value=""> <input type="hidden" id="grandsight_ex_time_zone" name="grandsight_ex_time_zone" value="">
+   <table style="width: 100%">
+    <tbody>
+     <tr>
+      <td id="root"><!-- Screen name -->
+       <h1>
+        <script>
+                  document.write(gf_title2);
+                </script></h1><!-- ========== WELCOME ========== -->
+       <p style="font-size: 14px; line-height: 1.9; margin: 8px 0">HELLO <span class="NMLLBL_NORMAL" id="NMLLBL_DISPLAY_INFO_USERNAME" name="NMLLBL_DISPLAY_INFO_USERNAME" value="" style="font-weight: bold"></span> , Welcome to DevPlanGuard. Your Permission is <span class="NMLLBL_NORMAL" id="NMLLBL_DISPLAY_INFO_PERMISSION" name="NMLLBL_DISPLAY_INFO_PERMISSION" value="" style="font-weight: bold"></span> . Here are the projects you have participated in.</p><span class="NMLLBL_NORMAL" id="NMLLBL_NOW_DATE" value="">YYYY/MM/DD HH:MI:SS</span><embed size="2" height="220" name="SVGEMB_DATA" src="gb_ezg/default/src/dashboard_submit_trend.svg" type="image/svg+xml" width="340" class=""><iframe frameborder="0" height="0" marginwidth="0" name="SVGIFR_DATA" onload="
+                  if (!top.htmlFrame) {
+                    return;
+                  }
+                  var index = window.location.href.lastIndexOf('/');
+                  var noUrl =
+                    window.location.href.substring(0, index) + '/none';
+                  if (
+                    this.src == '' ||
+                    this.src == 'about:blank' ||
+                    this.src == noUrl
+                  ) {
+                    this.src =
+                      './_EzgSvgControl.jsp?PJT_NAME=default&amp;GRAPHIC_NAME=dashboard_submit_trend&amp;SVGEMB_NAME=SVGEMB_DATA&amp;REFRESH_TIME=500&amp;SCREEN_ID=' +
+                      top.htmlFrame.document.main.SCREEN_ID.value +
+                      '&amp;WINDOW_ID=' +
+                      top.name;
+                  }
+                " scrolling="no" src="about:blank" style="padding-top: 0; padding-left: 0" width="0" class="">This will be displayed in browsers that have an iframe available.</iframe></td>
+     </tr>
+     <tr>
+      <td><!-- ===== 看板：框架服务端 SVG 图表 ===== -->
+       <div id="dashboard-charts" style="
+                  display: grid;
+                  grid-template-columns: 1fr 1fr 1fr;
+                  gap: 12px;
+                  align-items: start;
+                  padding: 8px 0;
+                ">
+        <div style="min-width: 0">
+         <div style="
+                      font-weight: bold;
+                      color: #0b5394;
+                      font-size: 13px;
+                      margin-bottom: 2px;
+                    ">
+          My open tasks by status
+         </div><embed name="CHART_MY_TASK_STATUS" src="./gb_ezg/default/src/chart_blank.svg" type="image/svg+xml" width="340" height="220">
+         <div style="font-size: 12px; color: #0b5394">
+          <span id="CHART_MY_TASK_LEGEND" class="NMLLBL_NORMAL"></span>
+         </div>
+         <div style="font-size: 11px; color: #666; margin-top: 4px">
+          Grouped by task status (TODO / IN_PROGRESS / SUBMITTED / COMPLETED).
+         </div>
+        </div>
+        <div style="min-width: 0">
+         <div style="
+                      font-weight: bold;
+                      color: #0b5394;
+                      font-size: 13px;
+                      margin-bottom: 2px;
+                    ">
+          My defects by severity
+         </div><embed name="CHART_MY_DEFECT_SEVERITY" src="./gb_ezg/default/src/chart_blank.svg" type="image/svg+xml" width="340" height="220">
+         <div style="font-size: 12px; color: #0b5394">
+          <span id="CHART_MY_DEFECT_LEGEND" class="NMLLBL_NORMAL"></span>
+         </div>
+         <div style="font-size: 11px; color: #666; margin-top: 4px">
+          Defects assigned to me, grouped by severity.
+         </div>
+        </div>
+        <div style="min-width: 0">
+         <div style="
+                      font-weight: bold;
+                      color: #0b5394;
+                      font-size: 13px;
+                      margin-bottom: 2px;
+                    ">
+          Tasks per project
+         </div><embed name="CHART_PROJECT_TASKS" src="./gb_ezg/default/src/chart_blank.svg" type="image/svg+xml" width="460" height="240">
+         <div style="font-size: 12px; color: #0b5394">
+          <span id="CHART_PROJECT_LEGEND" class="NMLLBL_NORMAL"></span>
+         </div>
+         <div style="font-size: 11px; color: #666; margin-top: 4px">
+          Total tasks in each project you belong to.
+         </div>
+        </div>
+       </div></td>
+     </tr>
+     <tr>
+      <td colspan="2" style="text-align: left; font-size: 16px; padding-top: 12px">Total Requirements : <span class="NMLLBL_NORMAL" id="NMLLBL_TOTAL_REQ" value="" style="font-weight: bold; color: #c0392b"></span></td>
+     </tr>
+     <tr>
+      <td style="
+                text-align: right;
+                vertical-align: top;
+                white-space: nowrap;
+              "></td><!-- ========== PROJECT LIST ========== -->
+     </tr>
+    </tbody>
+   </table>
+   <table class="project-table" id="TABLE_PROJECT">
+    <thead>
+     <tr>
+      <th style="width: 130px">Project Code</th>
+      <th>Project Name</th>
+      <th style="width: 130px">Your Project Role</th>
+      <th style="width: 110px">Status</th>
+      <th style="width: 140px">Planned End</th>
+      <th style="width: 90px; text-align: center">Action</th>
+     </tr>
+    </thead>
+    <tbody>
+     <!-- ===== TEMPLATE ROW ===== -->
+     <tr>
+      <td><span class="NMLLBL_NORMAL" id="NMLLBL_PROJECT_CODE" name="NMLLBL_PROJECT_CODE" value=""></span></td>
+      <td><span class="NMLLBL_NORMAL" id="NMLLBL_PROJECT_NAME" name="NMLLBL_PROJECT_NAME" value=""></span></td>
+      <td><span class="NMLLBL_NORMAL" id="NMLLBL_PROJECT_ROLE" name="NMLLBL_PROJECT_ROLE" value=""></span></td>
+      <td><span class="NMLLBL_NORMAL" id="NMLLBL_PROJECT_STATUS" name="NMLLBL_PROJECT_STATUS" value=""></span></td>
+      <td><span class="NMLLBL_NORMAL" id="NMLLBL_PROJECT_END_DATE" name="NMLLBL_PROJECT_END_DATE" value=""></span></td><!-- ENTER: hidden carries this row's project_id ) -->
+      <td class="action-cell"><input type="hidden" id="NMLTXT_PROJECT_ID" name="NMLTXT_PROJECT_ID" value=""> <input type="hidden" id="NMLTXT_PROJECT_ROLE" name="NMLTXT_PROJECT_ROLE" value=""> <input class="BTNCMD" name="BTNCMD_ENTRIES" onclick="
+                  document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_ENTRIES';
+                  SendBTN(this.name);
+                " readonly size="" type="text" value="ENTERIES"></td>
+     </tr>
+    </tbody>
+   </table>
+   <div id="errorLocation" style="font-size: small; color: Gray"></div>
+  </div><!-- ========================================================== --> <!-- ========== FOOTER ======================================== -->
+  <script type="text/javascript">
+      //<![CDATA[
+      CreateFooter();
+      //]]>
+    </script><!-- ========================================================== -->
+ </body>
+</html>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+                     "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg height="600"
+    onclick="if(typeof(gb_gf_ezg_svgComOnClick)==&apos;function&apos;)gb_gf_ezg_svgComOnClick(evt);"
+    onload="if(typeof(gb_gf_ezg_svgComOnLoad)==&apos;function&apos;)gb_gf_ezg_svgComOnLoad(evt);"
+    onmousedown="if(typeof(gb_gf_ezg_svgComOnMouseDown)==&apos;function&apos;)gb_gf_ezg_svgComOnMouseDown(evt);"
+    onmouseup="if(typeof(gb_gf_ezg_svgComOnMouseUp)==&apos;function&apos;)gb_gf_ezg_svgComOnMouseUp(evt);"
+    viewBox="0 0 800 600" width="800">
+    <g id="_GBEZG_ROOT_">
+        <rect height="100%" id="background"
+            style="fill:rgb(255,255,255);" width="100%" x="0" y="0"/>
+        <defs/>
+        <line id="a" original-x1="55" original-x2="141"
+            original-y1="133" original-y2="209"
+            style="fill: none; stroke: rgb(0,0,0); stroke-width: 5.0;stroke-dasharray: 10.0, 10.0;"
+            x1="53" x2="143" y1="131" y2="211">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </line>
+        <g id="c">
+            <rect height="78" id="c"
+                style="fill: none; stroke: rgb(192,192,192); stroke-width: 1.0;"
+                width="87" x="306" y="137"/>
+            <text frame_height="78" frame_width="87" frame_x="306"
+                frame_y="137" id="c"
+                style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+                x="306" xml:space="preserve" y="153">test<animate
+                    attributeName="fill" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/></text>
+        </g>
+        <text frame_height="77" frame_width="139" frame_x="428"
+            frame_y="136" id="d"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="428" xml:space="preserve" y="152">枠無し<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <g id="e">
+            <rect height="64" id="e" style="fill: rgb(0,255,153);"
+                width="125" x="588" y="140"/>
+            <text frame_height="64" frame_width="125" frame_x="588"
+                frame_y="140" id="e"
+                style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+                x="588" xml:space="preserve" y="156">塗りつぶし<animate
+                    attributeName="fill" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/></text>
+        </g>
+        <polyline id="f"
+            points="134,349 134,349 131,349 127,349 124,349 120,347 116,347 111,345 107,345 101,343 97,343 92,343 90,341 87,340 84,338 81,338 80,336 78,336 77,333 75,332 73,330 70,328 69,325 67,322 67,320 67,317 67,314 65,310 65,306 65,303 65,299 65,293 65,289 65,282 65,278 65,275 65,271 65,266 65,262 65,260 66,257 67,256 67,255 68,252 71,249 72,247 75,244 78,241 79,238 82,237 83,234 86,233 88,233 88,231 90,231 91,228 94,226 98,226 103,223 107,221 110,220 112,220 115,220 116,220 117,220 118,220 121,220 123,220 125,220 128,220 131,220 135,221 142,224 148,224 156,227 163,230 169,232 176,235 180,236 183,238 187,239 188,240 191,242 192,242 193,242 194,243 195,244 196,246 196,249 197,253 198,256 200,260 200,265 200,267 200,271 200,276 200,278 200,283 200,287 200,288 200,290 200,293 197,297 195,299 193,303 190,304 187,307 184,308 182,309 179,311 175,312 172,314 168,314 165,315 161,315 156,315 150,315 144,315 138,315 134,315 130,315 127,315 123,315 120,313 117,312 116,311 114,311 111,308 110,305 107,304 106,301 106,300 106,297 106,295 106,294 106,290 106,285 106,283 107,278 110,276 113,271 116,268 118,265 123,262 126,260 128,260 130,260 131,260 132,260 134,260 135,260 137,260 139,260 141,260 143,262 146,265 149,268 149,270 151,273 153,276 154,279 154,281 154,284 154,286 154,289 154,292 154,294 154,297 154,299 152,300 151,302 150,302 149,302 149,302 149,302 "
+            style="fill: none; stroke: rgb(0,0,0); stroke-width: 1.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <rect height="47" id="g"
+            style="fill: none; stroke: rgb(0,0,0); stroke-width: 1.0;stroke-dasharray: inherit;"
+            width="127" x="250" y="237">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </rect>
+        <rect height="40" id="h" style="fill: rgb(0,0,0);" width="95"
+            x="433" y="252">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </rect>
+        <ellipse cx="621.0" cy="271.5" id="i" rx="38.0" ry="28.5" style="fill: none; stroke: rgb(0,0,0); stroke-width: 1.0;stroke-dasharray: inherit;">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </ellipse>
+        <ellipse cx="738.5" cy="268.0" id="j" rx="44.5" ry="31.0" style="fill: rgb(0,0,0);">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </ellipse>
+        <polygon fill-rule="evenodd" id="k"
+            points="126,357 80,397 156,437 " style="fill: none; stroke: rgb(0,0,0); stroke-width: 1.0;stroke-dasharray: inherit;">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polygon>
+        <polygon fill-rule="evenodd" id="l"
+            points="198,376 233,436 289,366 " style="fill: rgb(0,0,0);">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polygon>
+        <path centerX="389.0" centerY="390.5"
+            d="M 353.0,390.5 A 36.0,37.5 0 0,1 425.0,390.5" id="m" style="fill: none; stroke: rgb(0,0,0); stroke-width: 1.0;stroke-dasharray: inherit;">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </path>
+        <path
+            d="M 530.5,383.5 L 484.0,383.5 A 46.5,37.5 0 0,1 577.0,383.5 Z "
+            id="n" style="fill: rgb(0,0,0);">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </path>
+        <polyline id="o"
+            points="651,329 651,329 608,389 672,359 653,389 704,365 704,365 "
+            style="fill: none; stroke: rgb(0,0,0); stroke-width: 1.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <use absolute-x="28" absolute-y="479" height="27" id="p"
+            width="27" xlink:href="#"/>
+        <g id="q">
+            <rect height="21" id="1204086309448"
+                style="fill: rgb(255,51,255);" width="29" x="209" y="491">
+                <animate attributeName="fill" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+            <rect height="14" id="1204086309823"
+                style="fill: rgb(102,255,51);" width="28" x="267" y="518">
+                <animate attributeName="fill" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+        </g>
+        <g id="b">
+            <path arrow="下端" d="M 265 197 L 269 206 L 259 203" id="b" style="fill: rgb(0,0,0);">
+                <animate attributeName="fill" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </path>
+            <path arrow="上端" d="M 187 139 L 183 130 L 193 133" id="b" style="fill: rgb(0,0,0);">
+                <animate attributeName="fill" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </path>
+            <line id="b" original-x1="183" original-x2="269"
+                original-y1="130" original-y2="206"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 1.0;stroke-dasharray: inherit;"
+                x1="183" x2="269" y1="130" y2="206">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </line>
+        </g>
+        <g id="r">
+            <g id="1204176968501">
+                <rect height="17" id="1204176968501"
+                    style="fill: none; stroke: rgb(192,192,192); stroke-width: 1.0;"
+                    width="33" x="352" y="547"/>
+                <text frame_height="17" frame_width="33" frame_x="352"
+                    frame_y="547" id="1204176968501"
+                    style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+                    x="352" xml:space="preserve" y="563">aa<animate
+                        attributeName="fill" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/></text>
+            </g>
+            <g id="1204176969017">
+                <rect height="41" id="1204176969017"
+                    style="fill: none; stroke: rgb(192,192,192); stroke-width: 1.0;"
+                    width="49" x="406" y="535"/>
+                <text frame_height="41" frame_width="49" frame_x="406"
+                    frame_y="535" id="1204176969017"
+                    style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+                    x="406" xml:space="preserve" y="551">aa<animate
+                        attributeName="fill" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/></text>
+            </g>
+        </g>
+        <g id="s">
+            <rect height="15" id="FULL_SIZE_a"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 1.0;stroke-dasharray: inherit;"
+                width="241" x="390" y="451">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+            <rect height="17" id="CURRENT_SIZE_a"
+                style="fill: rgb(0,0,255);" width="176" x="390" y="451">
+                <animate attributeName="fill" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+        </g>
+        <g id="120781471267000">
+            <rect height="15" id="1207814712670_c_000"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 1.0;stroke-dasharray: inherit;"
+                width="241" x="392" y="496">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+            <rect height="17" id="1207814712670_c_100"
+                style="fill: rgb(255,51,51);" width="176" x="392" y="496">
+                <animate attributeName="fill" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+        </g>
+        <g id="1208506057378">
+            <g id="1208506018190">
+                <g id="1208506007753">
+                    <g id="1208505989018">
+                        <rect height="29" id="FULL_SIZE_XX5"
+                            style="fill: none; stroke: rgb(0,0,0); stroke-width: 1.0;stroke-dasharray: inherit;"
+                            width="326" x="178" y="25">
+                            <animate attributeName="stroke" begin="0s"
+                                dur="0s" repeatCount="indefinite" values=""/>
+                        </rect>
+                        <rect height="30" id="1208505681467_c_100"
+                            style="fill: rgb(0,204,255);" width="253"
+                            x="179" y="24">
+                            <animate attributeName="fill" begin="0s"
+                                dur="0s" repeatCount="indefinite" values=""/>
+                        </rect>
+                    </g>
+                    <rect height="30" id="1208505681467_c_300"
+                        style="fill: rgb(204,0,204);" width="195"
+                        x="178" y="24">
+                        <animate attributeName="fill" begin="0s"
+                            dur="0s" repeatCount="indefinite" values=""/>
+                    </rect>
+                </g>
+                <rect height="30" id="1208505681467_c_500"
+                    style="fill: rgb(0,255,0);" width="143" x="179" y="24">
+                    <animate attributeName="fill" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </rect>
+            </g>
+            <rect height="30" id="CURRENT_SIZE_XX5"
+                style="fill: rgb(255,0,0);" width="73" x="178" y="24">
+                <animate attributeName="fill" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+        </g>
+    </g>
+</svg>

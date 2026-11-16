@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="info">
+    <Appenders>
+        <!--
+        Apperders Configuration Referance:
+        https://logging.apache.org/log4j/2.x/manual/appenders.html
+        -->
+        <Console name="CONSOLE" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy/MM/dd HH:mm:ss} %-5p %c{2} [%t] [%h] - %m%n"/>
+        </Console>
+        <RollingFile name="MsFile" fileName="${sys:gb.dir:-.}/logs/ms_sample.log"
+                     filePattern="${sys:gb.dir:-.}/logs/ms_sample-%i.log">
+            <PatternLayout charset="UTF-8">
+                <Pattern>%d{yyyy/MM/dd HH:mm:ss} %-5p %c{2} [%t] [%h] - %m%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="5 MB"/>
+                <OnStartupTriggeringPolicy />
+            </Policies>
+            <DefaultRolloverStrategy max="5"/>
+        </RollingFile>
+        <RollingFile name="GF" fileName="${sys:gb.dir:-.}/logs/GF_Trace.log"
+                     filePattern="${sys:gb.dir:-.}/logs/GF_Trace-%i.log">
+            <PatternLayout charset="UTF-8">
+                <Pattern>%d{yyyy/MM/dd HH:mm:ss} %-5p %c{2} [%t] [%h] - %m%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="5 MB"/>
+                <OnStartupTriggeringPolicy />
+            </Policies>
+            <DefaultRolloverStrategy max="5"/>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <!-- MS log -->
+        <Logger name="MS" level="debug" additivity="false">
+            <AppenderRef ref="CONSOLE"/>
+        </Logger>
+        <Logger name="CONSOLE" level="debug" additivity="false">
+            <AppenderRef ref="CONSOLE"/>
+        </Logger>
+        <Logger name="TEXT" level="debug" additivity="false">
+            <AppenderRef ref="CONSOLE"/>
+            <AppenderRef ref="MsFile"/>
+        </Logger>
+        <!-- GF log -->
+        <Logger name="GF" level="debug" additivity="false">
+            <AppenderRef ref="GF"/>
+        </Logger>
+        <Logger name="biz.grandsight" level="debug" additivity="false">
+            <AppenderRef ref="GF"/>
+        </Logger>
+        <Logger name="biz.grandsight.ex.ui.ac.shiro.authc.pam" level="error" additivity="false">
+            <AppenderRef ref="GF"/>
+        </Logger>
+        <!-- Root log -->
+        <Root level="error">
+            <AppenderRef ref="CONSOLE"/>
+            <AppenderRef ref="GF"/>
+        </Root>
+    </Loggers>
+</Configuration>

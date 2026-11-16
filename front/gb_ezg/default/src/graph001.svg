@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+                     "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg height="550"
+    onclick="if(typeof(gb_gf_ezg_svgComOnClick)==&apos;function&apos;)gb_gf_ezg_svgComOnClick(evt);"
+    onload="if(typeof(gb_gf_ezg_svgComOnLoad)==&apos;function&apos;)gb_gf_ezg_svgComOnLoad(evt);"
+    onmousedown="if(typeof(gb_gf_ezg_svgComOnMouseDown)==&apos;function&apos;)gb_gf_ezg_svgComOnMouseDown(evt);"
+    onmouseup="if(typeof(gb_gf_ezg_svgComOnMouseUp)==&apos;function&apos;)gb_gf_ezg_svgComOnMouseUp(evt);"
+    viewBox="0 0 1000 550" width="1000"
+    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="_GBEZG_ROOT_">
+        <rect height="100%" id="background"
+            style="fill:rgb(255,255,255);" width="100%" x="0" y="0"/>
+        <defs/>
+        <rect height="400" id="Graph_Area"
+            style="fill: rgb(153,153,153);" width="800" x="49" y="44">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </rect>
+        <line id="1118137604438" original-x1="50" original-x2="850"
+            original-y1="130" original-y2="130"
+            style="fill: none; stroke: rgb(255,255,255); stroke-width: 1.0;stroke-dasharray: inherit;"
+            x1="50" x2="850" y1="130" y2="130">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </line>
+        <line id="111813766491446" original-x1="50" original-x2="850"
+            original-y1="210" original-y2="210"
+            style="fill: none; stroke: rgb(255,255,255); stroke-width: 1.0;stroke-dasharray: inherit;"
+            x1="50" x2="850" y1="210" y2="210">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </line>
+        <line id="111813766624246" original-x1="51" original-x2="851"
+            original-y1="290" original-y2="290"
+            style="fill: none; stroke: rgb(255,255,255); stroke-width: 1.0;stroke-dasharray: inherit;"
+            x1="51" x2="851" y1="290" y2="290">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </line>
+        <line id="111813766735146" original-x1="51" original-x2="851"
+            original-y1="370" original-y2="370"
+            style="fill: none; stroke: rgb(255,255,255); stroke-width: 1.0;stroke-dasharray: inherit;"
+            x1="51" x2="851" y1="370" y2="370">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </line>
+        <text frame_height="24" frame_width="28" frame_x="21"
+            frame_y="438" id="1118137712908"
+            style=" font-family:&apos;MS Gothic&apos;; fill: rgb(51,51,51); font-size: 12.0pt; text-anchor: Start;"
+            x="21" xml:space="preserve" y="454">200<tspan x="21"
+                y="470"></tspan><animate attributeName="fill" begin="0s"
+                dur="0s" repeatCount="indefinite" values=""/></text>
+        <text frame_height="24" frame_width="28" frame_x="21"
+            frame_y="360" id="111813775807350"
+            style=" font-family:&apos;MS Gothic&apos;; fill: rgb(51,51,51); font-size: 12.0pt; text-anchor: Start;"
+            x="21" xml:space="preserve" y="376">400<tspan x="21"
+                y="392"></tspan><animate attributeName="fill" begin="0s"
+                dur="0s" repeatCount="indefinite" values=""/></text>
+        <text frame_height="24" frame_width="28" frame_x="21"
+            frame_y="280" id="111813775913650"
+            style=" font-family:&apos;MS Gothic&apos;; fill: rgb(51,51,51); font-size: 12.0pt; text-anchor: Start;"
+            x="21" xml:space="preserve" y="296">600<tspan x="21"
+                y="312"></tspan><animate attributeName="fill" begin="0s"
+                dur="0s" repeatCount="indefinite" values=""/></text>
+        <text frame_height="24" frame_width="28" frame_x="21"
+            frame_y="199" id="111813776016750"
+            style=" font-family:&apos;MS Gothic&apos;; fill: rgb(51,51,51); font-size: 12.0pt; text-anchor: Start;"
+            x="21" xml:space="preserve" y="215">800<tspan x="21"
+                y="231"></tspan><animate attributeName="fill" begin="0s"
+                dur="0s" repeatCount="indefinite" values=""/></text>
+        <text frame_height="24" frame_width="34" frame_x="16"
+            frame_y="117" id="111813776090150"
+            style=" font-family:&apos;MS Gothic&apos;; fill: rgb(51,51,51); font-size: 12.0pt; text-anchor: Start;"
+            x="16" xml:space="preserve" y="133">1000<tspan x="16"
+                y="149"></tspan><animate attributeName="fill" begin="0s"
+                dur="0s" repeatCount="indefinite" values=""/></text>
+        <text frame_height="24" frame_width="33" frame_x="16"
+            frame_y="41" id="111813776174550"
+            style=" font-family:&apos;MS Gothic&apos;; fill: rgb(51,51,51); font-size: 12.0pt; text-anchor: Start;"
+            x="16" xml:space="preserve" y="57">1200<tspan x="16"
+                y="73"></tspan><animate attributeName="fill" begin="0s"
+                dur="0s" repeatCount="indefinite" values=""/></text>
+        <text frame_height="24" frame_width="42" frame_x="861"
+            frame_y="435" id="111829368330845"
+            style=" font-family:&apos;MS Gothic&apos;; fill: rgb(51,51,51); font-size: 12.0pt; text-anchor: Start;"
+            x="861" xml:space="preserve" y="451">10000<tspan x="861"
+                y="467"></tspan><animate attributeName="fill" begin="0s"
+                dur="0s" repeatCount="indefinite" values=""/></text>
+        <text frame_height="24" frame_width="44" frame_x="860"
+            frame_y="357" id="111829368330846"
+            style=" font-family:&apos;MS Gothic&apos;; fill: rgb(51,51,51); font-size: 12.0pt; text-anchor: Start;"
+            x="860" xml:space="preserve" y="373">12000<tspan x="860"
+                y="389"></tspan><animate attributeName="fill" begin="0s"
+                dur="0s" repeatCount="indefinite" values=""/></text>
+        <text frame_height="24" frame_width="44" frame_x="861"
+            frame_y="277" id="111829368330847"
+            style=" font-family:&apos;MS Gothic&apos;; fill: rgb(51,51,51); font-size: 12.0pt; text-anchor: Start;"
+            x="861" xml:space="preserve" y="293">14000<tspan x="861"
+                y="309"></tspan><animate attributeName="fill" begin="0s"
+                dur="0s" repeatCount="indefinite" values=""/></text>
+        <text frame_height="24" frame_width="46" frame_x="861"
+            frame_y="196" id="111829368330848"
+            style=" font-family:&apos;MS Gothic&apos;; fill: rgb(51,51,51); font-size: 12.0pt; text-anchor: Start;"
+            x="861" xml:space="preserve" y="212">16000<tspan x="861"
+                y="228"></tspan><animate attributeName="fill" begin="0s"
+                dur="0s" repeatCount="indefinite" values=""/></text>
+        <text frame_height="24" frame_width="46" frame_x="859"
+            frame_y="114" id="111829368330849"
+            style=" font-family:&apos;MS Gothic&apos;; fill: rgb(51,51,51); font-size: 12.0pt; text-anchor: Start;"
+            x="859" xml:space="preserve" y="130">18000<tspan x="859"
+                y="146"></tspan><animate attributeName="fill" begin="0s"
+                dur="0s" repeatCount="indefinite" values=""/></text>
+        <text frame_height="24" frame_width="46" frame_x="859"
+            frame_y="38" id="111829368330850"
+            style=" font-family:&apos;MS Gothic&apos;; fill: rgb(51,51,51); font-size: 12.0pt; text-anchor: Start;"
+            x="859" xml:space="preserve" y="54">20000<tspan x="859"
+                y="70"></tspan><animate attributeName="fill" begin="0s"
+                dur="0s" repeatCount="indefinite" values=""/></text>
+        <line id="1118297007847" original-x1="210" original-x2="279"
+            original-y1="23" original-y2="23"
+            style="fill: none; stroke: rgb(51,51,51); stroke-width: 3.0;stroke-dasharray: inherit;"
+            x1="209" x2="280" y1="23" y2="23">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </line>
+        <line id="111829703846563" original-x1="459" original-x2="528"
+            original-y1="22" original-y2="22"
+            style="fill: none; stroke: rgb(51,153,0); stroke-width: 3.0;stroke-dasharray: inherit;"
+            x1="458" x2="529" y1="22" y2="22">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </line>
+        <text frame_height="27" frame_width="142" frame_x="299"
+            frame_y="15" id="text01"
+            style=" font-family:&apos;MS Gothic&apos;; fill: rgb(51,51,51); font-size: 12.0pt; text-anchor: Start;"
+            x="299" xml:space="preserve" y="31">現在値１<tspan x="299"
+                y="47"></tspan><animate attributeName="fill" begin="0s"
+                dur="0s" repeatCount="indefinite" values=""/></text>
+        <text frame_height="27" frame_width="164" frame_x="549"
+            frame_y="15" id="text02"
+            style=" font-family:&apos;MS Gothic&apos;; fill: rgb(51,51,51); font-size: 12.0pt; text-anchor: Start;"
+            x="549" xml:space="preserve" y="31">現在値２<tspan x="549"
+                y="47"></tspan><animate attributeName="fill" begin="0s"
+                dur="0s" repeatCount="indefinite" values=""/></text>
+        <text frame_height="27" frame_width="48" frame_x="122"
+            frame_y="15" id="111829850940465"
+            style=" font-family:&apos;MS Gothic&apos;; fill: rgb(51,51,51); font-size: 12.0pt; text-anchor: Start;"
+            x="122" xml:space="preserve" y="31">現在値<tspan x="122"
+                y="47"></tspan><animate attributeName="fill" begin="0s"
+                dur="0s" repeatCount="indefinite" values=""/></text>
+        <line id="1119859651409" original-x1="210" original-x2="210"
+            original-y1="50" original-y2="450"
+            style="fill: none; stroke: rgb(255,255,255); stroke-width: 1.0;stroke-dasharray: inherit;"
+            x1="210" x2="210" y1="50" y2="450">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </line>
+        <line id="111985971741726" original-x1="370" original-x2="370"
+            original-y1="50" original-y2="450"
+            style="fill: none; stroke: rgb(255,255,255); stroke-width: 1.0;stroke-dasharray: inherit;"
+            x1="370" x2="370" y1="50" y2="450">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </line>
+        <line id="111985971837026" original-x1="530" original-x2="530"
+            original-y1="50" original-y2="450"
+            style="fill: none; stroke: rgb(255,255,255); stroke-width: 1.0;stroke-dasharray: inherit;"
+            x1="530" x2="530" y1="50" y2="450">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </line>
+        <line id="111985972026026" original-x1="690" original-x2="690"
+            original-y1="50" original-y2="450"
+            style="fill: none; stroke: rgb(255,255,255); stroke-width: 1.0;stroke-dasharray: inherit;"
+            x1="690" x2="690" y1="50" y2="450">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </line>
+        <polyline id="pathA"
+            points="917,127 918,126 946,88 981,135 982,136 "
+            style="fill: none; stroke: rgb(51,51,51); stroke-width: 3.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <polyline id="path001"
+            points="915,192 916,191 944,153 979,200 980,201 "
+            style="fill: none; stroke: rgb(255,0,0); stroke-width: 3.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <polyline id="path002"
+            points="917,263 918,262 952,218 985,277 986,278 "
+            style="fill: none; stroke: rgb(0,0,255); stroke-width: 3.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <polyline id="pathB"
+            points="908,344 909,343 965,305 987,341 988,342 "
+            style="fill: none; stroke: rgb(51,153,0); stroke-width: 3.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+    </g>
+</svg>

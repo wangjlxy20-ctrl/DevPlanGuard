@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Expires" content="0">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Cache-Control" content="no-cache, private"><!-- ========== HEADER ========== --> <!-- ========== CSS ========== -->
+  <link type="text/css" rel="stylesheet" href="./css/common.css"><!-- ========== USER CSS ========== -->
+  <style type="text/css">
+      /* <![CDATA[ */
+      .header-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 10px;
+      }
+      .info-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 13px;
+        margin-bottom: 10px;
+      }
+      .info-table td {
+        padding: 6px;
+        vertical-align: middle;
+      }
+      .label-cell {
+        width: 220px;
+        font-weight: bold;
+        white-space: nowrap;
+      }
+      .member-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 13px;
+        table-layout: fixed;
+      }
+      .member-table th,
+      .member-table td {
+        border: 1px solid #999;
+        padding: 7px;
+        text-align: left;
+        vertical-align: middle;
+      }
+      .member-table th {
+        background-color: #f0f0f0;
+        font-weight: bold;
+      }
+      .col-name {
+        width: 30%;
+      }
+      .col-role {
+        width: 20%;
+      }
+      .col-count {
+        width: 25%;
+      }
+      .LINK_TEXT {
+        cursor: pointer;
+        color: #0000ee;
+        background: transparent;
+        border: 0;
+        text-decoration: underline;
+        font-size: 13px;
+      }
+      .section-title {
+        margin: 12px 0 8px;
+        font-weight: bold;
+        font-size: 14px;
+      }
+      /* ]]> */
+    </style><!-- ========== SCRIPT ========== -->
+  <script type="text/javascript" src="./js/denyDirectAccess.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/jquery.min.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/buttonDef.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/navigation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/objectManipulation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/dataCheck.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/dataUtil.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/timeManipulation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/svg.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/common.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/gb_gf_ezg.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/finalTaskForUserCommon.js" charset="UTF-8"></script><!-- ========== MENU ========== -->
+  <script type="text/javascript">
+      writeTitle();
+    </script>
+  <script type="text/javascript">
+      //<![CDATA[
+    gf_page=   "";
+    gf_title1= "DevPlanGuard";
+    gf_title2= "DevPlanGuard MEMBER PAGE";
+    gf_id=     "DPGL100MEM";
+    gf_remarks="MANAGE THE MEMBER OF THE PROJECT";
+    gf_onload= "";
+      CreateHideMenu(gf_page, gf_title1, gf_title2, gf_id, gf_onload);
+      //]]>
+    </script><!-- ========== INPUT CHECK SCRIPT ========== -->
+  <script type="text/javascript">
+      //<![CDATA[
+      function _chkInputValue() {
+        return true;
+      }
+      //]]>
+    </script><!-- ========== USER SCRIPT ========== -->
+  <script type="text/javascript">
+      //<![CDATA[
+      function finalTaskForUser() {
+        //The processing that needs to be done after the screen is displayed should be written here.
+      }
+      //]]>
+    </script>
+  <title>Project Member</title>
+ </head><!-- ========== CUSTOMIZE ========== -->
+ <body>
+  <div id="wrapper">
+   <!-- ===== 通用按钮栏：Back / Main / Logout（样板同 DPGL200.html） =====
+           写法与页内 BTNCMD 完全一致（class=BTNCMD + readonly + 设置
+           COMMAND_NAME + SendBTN(this.name)）。放在 #wrapper 内：框架的
+           form(main) 由共通 JS 生成，页面里的 BTNCMD 都在这个容器内，
+           放外面按钮值可能不进请求。 -->
+   <div id="nav-bar" style="
+          position: sticky;
+          top: 0;
+          z-index: 999;
+          display: flex;
+          justify-content: flex-end;
+          gap: 6px;
+          padding: 4px 8px;
+          background: #f7f7f7;
+          border-bottom: 1px solid #ddd;
+        ">
+    <input type="text" class="BTNCMD" name="BTNCMD_BACK" value="Back" readonly onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_BACK';
+            SendBTN(this.name);
+          "> <input type="text" class="BTNCMD" name="BTNCMD_MAIN" value="Main" readonly onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_MAIN';
+            SendBTN(this.name);
+          "> <input type="text" class="BTNCMD" name="BTNCMD_LOGOUT" value="Logout" readonly onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_LOGOUT';
+            SendBTN(this.name);
+          ">
+   </div><!-- ===== /通用按钮栏 ===== --> <input type="hidden" id="grandsight_ex_disp_date_format" name="grandsight_ex_disp_date_format" value=""> <input type="hidden" id="grandsight_ex_time_zone" name="grandsight_ex_time_zone" value=""> <!-- Save the current project_id--> <input type="hidden" id="NMLTXT_PROJECT_ID" name="NMLTXT_PROJECT_ID" value="" size="" maxlength="" style="" class="NMLTXT_NORMAL">
+   <table style="width: 100%">
+    <tbody>
+     <tr>
+      <td id="root"><!-- Screen name -->
+       <h1>
+        <script>
+                  document.write(gf_title2);
+                </script></h1><!-- Header: current time and BACK -->
+       <table class="header-table">
+        <tbody>
+         <tr>
+          <td style="text-align: left; font-size: 12px; color: #555"><span class="NMLLBL_NORMAL" id="NMLLBL_NOW_DATE" value="">YYYY/MM/DD HH:MI:SS</span></td>
+          <td style="text-align: right; white-space: nowrap"></td>
+         </tr>
+        </tbody>
+       </table><!-- Project information -->
+       <table class="info-table">
+        <tbody>
+         <tr>
+          <td class="label-cell">Project ID</td>
+          <td><span class="NMLLBL_NORMAL" id="NMLLBL_DISPLAY_INFO_PROJECT_ID" value="" style="font-weight: bold"></span></td>
+         </tr>
+         <tr>
+          <td class="label-cell">Project Name</td>
+          <td><span class="NMLLBL_NORMAL" id="NMLLBL_DISPLAY_INFO_PROJECT_NAME" value=""></span></td>
+         </tr>
+         <tr>
+          <td class="label-cell">Project Member Count</td>
+          <td><span class="NMLLBL_NORMAL" id="NMLLBL_DISPLAY_INFO_MEMBER_COUNT" value=""></span></td>
+         </tr>
+         <tr>
+          <td class="label-cell">Add Project Member</td>
+          <td><input class="LINK_TEXT" name="LNKSUB_MEMBER_SEARCH_ADD" onclick="
+                          var swi = 'DPGL100MEMA';
+                          var sx = '50';
+                          var sy = '50';
+                          var sh = '600';
+                          var sw = '900';
+                          var sob = '';
+                          var ads = '';
+                          if (this.name.indexOf('_R_') + 1) {
+                            ads = this.name.substring(this.name.indexOf('_R_'));
+                          }
+                          openSubWindowXYHW(swi, sob + ads, sx, sy, sh, sw);
+                          //Pass the project_id to the child window
+                          // (the 3rd parameter of openSubWindowAddParamXYHW)
+                          var pid = document.main.NMLTXT_PROJECT_ID.value;
+                          openSubWindowAddParamXYHW(
+                            swi,
+                            sob + ads,
+                            '&amp;PROJECT_ID=' + pid,
+                            sx,
+                            sy,
+                            sh,
+                            sw,
+                          );
+                        " readonly size="" type="text" value="ADD MEMBER"></td>
+         </tr>
+        </tbody>
+       </table><!-- Member list -->
+       <div class="section-title">
+        Project Member List
+       </div>
+       <table class="member-table" id="TABLE_MEMBER">
+        <colgroup>
+         <col class="col-name">
+         <col class="col-role">
+         <col class="col-count">
+         <col class="col-count">
+        </colgroup>
+        <thead>
+         <tr>
+          <th>Member Name</th>
+          <th>Member Role</th>
+          <th>Assigned Tasks</th>
+          <th>Completed Tasks</th>
+         </tr>
+        </thead>
+        <tbody>
+         <!-- TEMPLATE ROW -->
+         <tr>
+          <td><span class="NMLLBL_NORMAL" id="NMLLBL_MEMBER_NAME" value=""></span></td>
+          <td><span class="NMLLBL_NORMAL" id="NMLLBL_MEMBER_ROLE" value=""></span></td>
+          <td><span class="NMLLBL_NORMAL" id="NMLLBL_ASSIGNED_TASK_COUNT" value=""></span></td>
+          <td><span class="NMLLBL_NORMAL" id="NMLLBL_COMPLETED_TASK_COUNT" value=""></span></td>
+         </tr>
+        </tbody>
+       </table></td>
+     </tr>
+     <tr>
+      <td>
+       <div id="errorLocation" style="font-size: small; color: Gray"></div></td>
+     </tr>
+    </tbody>
+   </table>
+  </div><!-- ========== FOOTER ========== -->
+  <script type="text/javascript">
+      //<![CDATA[
+      CreateFooter();
+      //]]>
+    </script>
+ </body>
+</html>

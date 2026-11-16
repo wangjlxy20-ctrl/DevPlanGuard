@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<datasource_mst>
+
+　<datasource_disp type="Data source type" class="name of the class" description="description"/>
+
+  <datasource 
+    type="OPC"
+    class="com.yse.gb.datacol.OPCDACollection" 
+    description="Standard OPC data source: Can get the value in [tag name.item name] format." >
+
+      <param
+        name="DA_PROG_ID"
+        disp="DA server program ID"
+        description="Specify the program ID of the DA server." />
+
+      <param 
+        name="SERVER_NAME1" 
+        disp="OPC server"
+        description="Specify the OPC server name."/>
+<!--
+      <param 
+        name="SERVER_NAME2" 
+        disp="OPC server 2"
+        description="Specify the OPC server name. (OPC server 2 is used when the OPC server is abnormal)"/>
+-->
+      <param 
+        name="SEPARATOR" 
+        disp="Delimiter"
+        description="Specify the delimiter between the tag name and the item name."/>
+
+      <input_param 
+        name="param1"
+        disp="Tag name" 
+        description="Specify the tag name."/>
+      <input_param 
+        name="param2"
+        disp="Item name" 
+        description="Specify the item name."/>
+
+  </datasource>
+  <datasource 
+    type="DB"
+    class="com.yse.gb.datacol.DBCollection" 
+    description="Standard DB data source: Can get the value using SQL statement." >
+
+      <param 
+        name="DRIVER" 
+        disp="JDBC driver"
+        description="Specify the JDBC driver name. (Example) oracle.jdbc.driver.OracleDriver"/>
+      <param 
+        name="URL" 
+        disp="JDBC URL"
+        description="Specify the JDBC URL. (Example) jdbc: oracle: thin: @ yse-56: 1521: ORCL"/>
+      <param 
+        name="USER" 
+        disp="User name"
+        description="Specify the user name to connect to the DB."/>
+      <param 
+        name="PASSWORD" 
+        disp="password"
+        description="Specify the password to connect to the DB."/>
+      <param 
+        name="PARAM" 
+        disp="Parameters"
+        description="It is used when specifying parameters other than the above."/>
+
+      <input_param 
+        name="param1"
+        disp="SQL statement" 
+        description="Descript the SQL statement."/>
+
+  </datasource>
+<!--
+  <datasource
+    type="FILE"
+    class="com.yse.gb.datacol.FileCollection"
+    description="Standard file data source: Can get the value from the xml file.">
+    
+      <param
+        name="FILE_PATH"
+        disp="File Path"
+        description="Specify the folder where the file to be read exists." />
+
+      <param
+        name="FILE_NAME"
+        disp="file name"
+        description="Specify the file name to read." />
+
+      <input_param 
+        name="param1"
+        disp="Data ID" 
+        description="Specify the ID of the tag to be read."/>
+      <input_param 
+        name="param2"
+        disp="Attribute name" 
+        description="Specify the attribute to read."/>
+
+  </datasource>      
+-->
+<!--
+  <datasource 
+    type="TAGTBL"
+    class="com.yse.gb.datacol.TagTBLCollection"
+    description="Can get the value from the [Tag name.Item name | Value] format table." >
+
+      <param 
+        name="DB_DS_ID" 
+        disp="Standard DB data source ID"
+        description="Specify the ID of the registered standard DB data source."/>
+      <param 
+        name="TABLE_NAME" 
+        disp="table name"
+        description="Specify the table name in the [Tag name.Item name | Value] format."/>
+      <param 
+        name="TAG_ITEM_COLUMN" 
+        disp="[Tag.Item] Column name"
+        description="Specify the column name where [Tag name.Item name] is stored."/>
+      <param 
+        name="TAG_VALUE_COLUMN" 
+        disp="[Value] Column name"
+        description="Specify the column name that stores the value corresponding to [Tag name.Item name]."/>
+
+      <input_param 
+        name="param1"
+        disp="Tag name" 
+        description="Specify the tag name."/>
+      <input_param 
+        name="param2"
+        disp="Item name" 
+        description="Specify the item name."/>
+
+  </datasource>
+-->
+
+  <datasource 
+    type="CUSTOM" 
+    class="com.yse.gb.datacol.CustomCollection"
+    description="Customized data source" >
+
+      <param
+        name="CLASS_NAME"
+        disp="name of the class"
+        description="Specify the data source class name."/>
+
+      <input_param 
+        name="param1"
+        disp="Parameter 1" 
+        description="Parameter 1"/>
+      <input_param 
+        name="param2"
+        disp="Parameter 2" 
+        description="Parameter 2"/>
+      <input_param 
+        name="param3"
+        disp="Parameter 3" 
+        description="Parameter 3"/>
+      <input_param 
+        name="param4"
+        disp="Parameter 4" 
+        description="Parameter 4"/>
+      <input_param 
+        name="param5"
+        disp="Parameter 5" 
+        description="Parameter 5"/>
+
+  </datasource>
+
+</datasource_mst>

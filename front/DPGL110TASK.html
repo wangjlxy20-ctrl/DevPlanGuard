@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Expires" content="0">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Cache-Control" content="no-cache, private">
+  <link type="text/css" rel="stylesheet" href="./css/common.css">
+  <style type="text/css">
+      /* <![CDATA[ */
+      .header-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 10px;
+      }
+      .info-box {
+        font-size: 13px;
+        line-height: 1.8;
+        margin-top: 6px;
+      }
+      .stat-line {
+        margin-top: 4px;
+      }
+      .stat-num {
+        font-weight: bold;
+      }
+      .task-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 12px;
+        table-layout: fixed;
+      }
+      .task-table th,
+      .task-table td {
+        border: 1px solid #999;
+        padding: 6px;
+        vertical-align: middle;
+        word-break: break-all;
+      }
+      .task-table th {
+        background-color: #f0f0f0;
+        font-weight: bold;
+        text-align: center;
+      }
+      .col-pri {
+        width: 10%;
+        text-align: center;
+      }
+      .col-code {
+        width: 13%;
+      }
+      .col-name {
+        width: 20%;
+      }
+      .col-type {
+        width: 12%;
+      }
+      .col-due {
+        width: 14%;
+        text-align: center;
+      }
+      .col-status {
+        width: 11%;
+        text-align: center;
+      }
+      .col-assignee {
+        width: 20%;
+      }
+      .LINK_TEXT {
+        cursor: pointer;
+        color: #0000ee;
+        background: transparent;
+        border: 0;
+        text-decoration: underline;
+        font-size: 12px;
+      }
+      .section-title {
+        margin: 12px 0 8px;
+        font-weight: bold;
+        font-size: 14px;
+      }
+      /* 优先级色块 */
+      .pri-high,
+      .pri-medium,
+      .pri-low {
+        display: inline-block;
+        border-radius: 4px;
+        padding: 2px 8px;
+        font-size: 11px;
+      }
+      .pri-high {
+        background: #e74c3c;
+        color: #fff;
+      }
+      .pri-medium {
+        background: #f1c40f;
+        color: #5a4a00;
+      }
+      .pri-low {
+        background: #27ae60;
+        color: #fff;
+      }
+      /* Status Color Block */
+      .st-done {
+        background: #27ae60;
+        color: #fff;
+      }
+      .st-doing {
+        background: #2980b9;
+        color: #fff;
+      }
+      .st-todo {
+        background: #95a5a6;
+        color: #fff;
+      }
+      .st-other {
+        background: #e67e22;
+        color: #fff;
+      }
+      .st-done,
+      .st-doing,
+      .st-todo,
+      .st-other {
+        display: inline-block;
+        border-radius: 4px;
+        padding: 2px 8px;
+        font-size: 11px;
+      }
+      /* ]]> */
+    </style>
+  <script type="text/javascript" src="./js/denyDirectAccess.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/jquery.min.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/buttonDef.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/navigation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/objectManipulation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/dataCheck.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/dataUtil.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/timeManipulation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/svg.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/common.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/gb_gf_ezg.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/finalTaskForUserCommon.js" charset="UTF-8"></script>
+  <script type="text/javascript">
+      writeTitle();
+    </script>
+  <script type="text/javascript">
+      //<![CDATA[
+    gf_page=   "";
+    gf_title1= "DevPlanGuard";
+    gf_title2= "DevPlanGuard TASK PAGE";
+    gf_id=     "DPGL110TASK";
+    gf_remarks="LEAD'S TASK PAGE";
+    gf_onload= "";
+      CreateHideMenu(gf_page, gf_title1, gf_title2, gf_id, gf_onload);
+      //]]>
+    </script>
+  <script type="text/javascript">
+      //<![CDATA[
+      function _chkInputValue() {
+        return true;
+      }
+      //]]>
+    </script>
+  <script type="text/javascript">
+      //<![CDATA[
+      function finalTaskForUser() {
+        // PRIORITY COLOR BLOCK
+        var pri = document.querySelectorAll(".pri-flag");
+        for (var i = 0; i < pri.length; i++) {
+          var v = (pri[i].textContent || "").trim().toUpperCase();
+          pri[i].classList.remove("pri-high", "pri-medium", "pri-low");
+          if (v === "HIGH") {
+            pri[i].classList.add("pri-high");
+          } else if (v === "MEDIUM") {
+            pri[i].classList.add("pri-medium");
+          } else if (v === "LOW") {
+            pri[i].classList.add("pri-low");
+          }
+        }
+        // STATUS COLOR BLOCK
+        var st = document.querySelectorAll(".st-flag");
+        for (var j = 0; j < st.length; j++) {
+          var s = (st[j].textContent || "").trim().toUpperCase();
+          st[j].classList.remove("st-done", "st-doing", "st-todo", "st-other");
+          if (s === "DONE") {
+            st[j].classList.add("st-done");
+          } else if (s === "IN_PROGRESS" || s === "DOING") {
+            st[j].classList.add("st-doing");
+          } else if (s === "TODO" || s === "PENDING") {
+            st[j].classList.add("st-todo");
+          } else {
+            st[j].classList.add("st-other");
+          }
+        }
+      }
+      //]]>
+    </script>
+  <title>dummytitle</title>
+ </head>
+ <body>
+  <div id="wrapper">
+   <!-- ===== 通用按钮栏：Main / Logout =====-->
+   <div id="nav-bar" style="
+          position: sticky;
+          top: 0;
+          z-index: 999;
+          display: flex;
+          justify-content: flex-end;
+          gap: 6px;
+          padding: 4px 8px;
+          background: #f7f7f7;
+          border-bottom: 1px solid #ddd;
+        ">
+    <input type="text" class="BTNCMD" name="BTNCMD_BACK" value="Back" readonly onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_BACK';
+            SendBTN(this.name);
+          "> <input type="text" class="BTNCMD" name="BTNCMD_MAIN" value="Main" readonly onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_MAIN';
+            SendBTN(this.name);
+          "> <input type="text" class="BTNCMD" name="BTNCMD_LOGOUT" value="Logout" readonly onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_LOGOUT';
+            SendBTN(this.name);
+          ">
+   </div><!-- ===== /通用按钮栏 ===== --> <input type="hidden" id="grandsight_ex_disp_date_format" name="grandsight_ex_disp_date_format" value=""> <input type="hidden" id="grandsight_ex_time_zone" name="grandsight_ex_time_zone" value="">
+   <table style="width: 100%">
+    <tbody>
+     <tr>
+      <td id="root"><!-- Screen name -->
+       <h1>
+        <script>
+                  document.write(gf_title2);
+                </script></h1><!-- Header-RIGHT: NEW CREATION + BACK -->
+       <table class="header-table">
+        <tbody>
+         <tr>
+          <td style="text-align: left; vertical-align: top"><span class="NMLLBL_NORMAL" id="NMLLBL_NOW_DATE" value="">YYYY/MM/DD HH:MI:SS</span>
+           <div class="info-box">
+            <div>
+             Requirement：<span class="NMLLBL_NORMAL" id="NMLLBL_REQ_NAME" value=""></span>
+            </div>
+            <div>
+             Requirement_Code：<span class="NMLLBL_NORMAL" id="NMLLBL_REQ_CODE" value=""></span> <input type="hidden" id="NMLTXT_REQ_CODE" name="NMLTXT_REQ_CODE" value="">
+            </div>
+            <div class="stat-line">
+             There are <span class="stat-num" id="NMLLBL_STAT_TOTAL" value="">0</span> tasks under this requirement, <span class="stat-num" id="NMLLBL_STAT_DONE" value="">0</span> completed， <span class="stat-num" id="NMLLBL_STAT_UNDONE" value="">0</span> not completed
+            </div>
+           </div></td>
+          <td style="
+                        text-align: right;
+                        vertical-align: top;
+                        white-space: nowrap;
+                      "><input class="BTNCMD" name="BTNCMD_ADD_NEW" onclick="
+                          document.main.COMMAND_NAME.value =
+                            'COMMAND_BTNCMD_ADD_NEW';
+                          SendBTN(this.name);
+                        " readonly size="" type="text" value="NEW CREATION"></td>
+         </tr>
+        </tbody>
+       </table>
+       <div class="section-title">
+        Task List
+       </div><!-- hidden requirement_id & PROJECT_ID&&PROJECT_ROLE--> <input type="hidden" id="NMLTXT_REQ_ID" name="NMLTXT_REQ_ID" value=""> <input type="hidden" id="NMLTXT_MY_ROLE" name="NMLTXT_MY_ROLE" value=""> <input type="hidden" id="NMLTXT_PROJECT_ID" name="NMLTXT_PROJECT_ID" value=""> <!-- Array: id must start with TABLE_, Creator uses new Table("TABLE_TASK") to generate data rows -->
+       <table id="TABLE_TASK" class="task-table">
+        <colgroup>
+         <col class="col-pri">
+         <col class="col-code">
+         <col class="col-name">
+         <col class="col-type">
+         <col class="col-due">
+         <col class="col-status">
+         <col class="col-assignee">
+        </colgroup>
+        <thead>
+         <tr>
+          <th>Priority</th>
+          <th>Task Code</th>
+          <th>Task Name</th>
+          <th>Task Type</th>
+          <th>Task Due</th>
+          <th>Status</th>
+          <th>Assignee</th>
+         </tr>
+        </thead>
+        <tbody>
+         <!-- ===== TEMPLATE ROW ===== -->
+         <tr>
+          <td style="text-align: center"><span class="NMLLBL_NORMAL pri-flag" id="NMLLBL_PRIORITY" value=""></span></td>
+          <td><input class="LINK_TEXT" name="LNKMOV_TASK_CODE" onclick="
+                          document.main.COMMAND_NAME.value = 'COMMAND_LNKMOV_TASK_CODE';
+                          var hid = this.closest('tr').querySelector('input[name=" nmltxt_task_id]); var tid="hid" ? hid.value : ; linkopen(dpgl110taskadd, tid, this.name); readonly size="12" type="text" value=""></td>
+          <td><span class="NMLLBL_NORMAL" id="NMLLBL_TASK_NAME" value=""></span></td>
+          <td><span class="NMLLBL_NORMAL" id="NMLLBL_TASK_TYPE" value=""></span></td>
+          <td style="text-align: center"><span class="NMLLBL_NORMAL" id="NMLLBL_TASK_DUE" value=""></span></td>
+          <td style="text-align: center"><span class="NMLLBL_NORMAL st-flag" id="NMLLBL_TASK_STATUS" value=""></span></td>
+          <td><!-- Assignee: hidden carries task_id (first hidden in this cell,
+                           the JS reads it; must NOT be empty or the click is blocked);
+                           LNKMOV displays assignee name --> <input type="hidden" id="NMLTXT_TASK_ID" name="NMLTXT_TASK_ID" value=""> <input class="LINK_TEXT" name="LNKMOV_TASK_ASSIGNEE_NAME" onclick="
+                          document.main.COMMAND_NAME.value =
+                            'COMMAND_LNKMOV_TASK_ASSIGNEE_NAME';
+                          var hid =
+                            this.parentNode.querySelector('input[type=hidden]');
+                          var aid = hid ? hid.value : '';
+                          if (
+                            aid == null ||
+                            aid.trim() == '' ||
+                            aid === 'null'
+                          ) {
+                            console.log('No task_id for this row');
+                            return false;
+                          }
+                          var linkScreenId = 'DPGL110TASKASSIGN';
+                          console.log('OPEN TASK_ID = [' + aid + ']');
+                          linkOpen(linkScreenId, aid, this.name);
+                        " readonly size="14" type="text" value=""></td>
+         </tr>
+        </tbody>
+       </table></td>
+     </tr>
+     <tr>
+      <td>
+       <div id="errorLocation" style="font-size: small; color: Gray"></div></td>
+     </tr>
+    </tbody>
+   </table>
+  </div>
+  <script type="text/javascript">
+      //<![CDATA[
+      CreateFooter();
+      //]]>
+    </script>
+ </body>
+</html>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+                     "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg height="600"
+    onclick="if(typeof(gb_gf_ezg_svgComOnClick)==&apos;function&apos;)gb_gf_ezg_svgComOnClick(evt);"
+    onload="if(typeof(gb_gf_ezg_svgComOnLoad)==&apos;function&apos;)gb_gf_ezg_svgComOnLoad(evt);"
+    onmousedown="if(typeof(gb_gf_ezg_svgComOnMouseDown)==&apos;function&apos;)gb_gf_ezg_svgComOnMouseDown(evt);"
+    onmouseup="if(typeof(gb_gf_ezg_svgComOnMouseUp)==&apos;function&apos;)gb_gf_ezg_svgComOnMouseUp(evt);"
+    viewBox="0 0 800 600" width="800">
+    <g id="_GBEZG_ROOT_">
+        <rect height="100%" id="background"
+            style="fill:rgb(255,255,255);" width="100%" x="0" y="0"/>
+        <defs/>
+        <polygon fill-rule="evenodd" id="1207543516013"
+            points="323,39 324,85 362,81 338,57 372,48 " style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polygon>
+        <polygon fill-rule="evenodd" id="120761468033800"
+            points="15,38 17,84 60,80 32,56 71,47 " style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polygon>
+        <polygon fill-rule="evenodd" id="120761468063501"
+            points="11,410 12,450 47,446 25,425 56,417 " style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polygon>
+        <polygon fill-rule="evenodd" id="120761468087002"
+            points="14,171 15,215 53,211 29,188 63,179 " style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polygon>
+        <polygon fill-rule="evenodd" id="120761468105803"
+            points="453,39 454,89 496,84 469,58 506,48 " style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polygon>
+        <text frame_height="24" frame_width="96" frame_x="3" frame_y="3"
+            id="120762350904300"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="3" xml:space="preserve" y="19">多角形のテスト<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <text frame_height="21" frame_width="67" frame_x="314"
+            frame_y="104" id="120762354385930"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="314" xml:space="preserve" y="120">ブリンク<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <text frame_height="26" frame_width="28" frame_x="458"
+            frame_y="100" id="120762354385920"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="458" xml:space="preserve" y="116">線種<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <text frame_height="26" frame_width="85" frame_x="699"
+            frame_y="278" id="120762354385910"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="699" xml:space="preserve" y="294">回転固定値<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <text frame_height="26" frame_width="28" frame_x="709"
+            frame_y="431" id="120762354385900"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="709" xml:space="preserve" y="447">移動<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <polygon fill-rule="evenodd" id="120771552751800"
+            points="623,174 624,218 662,214 638,191 672,182 " style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polygon>
+        <polygon fill-rule="evenodd" id="120771552778301"
+            points="479,171 480,215 518,211 494,188 528,179 " style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polygon>
+        <polygon fill-rule="evenodd" id="120771552801802"
+            points="319,169 320,213 358,209 334,186 368,177 " style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polygon>
+        <polygon fill-rule="evenodd" id="120771552829903"
+            points="166,168 167,212 205,208 181,185 215,176 " style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polygon>
+        <polygon fill-rule="evenodd" id="120771557894340"
+            points="12,259 13,303 51,299 27,276 61,267 " style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polygon>
+        <polygon fill-rule="evenodd" id="120771557894330"
+            points="624,261 625,305 663,301 639,278 673,269 " style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polygon>
+        <polygon fill-rule="evenodd" id="120771557894320"
+            points="482,263 483,307 521,303 497,280 531,271 " style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polygon>
+        <polygon fill-rule="evenodd" id="120771557894310"
+            points="324,266 325,310 363,306 339,283 373,274 " style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polygon>
+        <polygon fill-rule="evenodd" id="120771557894300"
+            points="168,261 169,305 207,301 183,278 217,269 " style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polygon>
+        <polygon fill-rule="evenodd" id="120771565895600"
+            points="288,410 289,450 324,446 302,425 333,417 " style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polygon>
+        <polygon fill-rule="evenodd" id="120771565920601"
+            points="199,410 200,450 235,446 213,425 244,417 " style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polygon>
+        <polygon fill-rule="evenodd" id="120771565998802"
+            points="107,410 108,450 143,446 121,425 152,417 " style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polygon>
+        <polygon fill-rule="evenodd" id="120771566761630"
+            points="375,410 376,450 411,446 389,425 420,417 " style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polygon>
+        <polygon fill-rule="evenodd" id="120771566761620"
+            points="649,410 650,450 685,446 663,425 694,417 " style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polygon>
+        <polygon fill-rule="evenodd" id="120771566761610"
+            points="553,410 554,450 589,446 567,425 598,417 " style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polygon>
+        <polygon fill-rule="evenodd" id="120771566761600"
+            points="469,410 470,450 505,446 483,425 514,417 " style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polygon>
+        <polygon fill-rule="evenodd" id="120771573659480"
+            points="10,505 11,545 46,541 24,520 55,512 " style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polygon>
+        <text frame_height="23" frame_width="87" frame_x="709"
+            frame_y="526" id="120771573659470"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="709" xml:space="preserve" y="542">移動固定値<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <polygon fill-rule="evenodd" id="120771573659460"
+            points="293,505 294,545 329,541 307,520 338,512 " style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polygon>
+        <polygon fill-rule="evenodd" id="120771573659450"
+            points="207,505 208,545 243,541 221,520 252,512 " style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polygon>
+        <polygon fill-rule="evenodd" id="120771573659440"
+            points="111,505 112,545 147,541 125,520 156,512 " style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polygon>
+        <polygon fill-rule="evenodd" id="120771573659430"
+            points="380,505 381,545 416,541 394,520 425,512 " style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polygon>
+        <polygon fill-rule="evenodd" id="120771573659420"
+            points="649,505 650,545 685,541 663,520 694,512 " style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polygon>
+        <polygon fill-rule="evenodd" id="120771573659410"
+            points="565,505 566,545 601,541 579,520 610,512 " style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polygon>
+        <polygon fill-rule="evenodd" id="120771573659400"
+            points="472,505 473,545 508,541 486,520 517,512 " style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polygon>
+        <text frame_height="25" frame_width="65" frame_x="13"
+            frame_y="101" id="120772518309910"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="13" xml:space="preserve" y="117">色固定値<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <text frame_height="22" frame_width="178" frame_x="100"
+            frame_y="100" id="120772518309900"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="100" xml:space="preserve" y="116">色取得データとして使用<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <polygon fill-rule="evenodd" id="120772518916900"
+            points="158,38 160,84 203,80 175,56 214,47 " style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polygon>
+        <text frame_height="26" frame_width="28" frame_x="704"
+            frame_y="189" id="120849756719000"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="704" xml:space="preserve" y="205">回転<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+    </g>
+</svg>

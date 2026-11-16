@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Expires" content="0">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Cache-Control" content="no-cache, private"><!-- ========== CSS ========== -->
+  <link type="text/css" rel="stylesheet" href="./css/common.css">
+  <style type="text/css">
+      /* <![CDATA[ */
+      .detail-table {
+        width: 100%;
+        max-width: 760px;
+        border-collapse: collapse;
+        font-size: 13px;
+        margin-bottom: 14px;
+      }
+      .detail-table th,
+      .detail-table td {
+        border: 1px solid #bbb;
+        padding: 8px;
+        vertical-align: middle;
+      }
+      .detail-table th {
+        width: 200px;
+        background-color: #f5f5f5;
+        text-align: left;
+        font-weight: bold;
+      }
+      .desc-cell {
+        white-space: pre-wrap;
+        word-break: break-all;
+      }
+      .group-title {
+        margin: 14px 0 6px;
+        font-weight: bold;
+        font-size: 14px;
+        color: #0b5394;
+      }
+      .extra-title {
+        background-color: #eef4fb;
+      }
+      /* ]]> */
+    </style><!-- ========== SCRIPT ========== -->
+  <script type="text/javascript" src="./js/denyDirectAccess.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/jquery.min.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/buttonDef.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/navigation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/objectManipulation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/dataCheck.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/dataUtil.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/timeManipulation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/svg.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/common.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/gb_gf_ezg.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/finalTaskForUserCommon.js" charset="UTF-8"></script>
+  <script type="text/javascript">
+      writeTitle();
+    </script>
+  <script type="text/javascript">
+      //<![CDATA[
+    gf_page=   "";
+    gf_title1= "DevPlanGuard";
+    gf_title2= "TASK DETAILS";
+    gf_id=     "DPGL120TASKDETAIL";
+    gf_remarks="SHOW THE DETAIL ABOUT THE TASK";
+    gf_onload= "";
+      CreateHideMenu(gf_page, gf_title1, gf_title2, gf_id, gf_onload);
+      //]]>
+    </script>
+  <script type="text/javascript">
+      //<![CDATA[
+      function _chkInputValue() {
+        return true;
+      }
+      //]]>
+    </script>
+  <script type="text/javascript">
+      //<![CDATA[
+      // =========================================================
+      // Task Type 联动（只读详情版）：
+      // TEST 显示测试信息，DEFECT 显示缺陷信息，其余类型隐藏。
+      // 与 DPGL110TASKADD 的 toggleTaskTypeFields 同样的纯 HTML+JS 做法。
+      // =========================================================
+      // 容器（标题/表格）与行一起显隐，避免空表格占位
+      var TEST_EXTRA_ROWS = [
+        "TEST_EXTRA_TITLE",
+        "TEST_EXTRA_TABLE",
+        "TEST_EXTRA_PLAN_ROW",
+        "TEST_EXTRA_CASE_ROW",
+      ];
+      var DEFECT_EXTRA_ROWS = [
+        "DEFECT_EXTRA_TABLE",
+        "DEFECT_EXTRA_SEVERITY_ROW",
+      ];
+      function setRowVisible(rowId, visible) {
+        var row = document.getElementById(rowId);
+        if (row) {
+          row.style.display = visible ? "" : "none";
+        }
+      }
+      function toggleDetailTypeFields(type) {
+        var isTest = type === "TEST";
+        var isDefect = type === "DEFECT";
+        for (var i = 0; i < TEST_EXTRA_ROWS.length; i++) {
+          setRowVisible(TEST_EXTRA_ROWS[i], isTest);
+        }
+        for (var j = 0; j < DEFECT_EXTRA_ROWS.length; j++) {
+          setRowVisible(DEFECT_EXTRA_ROWS[j], isDefect);
+        }
+      }
+      function finalTaskForUser() {
+        var typeEl = document.getElementById("NMLLBL_TASK_TYPE");
+        var type = typeEl ? (typeEl.textContent || "").trim() : "";
+        toggleDetailTypeFields(type);
+      }
+      //]]>
+    </script>
+  <title>dummytitle</title>
+ </head>
+ <body>
+  <div id="wrapper">
+   <input type="hidden" id="grandsight_ex_disp_date_format" name="grandsight_ex_disp_date_format" value=""> <input type="hidden" id="grandsight_ex_time_zone" name="grandsight_ex_time_zone" value=""> <!-- 审批命令取当前任务 id --> <input type="hidden" id="NMLTXT_TASK_ID" name="NMLTXT_TASK_ID" value="">
+   <table style="width: 100%">
+    <tbody>
+     <tr>
+      <td id="root">
+       <h1>
+        <script>
+                  document.write(gf_title2);
+                </script></h1><span class="NMLLBL_NORMAL" id="NMLLBL_DISPLAY_INFO" value=""></span> <input class="BTNCMD" name="BTNCMD_BACK" onclick="
+                  document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_BACK';
+                  SendBTN(this.name);
+                " readonly size="" type="text" value=" 戻る"><input class="BTNCMD" name="BTNCMD_APPROVE" onclick="
+                  document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_APPROVE';
+                  SendBTN(this.name);
+                " readonly size="" type="text" value="APPROVED"><input class="BTNCMD" name="BTNCMD_REJECT" onclick="
+                  document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_REJECT';
+                  SendBTN(this.name);
+                " readonly size="" type="text" value="REJECTED"><span class="NMLLBL_NORMAL" id="NMLLBL_NOW_DATE" value="">YYYY/MM/DD HH:MI:SS</span></td>
+     </tr>
+     <tr>
+      <td>
+       <div id="errorLocation" style="font-size: small; color: Gray"></div></td>
+     </tr>
+    </tbody>
+   </table><!-- ===== 详情内容（全部只读） ===== -->
+   <div class="group-title">
+    Project
+   </div>
+   <table class="detail-table">
+    <tbody>
+     <tr>
+      <th>Project Name</th>
+      <td><span class="NMLLBL_NORMAL" id="NMLLBL_PROJECT_NAME" value=""></span></td>
+     </tr>
+     <tr>
+      <th>Project Description</th>
+      <td class="desc-cell"><span class="NMLLBL_NORMAL" id="NMLLBL_PROJECT_DESCRIPTION" value=""></span></td>
+     </tr>
+    </tbody>
+   </table>
+   <div class="group-title">
+    Requirement
+   </div>
+   <table class="detail-table">
+    <tbody>
+     <tr>
+      <th>Requirement Name</th>
+      <td><span class="NMLLBL_NORMAL" id="NMLLBL_REQUIREMENT_NAME" value=""></span></td>
+     </tr>
+     <tr>
+      <th>Requirement Description</th>
+      <td class="desc-cell"><span class="NMLLBL_NORMAL" id="NMLLBL_REQUIREMENT_DESCRIPTION" value=""></span></td>
+     </tr>
+    </tbody>
+   </table>
+   <div class="group-title">
+    Task
+   </div>
+   <table class="detail-table">
+    <tbody>
+     <tr>
+      <th>Task Code</th>
+      <td><span class="NMLLBL_NORMAL" id="NMLLBL_TASK_CODE" value=""></span></td>
+     </tr>
+     <tr>
+      <th>Task Name</th>
+      <td><span class="NMLLBL_NORMAL" id="NMLLBL_TASK_NAME" value=""></span></td>
+     </tr>
+     <tr>
+      <th>Task Type</th>
+      <td><span class="NMLLBL_NORMAL" id="NMLLBL_TASK_TYPE" value=""></span></td>
+     </tr>
+     <tr>
+      <th>Priority</th>
+      <td><span class="NMLLBL_NORMAL" id="NMLLBL_PRIORITY" value=""></span></td>
+     </tr>
+     <tr>
+      <th>Assignee</th>
+      <td><span class="NMLLBL_NORMAL" id="NMLLBL_ASSIGNEE_NAME" value=""></span></td>
+     </tr>
+     <tr>
+      <th>Task Status</th>
+      <td><span class="NMLLBL_NORMAL" id="NMLLBL_STATUS" value=""></span></td>
+     </tr>
+     <tr>
+      <th>Task Description</th>
+      <td class="desc-cell"><span class="NMLLBL_NORMAL" id="NMLLBL_TASK_DESCRIPTION" value=""></span></td>
+     </tr>
+    </tbody>
+   </table>
+   <div class="group-title">
+    Submission
+   </div>
+   <table class="detail-table">
+    <tbody>
+     <tr>
+      <th>Submitted At</th>
+      <td><span class="NMLLBL_NORMAL" id="NMLLBL_SUBMITTED_AT" value=""></span></td>
+     </tr>
+     <tr>
+      <th>Deliverable Description</th>
+      <td class="desc-cell"><span class="NMLLBL_NORMAL" id="NMLLBL_DELIVERABLE_DESC" value=""></span></td>
+     </tr>
+     <tr>
+      <th>Deliverable URL</th>
+      <td class="desc-cell"><span class="NMLLBL_NORMAL" id="NMLLBL_DELIVERABLE_URL" value=""></span></td>
+     </tr>
+     <tr>
+      <th>Submission Note</th>
+      <td class="desc-cell"><span class="NMLLBL_NORMAL" id="NMLLBL_SUBMISSION_NOTE" value=""></span></td>
+     </tr>
+     <tr>
+      <th>Review Status</th>
+      <td><span class="NMLLBL_NORMAL" id="NMLLBL_REVIEW_STATUS" value=""></span></td>
+     </tr>
+    </tbody>
+   </table><!-- ===== 类型专有区块（show/hide 控制） ===== -->
+   <div class="group-title" id="TEST_EXTRA_TITLE" style="display: none">
+    Test Information
+   </div>
+   <table class="detail-table" id="TEST_EXTRA_TABLE" style="display: none">
+    <tbody>
+     <tr id="TEST_EXTRA_PLAN_ROW" style="display: none">
+      <th class="extra-title">Test Plan</th>
+      <td class="desc-cell"><span class="NMLLBL_NORMAL" id="NMLLBL_TEST_PLAN" value=""></span></td>
+     </tr>
+     <tr id="TEST_EXTRA_CASE_ROW" style="display: none">
+      <th class="extra-title">Test Case Design</th>
+      <td class="desc-cell"><span class="NMLLBL_NORMAL" id="NMLLBL_TEST_CASE_DESIGN" value=""></span></td>
+     </tr>
+    </tbody>
+   </table>
+   <table class="detail-table" id="DEFECT_EXTRA_TABLE" style="display: none">
+    <tbody>
+     <tr id="DEFECT_EXTRA_SEVERITY_ROW" style="display: none">
+      <th class="extra-title">Severity</th>
+      <td><span class="NMLLBL_NORMAL" id="NMLLBL_SEVERITY" value=""></span></td>
+     </tr>
+    </tbody>
+   </table>
+  </div><!-- ========== FOOTER ========== -->
+  <script type="text/javascript">
+      //<![CDATA[
+      CreateFooter();
+      //]]>
+    </script>
+ </body>
+</html>

@@ -1,0 +1,66 @@
+apply plugin: 'java'
+
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compileOnly 'jakarta.servlet:jakarta.servlet-api:6.0.0'
+	compileOnly 'jakarta.enterprise:jakarta.enterprise.cdi-api:4.0.1'
+	compileOnly 'jakarta.annotation:jakarta.annotation-api:2.1.1'
+	compileOnly 'jakarta.el:jakarta.el-api:5.0.1'
+
+	// Project jars
+	implementation fileTree(dir: 'WEB-INF/lib', include: '**/*.jar')
+	//lombok
+	compileOnly 'org.projectlombok:lombok:1.18.34'
+	annotationProcessor 'org.projectlombok:lombok:1.18.34'
+}
+
+jar {
+	manifest {
+		attributes("Implementation-Title": "Gradle")
+	}
+	archiveFileName = project.name + ".jar"
+}
+
+sourceSets {
+	main {
+		java {
+			srcDirs = ['WEB-INF/src']
+		}
+		resources{
+			srcDirs = ['WEB-INF/src']
+		}
+	}
+}
+tasks.register('copylib') {
+	doLast {
+		def dir = file("${buildDir}/repos/lib")
+		if (!dir.exists()) {
+			dir.mkdirs()
+		}
+
+		copy {
+			println("copy")
+			from configurations.runtimeClasspath.findAll { it.getName().endsWith('.jar') }
+			into dir
+		}
+	}
+}
+
+def deployDir = properties['src_bl.deploy.dir']
+tasks.register('deploy') {
+	dependsOn('build')
+	doLast {
+		def classes = project.getProjectDir().canonicalPath + "/build/classes/java/main"
+		def dest = file(deployDir + "/WEB-INF/classes").toPath().toFile().canonicalPath;
+
+		println "deploy classes to ::: ${dest}"
+		copy {
+			from classes
+			into dest
+		}
+	}
+}

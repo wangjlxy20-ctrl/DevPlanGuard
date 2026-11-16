@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+                     "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg height="600"
+    onclick="if(typeof(gb_gf_ezg_svgComOnClick)==&apos;function&apos;)gb_gf_ezg_svgComOnClick(evt);"
+    onload="if(typeof(gb_gf_ezg_svgComOnLoad)==&apos;function&apos;)gb_gf_ezg_svgComOnLoad(evt);"
+    onmousedown="if(typeof(gb_gf_ezg_svgComOnMouseDown)==&apos;function&apos;)gb_gf_ezg_svgComOnMouseDown(evt);"
+    onmouseup="if(typeof(gb_gf_ezg_svgComOnMouseUp)==&apos;function&apos;)gb_gf_ezg_svgComOnMouseUp(evt);"
+    viewBox="0 0 800 600" width="800">
+    <g id="_GBEZG_ROOT_">
+        <rect height="100%" id="background"
+            style="fill:rgb(255,255,255);" width="100%" x="0" y="0"/>
+        <defs/>
+        <g id="1207615432147">
+            <ellipse cx="73.5" cy="53.0" id="120761541996804" rx="11.5"
+                ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </ellipse>
+            <g id="1207615428366">
+                <ellipse cx="12.0" cy="49.0" id="120761541542802"
+                    rx="12.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+                <ellipse cx="43.0" cy="51.0" id="120761541688503"
+                    rx="12.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+            </g>
+        </g>
+        <g id="120761543453300">
+            <ellipse cx="327.5" cy="53.0" id="1207615434533_c_000"
+                rx="10.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </ellipse>
+            <g id="1207615434533_c_300">
+                <ellipse cx="273.5" cy="49.0" id="1207615434533_c_100"
+                    rx="10.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+                <ellipse cx="300.5" cy="51.0" id="1207615434533_c_200"
+                    rx="10.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+            </g>
+        </g>
+        <g id="120761543623801">
+            <ellipse cx="424.5" cy="57.0" id="1207615436238_c_001"
+                rx="10.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </ellipse>
+            <g id="1207615436238_c_301">
+                <ellipse cx="368.5" cy="53.0" id="1207615436238_c_101"
+                    rx="10.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+                <ellipse cx="396.5" cy="55.0" id="1207615436238_c_201"
+                    rx="10.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+            </g>
+        </g>
+        <g id="120761543828302">
+            <ellipse cx="516.0" cy="59.0" id="1207615438283_c_002"
+                rx="10.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </ellipse>
+            <g id="1207615438283_c_302">
+                <ellipse cx="465.0" cy="55.0" id="1207615438283_c_102"
+                    rx="10.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+                <ellipse cx="491.0" cy="57.0" id="1207615438283_c_202"
+                    rx="10.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+            </g>
+        </g>
+        <g id="120761544184704">
+            <ellipse cx="70.5" cy="156.0" id="1207615441847_c_004"
+                rx="10.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </ellipse>
+            <g id="1207615441847_c_304">
+                <ellipse cx="14.5" cy="152.0" id="1207615441847_c_104"
+                    rx="10.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+                <ellipse cx="42.5" cy="154.0" id="1207615441847_c_204"
+                    rx="10.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+            </g>
+        </g>
+        <g id="120761544384505">
+            <ellipse cx="62.0" cy="362.0" id="1207615443845_c_005"
+                rx="10.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </ellipse>
+            <g id="1207615443845_c_305">
+                <ellipse cx="10.0" cy="358.0" id="1207615443845_c_105"
+                    rx="10.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+                <ellipse cx="36.0" cy="360.0" id="1207615443845_c_205"
+                    rx="10.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+            </g>
+        </g>
+        <text frame_height="24" frame_width="96" frame_x="-2"
+            frame_y="1" id="120762322169900"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="-2" xml:space="preserve" y="17">グループ１階層目のテスト<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <text frame_height="21" frame_width="67" frame_x="272"
+            frame_y="76" id="120762325965670"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="272" xml:space="preserve" y="92">ブリンク<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <text frame_height="26" frame_width="28" frame_x="374"
+            frame_y="77" id="120762325965660"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="374" xml:space="preserve" y="93">線種<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <text frame_height="26" frame_width="28" frame_x="471"
+            frame_y="91" id="120762325965650"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="471" xml:space="preserve" y="107">レベル<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <text frame_height="20" frame_width="71" frame_x="551"
+            frame_y="79" id="120762325965640"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="551" xml:space="preserve" y="95">文字固定値<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <text frame_height="26" frame_width="28" frame_x="691"
+            frame_y="151" id="120762325965620"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="691" xml:space="preserve" y="167">回転<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <text frame_height="26" frame_width="28" frame_x="569"
+            frame_y="377" id="120762325965610"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="569" xml:space="preserve" y="393">移動<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <g id="120762774937200">
+            <g id="1207627749372_c_000">
+                <rect height="22" id="1207627749372_c_000"
+                    style="fill: none; stroke: rgb(192,192,192); stroke-width: 1.0;"
+                    width="26" x="623" y="47"/>
+                <text frame_height="22" frame_width="26" frame_x="623"
+                    frame_y="47" id="1207627749372_c_000"
+                    style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+                    x="623" xml:space="preserve" y="63">a<animate
+                        attributeName="fill" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/></text>
+            </g>
+            <g id="1207627749372_c_300">
+                <g id="1207627749372_c_100">
+                    <rect height="22" id="1207627749372_c_100"
+                        style="fill: none; stroke: rgb(192,192,192); stroke-width: 1.0;"
+                        width="26" x="545" y="45"/>
+                    <text frame_height="22" frame_width="26"
+                        frame_x="545" frame_y="45"
+                        id="1207627749372_c_100"
+                        style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+                        x="545" xml:space="preserve" y="61">a<animate
+                            attributeName="fill" begin="0s" dur="0s"
+                            repeatCount="indefinite" values=""/></text>
+                </g>
+                <g id="1207627749372_c_200">
+                    <rect height="22" id="1207627749372_c_200"
+                        style="fill: none; stroke: rgb(192,192,192); stroke-width: 1.0;"
+                        width="26" x="583" y="46"/>
+                    <text frame_height="22" frame_width="26"
+                        frame_x="583" frame_y="46"
+                        id="1207627749372_c_200"
+                        style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+                        x="583" xml:space="preserve" y="62">a<animate
+                            attributeName="fill" begin="0s" dur="0s"
+                            repeatCount="indefinite" values=""/></text>
+                </g>
+            </g>
+        </g>
+        <g id="120770883755700">
+            <ellipse cx="215.0" cy="161.0" id="1207708837557_c_000"
+                rx="10.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </ellipse>
+            <g id="1207708837557_c_300">
+                <ellipse cx="161.0" cy="157.0" id="1207708837557_c_100"
+                    rx="10.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+                <ellipse cx="188.0" cy="159.0" id="1207708837557_c_200"
+                    rx="10.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+            </g>
+        </g>
+        <g id="120770884077610">
+            <ellipse cx="362.5" cy="161.0" id="1207708840776_c_010"
+                rx="10.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </ellipse>
+            <g id="1207708840776_c_310">
+                <ellipse cx="307.5" cy="157.0" id="1207708840776_c_110"
+                    rx="10.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+                <ellipse cx="335.5" cy="159.0" id="1207708840776_c_210"
+                    rx="10.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+            </g>
+        </g>
+        <g id="120770884077600">
+            <ellipse cx="499.5" cy="163.0" id="1207708840776_c_000"
+                rx="9.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </ellipse>
+            <g id="1207708840776_c_300">
+                <ellipse cx="448.5" cy="159.0" id="1207708840776_c_100"
+                    rx="9.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+                <ellipse cx="474.5" cy="161.0" id="1207708840776_c_200"
+                    rx="9.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+            </g>
+        </g>
+        <g id="120770884541600">
+            <ellipse cx="636.5" cy="167.0" id="1207708845416_c_000"
+                rx="8.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </ellipse>
+            <g id="1207708845416_c_300">
+                <ellipse cx="591.5" cy="163.0" id="1207708845416_c_100"
+                    rx="8.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+                <ellipse cx="614.5" cy="165.0" id="1207708845416_c_200"
+                    rx="8.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+            </g>
+        </g>
+        <g id="120770891969150">
+            <ellipse cx="67.0" cy="257.0" id="1207708919691_c_050"
+                rx="10.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </ellipse>
+            <g id="1207708919691_c_350">
+                <ellipse cx="14.0" cy="253.0" id="1207708919691_c_150"
+                    rx="10.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+                <ellipse cx="41.0" cy="255.0" id="1207708919691_c_250"
+                    rx="10.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+            </g>
+        </g>
+        <text frame_height="23" frame_width="89" frame_x="691"
+            frame_y="252" id="120770891969140"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="691" xml:space="preserve" y="268">回転固定値<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <g id="120770891969130">
+            <ellipse cx="209.0" cy="261.0" id="1207708919706_c_030"
+                rx="9.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </ellipse>
+            <g id="1207708919706_c_330">
+                <ellipse cx="160.0" cy="257.0" id="1207708919706_c_130"
+                    rx="9.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+                <ellipse cx="185.0" cy="259.0" id="1207708919706_c_230"
+                    rx="9.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+            </g>
+        </g>
+        <g id="120770891970620">
+            <ellipse cx="353.0" cy="262.0" id="1207708919706_c_020"
+                rx="9.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </ellipse>
+            <g id="1207708919706_c_320">
+                <ellipse cx="306.0" cy="258.0" id="1207708919706_c_120"
+                    rx="9.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+                <ellipse cx="330.0" cy="260.0" id="1207708919706_c_220"
+                    rx="9.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+            </g>
+        </g>
+        <g id="120770891970610">
+            <ellipse cx="498.5" cy="265.0" id="1207708919706_c_010"
+                rx="9.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </ellipse>
+            <g id="1207708919706_c_310">
+                <ellipse cx="448.5" cy="261.0" id="1207708919706_c_110"
+                    rx="9.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+                <ellipse cx="473.5" cy="263.0" id="1207708919706_c_210"
+                    rx="9.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+            </g>
+        </g>
+        <g id="120770891970600">
+            <ellipse cx="647.0" cy="268.0" id="1207708919706_c_000"
+                rx="10.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </ellipse>
+            <g id="1207708919706_c_300">
+                <ellipse cx="593.0" cy="264.0" id="1207708919706_c_100"
+                    rx="10.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+                <ellipse cx="620.0" cy="266.0" id="1207708919706_c_200"
+                    rx="10.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+            </g>
+        </g>
+        <g id="120770906086500">
+            <ellipse cx="216.0" cy="364.0" id="1207709060865_c_000"
+                rx="9.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </ellipse>
+            <g id="1207709060865_c_300">
+                <ellipse cx="167.0" cy="360.0" id="1207709060865_c_100"
+                    rx="9.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+                <ellipse cx="192.0" cy="362.0" id="1207709060865_c_200"
+                    rx="9.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+            </g>
+        </g>
+        <g id="120770906416201">
+            <ellipse cx="364.5" cy="364.0" id="1207709064162_c_001"
+                rx="8.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </ellipse>
+            <g id="1207709064162_c_301">
+                <ellipse cx="318.5" cy="360.0" id="1207709064162_c_101"
+                    rx="8.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+                <ellipse cx="341.5" cy="362.0" id="1207709064162_c_201"
+                    rx="8.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+            </g>
+        </g>
+        <g id="120770906683402">
+            <ellipse cx="521.0" cy="365.0" id="1207709066834_c_002"
+                rx="9.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </ellipse>
+            <g id="1207709066834_c_302">
+                <ellipse cx="475.0" cy="361.0" id="1207709066834_c_102"
+                    rx="9.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+                <ellipse cx="498.0" cy="363.0" id="1207709066834_c_202"
+                    rx="9.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+            </g>
+        </g>
+        <g id="120770907059903">
+            <ellipse cx="59.0" cy="421.0" id="1207709070599_c_003"
+                rx="9.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </ellipse>
+            <g id="1207709070599_c_303">
+                <ellipse cx="11.0" cy="417.0" id="1207709070599_c_103"
+                    rx="9.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+                <ellipse cx="35.0" cy="419.0" id="1207709070599_c_203"
+                    rx="9.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+            </g>
+        </g>
+        <g id="120770907320804">
+            <ellipse cx="220.5" cy="421.0" id="1207709073208_c_004"
+                rx="8.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </ellipse>
+            <g id="1207709073208_c_304">
+                <ellipse cx="174.5" cy="417.0" id="1207709073208_c_104"
+                    rx="8.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+                <ellipse cx="197.5" cy="419.0" id="1207709073208_c_204"
+                    rx="8.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+            </g>
+        </g>
+        <g id="120770907572305">
+            <ellipse cx="366.5" cy="424.0" id="1207709075723_c_005"
+                rx="8.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </ellipse>
+            <g id="1207709075723_c_305">
+                <ellipse cx="320.5" cy="420.0" id="1207709075723_c_105"
+                    rx="8.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+                <ellipse cx="343.5" cy="422.0" id="1207709075723_c_205"
+                    rx="8.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+            </g>
+        </g>
+        <g id="120770907744206">
+            <ellipse cx="525.0" cy="426.0" id="1207709077442_c_006"
+                rx="9.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </ellipse>
+            <g id="1207709077442_c_306">
+                <ellipse cx="476.0" cy="422.0" id="1207709077442_c_106"
+                    rx="9.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+                <ellipse cx="501.0" cy="424.0" id="1207709077442_c_206"
+                    rx="9.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+            </g>
+        </g>
+        <g id="120770919513480">
+            <ellipse cx="66.5" cy="488.0" id="1207709195134_c_080"
+                rx="9.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </ellipse>
+            <g id="1207709195134_c_380">
+                <ellipse cx="15.5" cy="484.0" id="1207709195134_c_180"
+                    rx="9.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+                <ellipse cx="41.5" cy="486.0" id="1207709195134_c_280"
+                    rx="9.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+            </g>
+        </g>
+        <text frame_height="24" frame_width="89" frame_x="575"
+            frame_y="503" id="120770919513470"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="575" xml:space="preserve" y="519">移動固定値<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <g id="120770919513460">
+            <ellipse cx="226.5" cy="490.0" id="1207709195134_c_060"
+                rx="10.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </ellipse>
+            <g id="1207709195134_c_360">
+                <ellipse cx="172.5" cy="486.0" id="1207709195134_c_160"
+                    rx="10.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+                <ellipse cx="199.5" cy="488.0" id="1207709195134_c_260"
+                    rx="10.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+            </g>
+        </g>
+        <g id="120770919513450">
+            <ellipse cx="371.0" cy="490.0" id="1207709195134_c_050"
+                rx="9.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </ellipse>
+            <g id="1207709195134_c_350">
+                <ellipse cx="325.0" cy="486.0" id="1207709195134_c_150"
+                    rx="9.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+                <ellipse cx="348.0" cy="488.0" id="1207709195134_c_250"
+                    rx="9.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+            </g>
+        </g>
+        <g id="120770919513440">
+            <ellipse cx="530.0" cy="491.0" id="1207709195134_c_040"
+                rx="9.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </ellipse>
+            <g id="1207709195134_c_340">
+                <ellipse cx="481.0" cy="487.0" id="1207709195134_c_140"
+                    rx="9.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+                <ellipse cx="506.0" cy="489.0" id="1207709195134_c_240"
+                    rx="9.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+            </g>
+        </g>
+        <g id="120770919513430">
+            <ellipse cx="66.5" cy="547.0" id="1207709195134_c_030"
+                rx="9.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </ellipse>
+            <g id="1207709195134_c_330">
+                <ellipse cx="17.5" cy="543.0" id="1207709195134_c_130"
+                    rx="9.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+                <ellipse cx="42.5" cy="545.0" id="1207709195134_c_230"
+                    rx="9.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+            </g>
+        </g>
+        <g id="120770919513420">
+            <ellipse cx="228.0" cy="547.0" id="1207709195134_c_020"
+                rx="9.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </ellipse>
+            <g id="1207709195134_c_320">
+                <ellipse cx="181.0" cy="543.0" id="1207709195134_c_120"
+                    rx="9.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+                <ellipse cx="205.0" cy="545.0" id="1207709195134_c_220"
+                    rx="9.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+            </g>
+        </g>
+        <g id="120770919513410">
+            <ellipse cx="373.0" cy="550.0" id="1207709195134_c_010"
+                rx="9.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </ellipse>
+            <g id="1207709195134_c_310">
+                <ellipse cx="327.0" cy="546.0" id="1207709195134_c_110"
+                    rx="9.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+                <ellipse cx="350.0" cy="548.0" id="1207709195134_c_210"
+                    rx="9.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+            </g>
+        </g>
+        <g id="120770919513400">
+            <ellipse cx="532.5" cy="552.0" id="1207709195134_c_000"
+                rx="9.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </ellipse>
+            <g id="1207709195134_c_300">
+                <ellipse cx="482.5" cy="548.0" id="1207709195134_c_100"
+                    rx="9.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+                <ellipse cx="507.5" cy="550.0" id="1207709195134_c_200"
+                    rx="9.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+            </g>
+        </g>
+        <text frame_height="25" frame_width="65" frame_x="8"
+            frame_y="73" id="120772483140610"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="8" xml:space="preserve" y="89">色固定値<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <text frame_height="22" frame_width="178" frame_x="86"
+            frame_y="76" id="120772483140600"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="86" xml:space="preserve" y="92">色取得データとして使用<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <g id="120772483819400">
+            <ellipse cx="202.5" cy="56.0" id="1207724838194_c_000"
+                rx="11.5" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </ellipse>
+            <g id="1207724838194_c_300">
+                <ellipse cx="141.0" cy="52.0" id="1207724838194_c_100"
+                    rx="12.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+                <ellipse cx="172.0" cy="54.0" id="1207724838194_c_200"
+                    rx="12.0" ry="18.0" style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;">
+                    <animate attributeName="stroke" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/>
+                </ellipse>
+            </g>
+        </g>
+        <g id="120772591503100">
+            <g id="1207725915031_c_000">
+                <rect height="22" id="1207725915031_c_000"
+                    style="fill: none; stroke: rgb(192,192,192); stroke-width: 1.0;"
+                    width="26" x="762" y="45"/>
+                <text frame_height="22" frame_width="26" frame_x="762"
+                    frame_y="45" id="1207725915031_c_000"
+                    style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+                    x="762" xml:space="preserve" y="61">a<animate
+                        attributeName="fill" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/></text>
+            </g>
+            <g id="1207725915031_c_300">
+                <g id="1207725915031_c_100">
+                    <rect height="22" id="1207725915031_c_100"
+                        style="fill: none; stroke: rgb(192,192,192); stroke-width: 1.0;"
+                        width="26" x="684" y="43"/>
+                    <text frame_height="22" frame_width="26"
+                        frame_x="684" frame_y="43"
+                        id="1207725915031_c_100"
+                        style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+                        x="684" xml:space="preserve" y="59">a<animate
+                            attributeName="fill" begin="0s" dur="0s"
+                            repeatCount="indefinite" values=""/></text>
+                </g>
+                <g id="1207725915031_c_200">
+                    <rect height="22" id="1207725915031_c_200"
+                        style="fill: none; stroke: rgb(192,192,192); stroke-width: 1.0;"
+                        width="26" x="722" y="44"/>
+                    <text frame_height="22" frame_width="26"
+                        frame_x="722" frame_y="44"
+                        id="1207725915031_c_200"
+                        style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+                        x="722" xml:space="preserve" y="60">a<animate
+                            attributeName="fill" begin="0s" dur="0s"
+                            repeatCount="indefinite" values=""/></text>
+                </g>
+            </g>
+        </g>
+        <g id="1207725940061">
+            <rect height="19" id="1207725940061"
+                style="fill: none; stroke: rgb(192,192,192); stroke-width: 1.0;"
+                width="119" x="635" y="78"/>
+            <text frame_height="19" frame_width="119" frame_x="635"
+                frame_y="78" id="1207725940061"
+                style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+                x="635" xml:space="preserve" y="94">文字取得データとして<animate
+                    attributeName="fill" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/></text>
+        </g>
+        <g id="120781430623500">
+            <rect height="12" id="1207814306235_c_000"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 1.0;stroke-dasharray: inherit;"
+                width="172" x="597" y="444">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+            <rect height="12" id="1207814306235_c_100"
+                style="fill: rgb(0,51,255);" width="69" x="597" y="445">
+                <animate attributeName="fill" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+        </g>
+    </g>
+</svg>

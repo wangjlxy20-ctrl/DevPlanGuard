@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Expires" content="0">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Cache-Control" content="no-cache, private"><!-- ========== HEADER ========== --> <!-- ========== CSS ========== -->
+  <link type="text/css" rel="stylesheet" href="./css/common.css"><!-- ========== USER CSS ========== -->
+  <style type="text/css">
+      /* <![CDATA[ */
+      /* The user's original style can be described here */
+      /* ]]> */
+    </style><!-- ========== SCRIPT ========== -->
+  <script type="text/javascript" src="./js/denyDirectAccess.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/jquery.min.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/buttonDef.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/navigation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/objectManipulation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/dataCheck.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/dataUtil.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/timeManipulation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/svg.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/common.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/gb_gf_ezg.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/finalTaskForUserCommon.js" charset="UTF-8"></script><!-- ========== MENU ========== -->
+  <script type="text/javascript">
+      writeTitle();
+    </script>
+  <script type="text/javascript">
+      //<![CDATA[
+    gf_page=   "";
+    gf_title1= "DevPlanGuard";
+    gf_title2= "Create New Requirement";
+    gf_id=     "DPGL100REA";
+    gf_remarks="ADD A NEW REQUIREMENT";
+    gf_onload= "";
+      CreateHideMenu(gf_page, gf_title1, gf_title2, gf_id, gf_onload);
+      //]]>
+    </script><!-- ========== INPUT CHECK SCRIPT ========== -->
+  <script type="text/javascript">
+      //<![CDATA[
+      function _chkInputValue() {
+        return true;
+      }
+      //]]>
+    </script><!-- ========== USER SCRIPT ========== -->
+  <script type="text/javascript">
+      //<![CDATA[
+      function finalTaskForUser() {}
+      //]]>
+    </script>
+  <title>Create New Requirement</title>
+ </head><!-- ========== CUSTOMIZE ========== -->
+ <body>
+  <div id="wrapper">
+   <!-- ===== 通用按钮栏：Back / Main / Logout =====-->
+   <div id="nav-bar" style="
+          position: sticky;
+          top: 0;
+          z-index: 999;
+          display: flex;
+          justify-content: flex-end;
+          gap: 6px;
+          padding: 4px 8px;
+          background: #f7f7f7;
+          border-bottom: 1px solid #ddd;
+        ">
+    <input type="text" class="BTNCMD" name="BTNCMD_BACK" value="Back" readonly onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_BACK';
+            SendBTN(this.name);
+          "> <input type="text" class="BTNCMD" name="BTNCMD_MAIN" value="Main" readonly onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_MAIN';
+            SendBTN(this.name);
+          "> <input type="text" class="BTNCMD" name="BTNCMD_LOGOUT" value="Logout" readonly onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_LOGOUT';
+            SendBTN(this.name);
+          ">
+   </div><!-- ===== /通用按钮栏 ===== --> <input type="hidden" id="grandsight_ex_disp_date_format" name="grandsight_ex_disp_date_format" value=""> <input type="hidden" id="grandsight_ex_time_zone" name="grandsight_ex_time_zone" value=""> <!-- Current project ID (hidden fixed field) --> <input type="hidden" name="NMLTXT_PROJECT_ID" value="" size="" maxlength="" style="" class="NMLTXT_NORMAL"> <!-- ===== 新增：需求编码隐藏域。新增时为空、编辑时为需求编码，
+           提交 Command 据此判断模式并作为 update 定位键（NMLTXT 为框架已定义前缀）===== --> <input type="hidden" name="NMLTXT_REQ_CODE" value="" size="" maxlength="" style="" class="NMLTXT_NORMAL">
+   <table style="width: 100%">
+    <tbody>
+     <tr>
+      <td id="root">
+       <h1 style="display: inline-block">
+        <script>
+                  document.write(gf_title2);
+                </script></h1>
+       <table style="
+                  width: 100%;
+                  border-collapse: collapse;
+                  margin-bottom: 10px;
+                ">
+        <tbody>
+         <tr>
+          <td style="text-align: left; font-size: 12px; color: #555"><span class="NMLLBL_NORMAL" id="NMLLBL_NOW_DATE" value="">YYYY/MM/DD HH:MI:SS</span></td>
+          <td style="text-align: right; white-space: nowrap"><input class="BTNCMD" name="BTNCMD_ENTRIES" onclick="
+                          document.main.COMMAND_NAME.value =
+                            'COMMAND_BTNCMD_ENTRIES';
+                          SendBTN(this.name);
+                        " readonly size="" type="text" value="SAVE" style="margin-left: 6px"></td>
+         </tr>
+        </tbody>
+       </table><!-- ==== Requirement Information ==== -->
+       <table style="width: 100%; border-collapse: collapse; font-size: 13px">
+        <tbody>
+         <!-- Project NAME -->
+         <tr>
+          <td style="width: 220px; padding: 6px; font-weight: bold">Project Name</td>
+          <td style="padding: 6px"><span class="NMLLBL_NORMAL" id="NMLLBL_DISPLAY_INFO_PROJECT_NAME" value="" style="font-weight: bold"></span></td>
+         </tr><!-- Requirement Code -->
+         <tr>
+          <td style="padding: 6px; font-weight: bold">Requirement Code <span style="color: red">*</span></td>
+          <td style="padding: 6px"><input type="text" name="NMLTXT_INPUT_INFO_REQUIREMENT_CODE" value="" size="30" maxlength="30" class="NMLTXT_NORMAL" onchange="classObjChange(this, 'NMLTXT_CHANGE')" onkeypress="
+                          onKeyPressChange(event.keyCode, this, 'NMLTXT_CHANGE')
+                        " onkeydown="
+                          onKeyDownChange(event.keyCode, this, 'NMLTXT_CHANGE')
+                        "></td>
+         </tr><!-- Requirement Name -->
+         <tr>
+          <td style="padding: 6px; font-weight: bold">Requirement Name <span style="color: red">*</span></td>
+          <td style="padding: 6px"><input type="text" name="NMLTXT_INPUT_INFO_REQUIREMENT_NAME" value="" size="50" maxlength="100" class="NMLTXT_NORMAL" onchange="classObjChange(this, 'NMLTXT_CHANGE')" onkeypress="
+                          onKeyPressChange(event.keyCode, this, 'NMLTXT_CHANGE')
+                        " onkeydown="
+                          onKeyDownChange(event.keyCode, this, 'NMLTXT_CHANGE')
+                        "></td>
+         </tr><!-- Priority -->
+         <tr>
+          <td style="padding: 6px; font-weight: bold">Priority <span style="color: red">*</span></td>
+          <td style="padding: 6px"><select name="NMLDLD_INFO_PRIORITY" class="NMLDLD_NORMAL" onchange="classObjChange(this, 'NMLDLD_CHANGE')"> <option value="HIGH">HIGH</option> <option value="MEDIUM" selected>MEDIUM</option> <option value="LOW">LOW</option> </select></td>
+         </tr><!-- Status -->
+         <tr>
+          <td style="padding: 6px; font-weight: bold">Status</td>
+          <td style="padding: 6px; color: #1ce709">PLANNED</td>
+         </tr><!-- Start Date -->
+         <tr>
+          <td style="padding: 6px; font-weight: bold">Start Date <span style="color: red">*</span></td>
+          <td style="padding: 6px"><input class="LINK_TEXT" name="LNKINP_PLAN_DATE" onclick="
+                          var url = './_calendar_yyyymmdd.htm';
+                          var sx = '400';
+                          var sy = '400';
+                          var sh = '350';
+                          var sw = '700';
+                          var sob = 'LNKINP_PLAN_DATE';
+                          var ads = '';
+                          if (this.name.indexOf('_R_') + 1) {
+                            ads = this.name.substring(this.name.indexOf('_R_'));
+                          }
+                          if (document.querySelector('*[name=' + sob + ']')) {
+                            url =
+                              url +
+                              '?PARAM=' +
+                              document.querySelector('*[name=' + sob + ']')
+                                .value;
+                          }
+                          window.open(
+                            url,
+                            sob + ads,
+                            'left=' +
+                              sx +
+                              ',top=' +
+                              sy +
+                              ',width=' +
+                              sw +
+                              ',height=' +
+                              sh,
+                          );
+                        " readonly size="11" type="text" value="PLAN START DATE"></td>
+         </tr><!-- Planned End Date -->
+         <tr>
+          <td style="padding: 6px; font-weight: bold">Planned End Date <span style="color: red">*</span></td>
+          <td style="padding: 6px"><input class="LINK_TEXT" name="LNKINP_PLAN_END_DATE" onclick="
+                          var url = './_calendar_yyyymmdd.htm';
+                          var sx = '400';
+                          var sy = '400';
+                          var sh = '350';
+                          var sw = '700';
+                          var sob = 'LNKINP_PLAN_END_DATE';
+                          var ads = '';
+                          if (this.name.indexOf('_R_') + 1) {
+                            ads = this.name.substring(this.name.indexOf('_R_'));
+                          }
+                          if (document.querySelector('*[name=' + sob + ']')) {
+                            url =
+                              url +
+                              '?PARAM=' +
+                              document.querySelector('*[name=' + sob + ']')
+                                .value;
+                          }
+                          window.open(
+                            url,
+                            sob + ads,
+                            'left=' +
+                              sx +
+                              ',top=' +
+                              sy +
+                              ',width=' +
+                              sw +
+                              ',height=' +
+                              sh,
+                          );
+                        " readonly size="11" type="text" value="PLAN END DATE"></td>
+         </tr><!-- Created By -->
+         <tr>
+          <td style="padding: 6px; font-weight: bold">Created By</td>
+          <td style="padding: 6px"><span class="NMLLBL_NORMAL" id="NMLLBL_CREATOR_NAME" value=""></span></td>
+         </tr><!-- Description -->
+         <tr>
+          <td style="
+                        padding: 6px;
+                        font-weight: bold;
+                        vertical-align: top;
+                      ">Description</td>
+          <td style="padding: 6px"><textarea name="NMLTXA_DESCRIPTION" rows="4" cols="50" maxlength="1000" class="NMLTXA_NORMAL" onchange="classObjChange(this, 'NMLTXA_CHANGE')" onkeypress="
+                          onKeyPressChange(event.keyCode, this, 'NMLTXA_CHANGE')
+                        " onkeydown="
+                          onKeyDownChange(event.keyCode, this, 'NMLTXA_CHANGE')
+                        "></textarea></td>
+         </tr>
+        </tbody>
+       </table></td>
+     </tr>
+     <tr>
+      <td>
+       <div id="errorLocation" style="font-size: small; color: Gray"></div></td>
+     </tr>
+    </tbody>
+   </table>
+  </div><!-- ========== FOOTER ========== -->
+  <script type="text/javascript">
+      //<![CDATA[
+      CreateFooter();
+      //]]>
+    </script>
+ </body>
+</html>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+                     "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg height="600"
+    onclick="if(typeof(gb_gf_ezg_svgComOnClick)==&apos;function&apos;)gb_gf_ezg_svgComOnClick(evt);"
+    onload="if(typeof(gb_gf_ezg_svgComOnLoad)==&apos;function&apos;)gb_gf_ezg_svgComOnLoad(evt);"
+    onmousedown="if(typeof(gb_gf_ezg_svgComOnMouseDown)==&apos;function&apos;)gb_gf_ezg_svgComOnMouseDown(evt);"
+    onmouseup="if(typeof(gb_gf_ezg_svgComOnMouseUp)==&apos;function&apos;)gb_gf_ezg_svgComOnMouseUp(evt);"
+    viewBox="0 0 800 600" width="800">
+    <g id="_GBEZG_ROOT_">
+        <rect height="100%" id="background"
+            style="fill:rgb(255,255,255);" width="100%" x="0" y="0"/>
+        <defs/>
+        <polyline id="1207615084595"
+            points="29,28 29,30 15,109 54,51 52,111 52,113 "
+            style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <polyline id="120761509571100"
+            points="25,400 25,402 14,477 45,422 43,479 43,481 "
+            style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <polyline id="120761509588001"
+            points="22,172 22,174 11,251 43,195 41,253 41,255 "
+            style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <polyline id="120761509614002"
+            points="547,29 547,31 535,106 570,51 568,108 568,110 "
+            style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <polyline id="120761509652403"
+            points="371,26 371,28 358,103 396,48 394,105 394,107 "
+            style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <text frame_height="24" frame_width="96" frame_x="0" frame_y="1"
+            id="120762346280400"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="0" xml:space="preserve" y="17">連続直線のテスト<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <text frame_height="21" frame_width="67" frame_x="350"
+            frame_y="124" id="120762348591530"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="350" xml:space="preserve" y="140">ブリンク<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <text frame_height="26" frame_width="28" frame_x="538"
+            frame_y="124" id="120762348591520"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="538" xml:space="preserve" y="140">線種<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <text frame_height="23" frame_width="85" frame_x="712"
+            frame_y="319" id="120762348591510"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="712" xml:space="preserve" y="335">回転固定値<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <text frame_height="26" frame_width="28" frame_x="714"
+            frame_y="440" id="120762348591500"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="714" xml:space="preserve" y="456">移動<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <polyline id="120771377017400"
+            points="179,172 179,174 168,251 200,195 198,253 198,255 "
+            style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <polyline id="120771377265901"
+            points="346,172 346,174 335,251 367,195 365,253 365,255 "
+            style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <polyline id="120771377614410"
+            points="498,173 498,175 487,252 519,196 517,254 517,256 "
+            style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <polyline id="120771377614400"
+            points="640,176 640,178 629,255 661,199 659,257 659,259 "
+            style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <polyline id="120771381773840"
+            points="19,280 19,282 8,359 40,303 38,361 38,363 "
+            style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <polyline id="120771381773830"
+            points="183,280 183,282 172,359 204,303 202,361 202,363 "
+            style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <polyline id="120771381773820"
+            points="351,279 351,281 340,358 372,302 370,360 370,362 "
+            style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <polyline id="120771381773810"
+            points="507,281 507,283 496,360 528,304 526,362 526,364 "
+            style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <polyline id="120771381773800"
+            points="637,282 637,284 626,361 658,305 656,363 656,365 "
+            style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <polyline id="120771393249800"
+            points="647,400 647,402 636,477 667,422 665,479 665,481 "
+            style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <polyline id="120771393274801"
+            points="562,400 562,402 551,477 582,422 580,479 580,481 "
+            style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <polyline id="120771393299902"
+            points="472,400 472,402 461,477 492,422 490,479 490,481 "
+            style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <polyline id="120771393328003"
+            points="380,400 380,402 369,477 400,422 398,479 398,481 "
+            style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <polyline id="120771393356104"
+            points="300,400 300,402 289,477 320,422 318,479 318,481 "
+            style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <polyline id="120771393382705"
+            points="202,400 202,402 191,477 222,422 220,479 220,481 "
+            style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <polyline id="120771393412406"
+            points="115,400 115,402 104,477 135,422 133,479 133,481 "
+            style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <polyline id="120771401238780"
+            points="21,501 21,503 10,578 41,523 39,580 39,582 "
+            style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <text frame_height="21" frame_width="82" frame_x="710"
+            frame_y="538" id="120771401238770"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="710" xml:space="preserve" y="554">移動固定値<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <polyline id="120771401238760"
+            points="643,503 643,505 632,580 663,525 661,582 661,584 "
+            style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <polyline id="120771401238750"
+            points="565,508 565,510 554,585 585,530 583,587 583,589 "
+            style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <polyline id="120771401238740"
+            points="475,508 475,510 464,585 495,530 493,587 493,589 "
+            style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <polyline id="120771401238730"
+            points="384,507 384,509 373,584 404,529 402,586 402,588 "
+            style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <polyline id="120771401238720"
+            points="302,504 302,506 291,581 322,526 320,583 320,585 "
+            style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <polyline id="120771401238710"
+            points="201,501 201,503 190,578 221,523 219,580 219,582 "
+            style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <polyline id="120771401238700"
+            points="115,501 115,503 104,578 135,523 133,580 133,582 "
+            style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <polyline id="120772511287700"
+            points="176,26 176,28 162,107 201,49 199,109 199,111 "
+            style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <text frame_height="25" frame_width="65" frame_x="7"
+            frame_y="123" id="120772511696510"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="7" xml:space="preserve" y="139">色固定値<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <text frame_height="22" frame_width="178" frame_x="113"
+            frame_y="123" id="120772511696500"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="113" xml:space="preserve" y="139">色取得データとして使用<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <text frame_height="26" frame_width="28" frame_x="712"
+            frame_y="212" id="120849746395300"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="712" xml:space="preserve" y="228">回転<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+    </g>
+</svg>

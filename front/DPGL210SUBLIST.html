@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Expires" content="0">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Cache-Control" content="no-cache, private">
+  <link type="text/css" rel="stylesheet" href="./css/common.css">
+  <style type="text/css">
+      /* <![CDATA[ */
+      .header-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 10px;
+      }
+      .task-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 12px;
+        table-layout: fixed;
+      }
+      .task-table th,
+      .task-table td {
+        border: 1px solid #999;
+        padding: 6px;
+        vertical-align: middle;
+        word-break: break-all;
+      }
+      .task-table th {
+        background-color: #f0f0f0;
+        font-weight: bold;
+        text-align: center;
+      }
+      .col-code {
+        width: 12%;
+      }
+      .col-name {
+        width: 16%;
+      }
+      .col-type {
+        width: 10%;
+      }
+      .col-project {
+        width: 13%;
+      }
+      .col-req {
+        width: 13%;
+      }
+      .col-assignee {
+        width: 11%;
+      }
+      .col-time {
+        width: 14%;
+        text-align: center;
+      }
+      .col-review {
+        width: 11%;
+        text-align: center;
+      }
+      .LINK_TEXT {
+        cursor: pointer;
+        color: #0000ee;
+        background: transparent;
+        border: 0;
+        text-decoration: underline;
+        font-size: 12px;
+      }
+      .section-title {
+        margin: 12px 0 8px;
+        font-weight: bold;
+        font-size: 14px;
+      }
+      /* 审批状态色块 */
+      .rv-passed {
+        background: #27ae60;
+        color: #fff;
+      }
+      .rv-failed {
+        background: #e74c3c;
+        color: #fff;
+      }
+      .rv-pending {
+        background: #95a5a6;
+        color: #fff;
+      }
+      .rv-passed,
+      .rv-failed,
+      .rv-pending {
+        display: inline-block;
+        border-radius: 4px;
+        padding: 2px 8px;
+        font-size: 11px;
+      }
+      /* ]]> */
+    </style>
+  <script type="text/javascript" src="./js/denyDirectAccess.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/jquery.min.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/buttonDef.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/navigation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/objectManipulation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/dataCheck.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/dataUtil.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/timeManipulation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/svg.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/common.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/gb_gf_ezg.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/finalTaskForUserCommon.js" charset="UTF-8"></script>
+  <script type="text/javascript">
+      writeTitle();
+    </script>
+  <script type="text/javascript">
+      //<![CDATA[
+    gf_page=   "";
+    gf_title1= "DevPlanGuard";
+    gf_title2= "SUBMITTED TASKS";
+    gf_id=     "DPGL210SUBLIST";
+    gf_remarks="LEAD'S SUBMITTED TASK LIST";
+    gf_onload= "";
+      CreateHideMenu(gf_page, gf_title1, gf_title2, gf_id, gf_onload);
+      //]]>
+    </script>
+  <script type="text/javascript">
+      //<![CDATA[
+      function _chkInputValue() {
+        return true;
+      }
+      //]]>
+    </script>
+  <script type="text/javascript">
+      //<![CDATA[
+      function finalTaskForUser() {
+        // 审批状态色块：空值视为待审批
+        var rv = document.querySelectorAll(".rv-flag");
+        for (var i = 0; i < rv.length; i++) {
+          var v = (rv[i].textContent || "").trim().toUpperCase();
+          rv[i].classList.remove("rv-passed", "rv-failed", "rv-pending");
+          if (v === "PASSED") {
+            rv[i].classList.add("rv-passed");
+          } else if (v === "FAILED") {
+            rv[i].classList.add("rv-failed");
+          } else {
+            rv[i].classList.add("rv-pending");
+            if (v === "") {
+              rv[i].textContent = "PENDING";
+            }
+          }
+        }
+      }
+      //]]>
+    </script>
+  <title>dummytitle</title>
+ </head>
+ <body>
+  <div id="wrapper">
+   <!-- ===== 通用按钮栏 ===== -->
+   <div id="nav-bar" style="
+          position: sticky;
+          top: 0;
+          z-index: 999;
+          display: flex;
+          justify-content: flex-end;
+          gap: 6px;
+          padding: 4px 8px;
+          background: #f7f7f7;
+          border-bottom: 1px solid #ddd;
+        ">
+    <input type="text" class="BTNCMD" name="BTNCMD_BACK" value="Back" readonly onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_BACK';
+            SendBTN(this.name);
+          ">
+   </div><!-- ===== /通用按钮栏 ===== --> <input type="hidden" id="grandsight_ex_disp_date_format" name="grandsight_ex_disp_date_format" value=""> <input type="hidden" id="grandsight_ex_time_zone" name="grandsight_ex_time_zone" value="">
+   <table style="width: 100%">
+    <tbody>
+     <tr>
+      <td id="root">
+       <h1>
+        <script>
+                  document.write(gf_title2);
+                </script></h1>
+       <table class="header-table">
+        <tbody>
+         <tr>
+          <td style="text-align: left; vertical-align: top"><span class="NMLLBL_NORMAL" id="NMLLBL_NOW_DATE" value="">YYYY/MM/DD HH:MI:SS</span></td>
+         </tr>
+        </tbody>
+       </table>
+       <div class="section-title">
+        Submitted Task List
+       </div>
+       <table id="TABLE_SUBMITTED" class="task-table">
+        <colgroup>
+         <col class="col-code">
+         <col class="col-name">
+         <col class="col-type">
+         <col class="col-project">
+         <col class="col-req">
+         <col class="col-assignee">
+         <col class="col-time">
+         <col class="col-review">
+        </colgroup>
+        <thead>
+         <tr>
+          <th>Task Code</th>
+          <th>Task Name</th>
+          <th>Task Type</th>
+          <th>Project</th>
+          <th>Requirement</th>
+          <th>Assignee</th>
+          <th>Submitted At</th>
+          <th>Review</th>
+         </tr>
+        </thead>
+        <tbody>
+         <!-- ===== TEMPLATE ROW（Creator 按此复制，名字保持不变） ===== -->
+         <tr>
+          <td><!-- 隐藏 task_id + Task Code 链接（点击进详情） --> <input type="hidden" id="NMLTXT_TASK_ID" name="NMLTXT_TASK_ID" value=""> <input class="LINK_TEXT" name="LNKMOV_TASK_CODE" onclick="
+                          document.main.COMMAND_NAME.value =
+                            'COMMAND_LNKMOV_TASK_CODE';
+                          // 直接按 DOM 位置取当前行隐藏域，不依赖 getRowTaskId
+                          var hidden =
+                            this.parentNode.querySelector('input[type=hidden]');
+                          var tid = hidden ? hidden.value : '';
+                          var linkScreenId = 'DPGL120TASKDETAIL';
+                          console.log('OPEN TASK DETAIL task_id=[' + tid + ']');
+                          linkOpen(linkScreenId, tid, this.name);
+                        " readonly size="20" type="text" value=""></td>
+          <td><span class="NMLLBL_NORMAL" id="NMLLBL_TASK_NAME" value=""></span></td>
+          <td><span class="NMLLBL_NORMAL" id="NMLLBL_TASK_TYPE" value=""></span></td>
+          <td><span class="NMLLBL_NORMAL" id="NMLLBL_PROJECT_NAME" value=""></span></td>
+          <td><span class="NMLLBL_NORMAL" id="NMLLBL_REQ_NAME" value=""></span></td>
+          <td><span class="NMLLBL_NORMAL" id="NMLLBL_ASSIGNEE_NAME" value=""></span></td>
+          <td style="text-align: center"><span class="NMLLBL_NORMAL" id="NMLLBL_SUBMITTED_AT" value=""></span></td>
+          <td style="text-align: center"><span class="NMLLBL_NORMAL rv-flag" id="NMLLBL_REVIEW_STATUS" value=""></span></td>
+         </tr>
+        </tbody>
+       </table></td>
+     </tr>
+     <tr>
+      <td>
+       <div id="errorLocation" style="font-size: small; color: Gray"></div></td>
+     </tr>
+    </tbody>
+   </table>
+  </div>
+  <script type="text/javascript">
+      //<![CDATA[
+      CreateFooter();
+      //]]>
+    </script>
+ </body>
+</html>

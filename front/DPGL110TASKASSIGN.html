@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Expires" content="0">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Cache-Control" content="no-cache, private"><!-- ========== HEADER ======================================== --> <!-- ========== CSS =========================================== -->
+  <link type="text/css" rel="stylesheet" href="./css/common.css"><!-- ========================================================== --> <!-- ========== USER CSS ====================================== -->
+  <style type="text/css">
+      /* <![CDATA[ */
+      .header-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 10px;
+      }
+      .form-table {
+        width: 100%;
+        max-width: 820px;
+        border-collapse: collapse;
+        font-size: 13px;
+      }
+      .form-table th,
+      .form-table td {
+        border: 1px solid #bbb;
+        padding: 8px;
+        vertical-align: middle;
+      }
+      .form-table th {
+        width: 200px;
+        background-color: #f5f5f5;
+        text-align: left;
+        font-weight: bold;
+      }
+      .section-title {
+        margin: 18px 0 6px;
+        font-size: 14px;
+        font-weight: bold;
+        border-left: 4px solid #4a90e2;
+        padding-left: 8px;
+      }
+      .member-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 13px;
+      }
+      .member-table th,
+      .member-table td {
+        border: 1px solid #bbb;
+        padding: 6px;
+        text-align: left;
+        vertical-align: middle;
+      }
+      .member-table th {
+        background-color: #f5f5f5;
+        font-weight: bold;
+      }
+      .member-table td.radio-cell {
+        text-align: center;
+        width: 50px;
+      }
+      .btn-area {
+        margin-top: 14px;
+        text-align: center;
+      }
+      .required-mark {
+        color: #e74c3c;
+        margin-left: 3px;
+      }
+      /* ]]> */
+    </style><!-- ========================================================== --> <!-- ========== SCRIPT ======================================== -->
+  <script type="text/javascript" src="./js/denyDirectAccess.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/jquery.min.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/buttonDef.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/navigation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/objectManipulation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/dataCheck.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/dataUtil.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/timeManipulation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/svg.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/common.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/gb_gf_ezg.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/finalTaskForUserCommon.js" charset="UTF-8"></script><!-- ========================================================== --> <!-- ========== MENU ========================================== -->
+  <script type="text/javascript">
+      writeTitle();
+    </script>
+  <script type="text/javascript">
+      //<![CDATA[
+    gf_page=   "";
+    gf_title1= "DevPlanGuard";
+    gf_title2= "DevPlanGuard Task Assignment Page";
+    gf_id=     "DPGL110TASKASSIGN";
+    gf_remarks="Assignee for automatically generated task";
+    gf_onload= "";
+      CreateHideMenu(gf_page, gf_title1, gf_title2, gf_id, gf_onload);
+      //]]>
+    </script><!-- ========================================================== --> <!-- ========== INPUT CHECK SCRIPT ============================ -->
+  <script type="text/javascript">
+      //<![CDATA[
+      function _chkInputValue() {
+        return true;
+      }
+      //]]>
+    </script><!-- ========================================================== --> <!-- ========== USER SCRIPT =================================== -->
+  <script type="text/javascript">
+      //<![CDATA[
+      function finalTaskForUser() {}
+      //]]>
+    </script><!-- ========================================================== -->
+  <title>dummytitle</title>
+ </head>
+ <body>
+  <div id="wrapper">
+   <!-- ===== 通用按钮栏：Back / Main / Logout-->
+   <div id="nav-bar" style="
+          position: sticky;
+          top: 0;
+          z-index: 999;
+          display: flex;
+          justify-content: flex-end;
+          gap: 6px;
+          padding: 4px 8px;
+          background: #f7f7f7;
+          border-bottom: 1px solid #ddd;
+        ">
+    <input type="text" class="BTNCMD" name="BTNCMD_BACK" value="Back" readonly onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_BACK';
+            SendBTN(this.name);
+          "> <input type="text" class="BTNCMD" name="BTNCMD_MAIN" value="Main" readonly onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_MAIN';
+            SendBTN(this.name);
+          "> <input type="text" class="BTNCMD" name="BTNCMD_LOGOUT" value="Logout" readonly onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_LOGOUT';
+            SendBTN(this.name);
+          ">
+   </div><!-- ===== /通用按钮栏 ===== --> <input type="hidden" id="grandsight_ex_disp_date_format" name="grandsight_ex_disp_date_format" value=""> <input type="hidden" id="grandsight_ex_time_zone" name="grandsight_ex_time_zone" value="">
+   <table style="width: 100%">
+    <tbody>
+     <tr>
+      <td id="root">
+       <h1>
+        <script>
+                  document.write(gf_title2);
+                </script></h1><!-- Header: Time -->
+       <table class="header-table">
+        <tbody>
+         <tr>
+          <td style="text-align: left; vertical-align: middle"><span class="NMLLBL_NORMAL" id="NMLLBL_NOW_DATE" value="">YYYY/MM/DD HH:MI:SS</span></td>
+         </tr>
+        </tbody>
+       </table><!-- 隐藏 task_id（Creator 回填；提交时 COMMAND 读） --> <input type="hidden" id="NMLTXT_TASK_ID" name="NMLTXT_TASK_ID" value=""> <input type="hidden" id="NMLTXT_MY_ROLE" name="NMLTXT_MY_ROLE" value=""> <input type="hidden" id="NMLTXT_PROJECT_ID" name="NMLTXT_PROJECT_ID" value=""> <!-- TASK TO ASSIGN (READ ONLY) -->
+       <table class="form-table">
+        <tbody>
+         <tr>
+          <th>Task</th>
+          <td><span class="NMLLBL_NORMAL" id="NMLLBL_TASK_CODE" value=""></span> <span class="NMLLBL_NORMAL" id="NMLLBL_TASK_NAME" value=""></span></td>
+         </tr>
+         <tr>
+          <th>Task Type</th>
+          <td><span class="NMLLBL_NORMAL" id="NMLLBL_TASK_TYPE" value=""></span></td>
+         </tr>
+        </tbody>
+       </table><!-- SET TASK DUE DATE（选择受让人之前指定纳期） -->
+       <table class="form-table">
+        <tbody>
+         <tr>
+          <th>Task Due Date<span class="required-mark">*</span></th>
+          <td><!-- 点击弹日历，选中日期写回本框（框架标准入力候補リンク） --> <input class="LINK_TEXT" name="LNKINP_PLAN_END_DATE" onclick="
+                          var url = './_calendar_yyyymmdd.htm';
+                          var sx = '400';
+                          var sy = '400';
+                          var sh = '350';
+                          var sw = '700';
+                          var sob = 'LNKINP_PLAN_END_DATE';
+                          var ads = '';
+                          if (this.name.indexOf('_R_') + 1) {
+                            ads = this.name.substring(this.name.indexOf('_R_'));
+                          }
+                          if (document.querySelector('*[name=' + sob + ']')) {
+                            url =
+                              url +
+                              '?PARAM=' +
+                              document.querySelector('*[name=' + sob + ']')
+                                .value;
+                          }
+                          window.open(
+                            url,
+                            sob + ads,
+                            'left=' +
+                              sx +
+                              ',top=' +
+                              sy +
+                              ',width=' +
+                              sw +
+                              ',height=' +
+                              sh,
+                          );
+                        " readonly size="11" type="text" value="DUE DATE"></td>
+         </tr>
+        </tbody>
+       </table><!-- MEMBER LIST -->
+       <div class="section-title">
+        Select Assignee<span class="required-mark">*</span>
+       </div>
+       <table class="member-table" id="TABLE_MEMBER">
+        <thead>
+         <tr>
+          <th style="width: 50px; text-align: center">Select</th>
+          <th>User Name</th>
+          <th style="width: 180px">Project Role</th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <!-- ===== TEMPLATE ROW ===== -->
+          <td class="radio-cell"><input type="checkbox" name="NMLCHK_SELECT_ASSIGNEE" value=""></td>
+          <td><span class="NMLLBL_NORMAL" id="NMLLBL_MEMBER_USERNAME" name="NMLLBL_MEMBER_USERNAME" value=""></span></td>
+          <td><span class="NMLLBL_NORMAL" id="NMLLBL_PROJECT_ROLE" name="NMLLBL_PROJECT_ROLE" value=""></span></td>
+         </tr>
+        </tbody>
+       </table><!-- BUTTONS -->
+       <div class="btn-area">
+        <input class="BTNCMD" name="BTNCMD_ADD" onclick="
+                    document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_ADD';
+                    SendBTN(this.name);
+                  " readonly size="" type="text" value="SUBMIT"> <input class="BTNCMD" name="BTNCMD_CANCEL" onclick="
+                    document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_CANCEL';
+                    SendBTN(this.name);
+                  " readonly size="" type="text" value="CANCEL">
+       </div></td>
+     </tr>
+     <tr>
+      <td>
+       <div id="errorLocation" style="font-size: small; color: Gray"></div></td>
+     </tr>
+    </tbody>
+   </table>
+  </div><!-- ========== FOOTER ======================================== -->
+  <script type="text/javascript">
+      //<![CDATA[
+      CreateFooter();
+      //]]>
+    </script>
+ </body>
+</html>

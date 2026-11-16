@@ -1,0 +1,2080 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gb_job>
+    <gb_group display="visible" id="1207615432147">
+        <transform>
+            <color enable="true" threshold="enable">
+                <threshold fixed1="1" fixed2="2" fixed3="3" fixed4="4"
+                    fixed5="5" high="" low=""/>
+                <value fixed1="rgb(0,204,204)" fixed2="rgb(51,51,255)"
+                    fixed3="rgb(204,0,204)" fixed4="rgb(255,51,51)"
+                    fixed5="rgb(0,255,51)" high="" low="" normal=""/>
+                <map datasource_id="GROUPLEV1" param1="fixed value" param2=""
+                    param3="" param4="" param5=""/>
+            </color>
+            <blink blink_color="" enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </blink>
+            <stroke enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </stroke>
+            <level direction="up" enable="false" lower="" upper="">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </level>
+            <text enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </text>
+            <rotate enable="false" pivot="center,42,51" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </rotate>
+            <translate direction="up" distance="" enable="false"
+                offset="" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </translate>
+        </transform>
+    </gb_group>
+    <gb_group display="visible" id="120761543453300">
+        <transform>
+            <color enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </color>
+            <blink blink_color="rgb(255,0,0)" enable="true">
+                <threshold fixed1="1" fixed2="2" fixed3="3" fixed4="4"
+                    fixed5="5" high="" low=""/>
+                <value fixed1="2" fixed2="2" fixed3="2" fixed4="2"
+                    fixed5="2" high="" low="" normal=""/>
+                <map datasource_id="GROUPLEV1" param1="" param2=""
+                    param3="" param4="" param5=""/>
+            </blink>
+            <stroke enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </stroke>
+            <level direction="up" enable="false" lower="" upper="">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </level>
+            <text enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </text>
+            <rotate enable="false" pivot="center,300,51" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </rotate>
+            <translate direction="up" distance="" enable="false"
+                offset="" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </translate>
+        </transform>
+    </gb_group>
+    <gb_group display="visible" id="120761543623801">
+        <transform>
+            <color enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </color>
+            <blink blink_color="" enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </blink>
+            <stroke enable="true">
+                <threshold fixed1="1" fixed2="2" fixed3="3" fixed4="4"
+                    fixed5="5" high="" low=""/>
+                <value fixed1="inherit" fixed2="10.0, 10.0"
+                    fixed3="10.0, 2.0, 2.0, 2.0"
+                    fixed4="10.0, 2.0, 2.0, 2.0, 2.0, 2.0"
+                    fixed5="10.0, 10.0" high="" low="" normal=""/>
+                <map datasource_id="GROUPLEV1" param1="" param2=""
+                    param3="" param4="" param5=""/>
+            </stroke>
+            <level direction="up" enable="false" lower="" upper="">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </level>
+            <text enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </text>
+            <rotate enable="false" pivot="center,396,55" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </rotate>
+            <translate direction="up" distance="" enable="false"
+                offset="" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </translate>
+        </transform>
+    </gb_group>
+    <gb_group display="visible" id="120761543828302">
+        <transform>
+            <color enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </color>
+            <blink blink_color="" enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </blink>
+            <stroke enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </stroke>
+            <level direction="left" enable="true" lower="0" upper="100">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="GROUPLEV1" param1="" param2=""
+                    param3="" param4="" param5=""/>
+            </level>
+            <text enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </text>
+            <rotate enable="false" pivot="center,490,57" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </rotate>
+            <translate direction="up" distance="" enable="false"
+                offset="" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </translate>
+        </transform>
+    </gb_group>
+    <gb_group display="visible" id="120761544184704">
+        <transform>
+            <color enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </color>
+            <blink blink_color="" enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </blink>
+            <stroke enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </stroke>
+            <level direction="up" enable="false" lower="" upper="">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </level>
+            <text enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </text>
+            <rotate enable="true" pivot="center,42,154" threshold="disable">
+                <threshold fixed1="1" fixed2="2" fixed3="3" fixed4="4"
+                    fixed5="5" high="" low=""/>
+                <value fixed1="10" fixed2="10" fixed3="10" fixed4="10"
+                    fixed5="10" high="" low="" normal=""/>
+                <map datasource_id="GROUPLEV1" param1="" param2=""
+                    param3="" param4="" param5=""/>
+            </rotate>
+            <translate direction="up" distance="" enable="false"
+                offset="" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </translate>
+        </transform>
+    </gb_group>
+    <gb_group display="visible" id="120761544384505">
+        <transform>
+            <color enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </color>
+            <blink blink_color="" enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </blink>
+            <stroke enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </stroke>
+            <level direction="up" enable="false" lower="" upper="">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </level>
+            <text enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </text>
+            <rotate enable="false" pivot="center,36,360" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </rotate>
+            <translate direction="up" distance="1000" enable="true"
+                offset="" threshold="disable">
+                <threshold fixed1="1" fixed2="2" fixed3="3" fixed4="4"
+                    fixed5="5" high="" low=""/>
+                <value fixed1="1000" fixed2="1000" fixed3="1000"
+                    fixed4="1000" fixed5="1000" high="" low="" normal=""/>
+                <map datasource_id="GROUPLEV1" param1="" param2=""
+                    param3="" param4="" param5=""/>
+            </translate>
+        </transform>
+    </gb_group>
+    <gb_group display="visible" id="120762774937200">
+        <transform>
+            <color enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </color>
+            <blink blink_color="" enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </blink>
+            <stroke enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </stroke>
+            <level direction="up" enable="false" lower="" upper="">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </level>
+            <text enable="true" threshold="enable">
+                <threshold fixed1="1" fixed2="2" fixed3="3" fixed4="4"
+                    fixed5="5" high="" low=""/>
+                <value fixed1="I" fixed2=" am " fixed3=" office worker" fixed4=""
+                    fixed5="" high="" low="" normal=""/>
+                <map datasource_id="GROUPLEV1" param1="" param2=""
+                    param3="" param4="" param5=""/>
+            </text>
+            <rotate enable="false" pivot="center,597,57" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </rotate>
+            <translate direction="up" distance="" enable="false"
+                offset="" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </translate>
+        </transform>
+    </gb_group>
+    <gb_group display="visible" id="120770883755700">
+        <transform>
+            <color enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </color>
+            <blink blink_color="" enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </blink>
+            <stroke enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </stroke>
+            <level direction="up" enable="false" lower="" upper="">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </level>
+            <text enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </text>
+            <rotate enable="true" pivot="upper_left,151,139" threshold="disable">
+                <threshold fixed1="1" fixed2="2" fixed3="3" fixed4="4"
+                    fixed5="5" high="" low=""/>
+                <value fixed1="10" fixed2="10" fixed3="10" fixed4="10"
+                    fixed5="10" high="" low="" normal=""/>
+                <map datasource_id="GROUPLEV1" param1="" param2=""
+                    param3="" param4="" param5=""/>
+            </rotate>
+            <translate direction="up" distance="" enable="false"
+                offset="" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </translate>
+        </transform>
+    </gb_group>
+    <gb_group display="visible" id="120770884077610">
+        <transform>
+            <color enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </color>
+            <blink blink_color="" enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </blink>
+            <stroke enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </stroke>
+            <level direction="up" enable="false" lower="" upper="">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </level>
+            <text enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </text>
+            <rotate enable="true" pivot="upper_right,373,139" threshold="disable">
+                <threshold fixed1="1" fixed2="2" fixed3="3" fixed4="4"
+                    fixed5="5" high="" low=""/>
+                <value fixed1="10" fixed2="10" fixed3="10" fixed4="10"
+                    fixed5="10" high="" low="" normal=""/>
+                <map datasource_id="GROUPLEV1" param1="" param2=""
+                    param3="" param4="" param5=""/>
+            </rotate>
+            <translate direction="up" distance="" enable="false"
+                offset="" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </translate>
+        </transform>
+    </gb_group>
+    <gb_group display="visible" id="120770884077600">
+        <transform>
+            <color enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </color>
+            <blink blink_color="" enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </blink>
+            <stroke enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </stroke>
+            <level direction="up" enable="false" lower="" upper="">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </level>
+            <text enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </text>
+            <rotate enable="true" pivot="lower_left,439,181" threshold="disable">
+                <threshold fixed1="1" fixed2="2" fixed3="3" fixed4="4"
+                    fixed5="5" high="" low=""/>
+                <value fixed1="10" fixed2="10" fixed3="10" fixed4="10"
+                    fixed5="10" high="" low="" normal=""/>
+                <map datasource_id="GROUPLEV1" param1="" param2=""
+                    param3="" param4="" param5=""/>
+            </rotate>
+            <translate direction="up" distance="" enable="false"
+                offset="" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </translate>
+        </transform>
+    </gb_group>
+    <gb_group display="visible" id="120770884541600">
+        <transform>
+            <color enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </color>
+            <blink blink_color="" enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </blink>
+            <stroke enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </stroke>
+            <level direction="up" enable="false" lower="" upper="">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </level>
+            <text enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </text>
+            <rotate enable="true" pivot="lower_right,645,185" threshold="disable">
+                <threshold fixed1="1" fixed2="2" fixed3="3" fixed4="4"
+                    fixed5="5" high="" low=""/>
+                <value fixed1="10" fixed2="10" fixed3="10" fixed4="10"
+                    fixed5="10" high="" low="" normal=""/>
+                <map datasource_id="GROUPLEV1" param1="" param2=""
+                    param3="" param4="" param5=""/>
+            </rotate>
+            <translate direction="up" distance="" enable="false"
+                offset="" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </translate>
+        </transform>
+    </gb_group>
+    <gb_group display="visible" id="120770891969150">
+        <transform>
+            <color enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </color>
+            <blink blink_color="" enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </blink>
+            <stroke enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </stroke>
+            <level direction="up" enable="false" lower="" upper="">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </level>
+            <text enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </text>
+            <rotate enable="true" pivot="center,40,255" threshold="enable">
+                <threshold fixed1="1" fixed2="2" fixed3="3" fixed4="4"
+                    fixed5="5" high="" low=""/>
+                <value fixed1="10" fixed2="10" fixed3="10" fixed4="10"
+                    fixed5="10" high="" low="" normal=""/>
+                <map datasource_id="GROUPLEV1" param1="fixed value" param2=""
+                    param3="" param4="" param5=""/>
+            </rotate>
+            <translate direction="up" distance="" enable="false"
+                offset="" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </translate>
+        </transform>
+    </gb_group>
+    <gb_group display="visible" id="120770891969130">
+        <transform>
+            <color enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </color>
+            <blink blink_color="" enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </blink>
+            <stroke enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </stroke>
+            <level direction="up" enable="false" lower="" upper="">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </level>
+            <text enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </text>
+            <rotate enable="true" pivot="upper_left,151,239" threshold="enable">
+                <threshold fixed1="1" fixed2="2" fixed3="3" fixed4="4"
+                    fixed5="5" high="" low=""/>
+                <value fixed1="10" fixed2="10" fixed3="10" fixed4="10"
+                    fixed5="10" high="" low="" normal=""/>
+                <map datasource_id="GROUPLEV1" param1="fixed value" param2=""
+                    param3="" param4="" param5=""/>
+            </rotate>
+            <translate direction="up" distance="" enable="false"
+                offset="" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </translate>
+        </transform>
+    </gb_group>
+    <gb_group display="visible" id="120770891970620">
+        <transform>
+            <color enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </color>
+            <blink blink_color="" enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </blink>
+            <stroke enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </stroke>
+            <level direction="up" enable="false" lower="" upper="">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </level>
+            <text enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </text>
+            <rotate enable="true" pivot="upper_right,362,240" threshold="enable">
+                <threshold fixed1="1" fixed2="2" fixed3="3" fixed4="4"
+                    fixed5="5" high="" low=""/>
+                <value fixed1="10" fixed2="10" fixed3="10" fixed4="10"
+                    fixed5="10" high="" low="" normal=""/>
+                <map datasource_id="GROUPLEV1" param1="fixed value" param2=""
+                    param3="" param4="" param5=""/>
+            </rotate>
+            <translate direction="up" distance="" enable="false"
+                offset="" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </translate>
+        </transform>
+    </gb_group>
+    <gb_group display="visible" id="120770891970610">
+        <transform>
+            <color enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </color>
+            <blink blink_color="" enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </blink>
+            <stroke enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </stroke>
+            <level direction="up" enable="false" lower="" upper="">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </level>
+            <text enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </text>
+            <rotate enable="true" pivot="lower_left,439,283" threshold="enable">
+                <threshold fixed1="1" fixed2="2" fixed3="3" fixed4="4"
+                    fixed5="5" high="" low=""/>
+                <value fixed1="10" fixed2="10" fixed3="10" fixed4="10"
+                    fixed5="10" high="" low="" normal=""/>
+                <map datasource_id="GROUPLEV1" param1="fixed value" param2=""
+                    param3="" param4="" param5=""/>
+            </rotate>
+            <translate direction="up" distance="" enable="false"
+                offset="" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </translate>
+        </transform>
+    </gb_group>
+    <gb_group display="visible" id="120770891970600">
+        <transform>
+            <color enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </color>
+            <blink blink_color="" enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </blink>
+            <stroke enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </stroke>
+            <level direction="up" enable="false" lower="" upper="">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </level>
+            <text enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </text>
+            <rotate enable="true" pivot="lower_right,657,286" threshold="enable">
+                <threshold fixed1="1" fixed2="2" fixed3="3" fixed4="4"
+                    fixed5="5" high="" low=""/>
+                <value fixed1="10" fixed2="10" fixed3="10" fixed4="10"
+                    fixed5="10" high="" low="" normal=""/>
+                <map datasource_id="GROUPLEV1" param1="fixed value" param2=""
+                    param3="" param4="" param5=""/>
+            </rotate>
+            <translate direction="up" distance="" enable="false"
+                offset="" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </translate>
+        </transform>
+    </gb_group>
+    <gb_group display="visible" id="120770906086500">
+        <transform>
+            <color enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </color>
+            <blink blink_color="" enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </blink>
+            <stroke enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </stroke>
+            <level direction="up" enable="false" lower="" upper="">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </level>
+            <text enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </text>
+            <rotate enable="false" pivot="center,191,362" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </rotate>
+            <translate direction="down" distance="1000" enable="true"
+                offset="" threshold="disable">
+                <threshold fixed1="1" fixed2="2" fixed3="3" fixed4="4"
+                    fixed5="5" high="" low=""/>
+                <value fixed1="1000" fixed2="1000" fixed3="1000"
+                    fixed4="1000" fixed5="1000" high="" low="" normal=""/>
+                <map datasource_id="GROUPLEV1" param1="" param2=""
+                    param3="" param4="" param5=""/>
+            </translate>
+        </transform>
+    </gb_group>
+    <gb_group display="visible" id="120770906416201">
+        <transform>
+            <color enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </color>
+            <blink blink_color="" enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </blink>
+            <stroke enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </stroke>
+            <level direction="up" enable="false" lower="" upper="">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </level>
+            <text enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </text>
+            <rotate enable="false" pivot="center,341,362" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </rotate>
+            <translate direction="left" distance="1000" enable="true"
+                offset="" threshold="disable">
+                <threshold fixed1="1" fixed2="2" fixed3="3" fixed4="4"
+                    fixed5="5" high="" low=""/>
+                <value fixed1="1000" fixed2="1000" fixed3="1000"
+                    fixed4="1000" fixed5="1000" high="" low="" normal=""/>
+                <map datasource_id="GROUPLEV1" param1="" param2=""
+                    param3="" param4="" param5=""/>
+            </translate>
+        </transform>
+    </gb_group>
+    <gb_group display="visible" id="120770906683402">
+        <transform>
+            <color enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </color>
+            <blink blink_color="" enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </blink>
+            <stroke enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </stroke>
+            <level direction="up" enable="false" lower="" upper="">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </level>
+            <text enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </text>
+            <rotate enable="false" pivot="center,498,363" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </rotate>
+            <translate direction="right" distance="1000" enable="true"
+                offset="" threshold="disable">
+                <threshold fixed1="1" fixed2="2" fixed3="3" fixed4="4"
+                    fixed5="5" high="" low=""/>
+                <value fixed1="1000" fixed2="1000" fixed3="1000"
+                    fixed4="1000" fixed5="1000" high="" low="" normal=""/>
+                <map datasource_id="GROUPLEV1" param1="" param2=""
+                    param3="" param4="" param5=""/>
+            </translate>
+        </transform>
+    </gb_group>
+    <gb_group display="visible" id="120770907059903">
+        <transform>
+            <color enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </color>
+            <blink blink_color="" enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </blink>
+            <stroke enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </stroke>
+            <level direction="up" enable="false" lower="" upper="">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </level>
+            <text enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </text>
+            <rotate enable="false" pivot="center,35,419" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </rotate>
+            <translate direction="upper_left" distance="1000"
+                enable="true" offset="" threshold="disable">
+                <threshold fixed1="1" fixed2="2" fixed3="3" fixed4="4"
+                    fixed5="5" high="" low=""/>
+                <value fixed1="1000" fixed2="1000" fixed3="1000"
+                    fixed4="1000" fixed5="1000" high="" low="" normal=""/>
+                <map datasource_id="GROUPLEV1" param1="" param2=""
+                    param3="" param4="" param5=""/>
+            </translate>
+        </transform>
+    </gb_group>
+    <gb_group display="visible" id="120770907320804">
+        <transform>
+            <color enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </color>
+            <blink blink_color="" enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </blink>
+            <stroke enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </stroke>
+            <level direction="up" enable="false" lower="" upper="">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </level>
+            <text enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </text>
+            <rotate enable="false" pivot="center,197,419" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </rotate>
+            <translate direction="upper_right" distance="1000"
+                enable="true" offset="" threshold="disable">
+                <threshold fixed1="1" fixed2="2" fixed3="3" fixed4="4"
+                    fixed5="5" high="" low=""/>
+                <value fixed1="1000" fixed2="1000" fixed3="1000"
+                    fixed4="1000" fixed5="1000" high="" low="" normal=""/>
+                <map datasource_id="GROUPLEV1" param1="" param2=""
+                    param3="" param4="" param5=""/>
+            </translate>
+        </transform>
+    </gb_group>
+    <gb_group display="visible" id="120770907572305">
+        <transform>
+            <color enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </color>
+            <blink blink_color="" enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </blink>
+            <stroke enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </stroke>
+            <level direction="up" enable="false" lower="" upper="">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </level>
+            <text enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </text>
+            <rotate enable="false" pivot="center,343,422" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </rotate>
+            <translate direction="lower_left" distance="1000"
+                enable="true" offset="" threshold="disable">
+                <threshold fixed1="1" fixed2="2" fixed3="3" fixed4="4"
+                    fixed5="5" high="" low=""/>
+                <value fixed1="1000" fixed2="1000" fixed3="1000"
+                    fixed4="1000" fixed5="1000" high="" low="" normal=""/>
+                <map datasource_id="GROUPLEV1" param1="" param2=""
+                    param3="" param4="" param5=""/>
+            </translate>
+        </transform>
+    </gb_group>
+    <gb_group display="visible" id="120770907744206">
+        <transform>
+            <color enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </color>
+            <blink blink_color="" enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </blink>
+            <stroke enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </stroke>
+            <level direction="up" enable="false" lower="" upper="">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </level>
+            <text enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </text>
+            <rotate enable="false" pivot="center,500,424" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </rotate>
+            <translate direction="lower_right" distance="1000"
+                enable="true" offset="" threshold="disable">
+                <threshold fixed1="1" fixed2="2" fixed3="3" fixed4="4"
+                    fixed5="5" high="" low=""/>
+                <value fixed1="1000" fixed2="1000" fixed3="1000"
+                    fixed4="1000" fixed5="1000" high="" low="" normal=""/>
+                <map datasource_id="GROUPLEV1" param1="" param2=""
+                    param3="" param4="" param5=""/>
+            </translate>
+        </transform>
+    </gb_group>
+    <gb_group display="visible" id="120770919513480">
+        <transform>
+            <color enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </color>
+            <blink blink_color="" enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </blink>
+            <stroke enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </stroke>
+            <level direction="up" enable="false" lower="" upper="">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </level>
+            <text enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </text>
+            <rotate enable="false" pivot="center,41,486" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </rotate>
+            <translate direction="up" distance="1000" enable="true"
+                offset="" threshold="enable">
+                <threshold fixed1="1" fixed2="2" fixed3="3" fixed4="4"
+                    fixed5="5" high="" low=""/>
+                <value fixed1="1000" fixed2="1000" fixed3="1000"
+                    fixed4="1000" fixed5="1000" high="" low="" normal=""/>
+                <map datasource_id="GROUPLEV1" param1="fixed value" param2=""
+                    param3="" param4="" param5=""/>
+            </translate>
+        </transform>
+    </gb_group>
+    <gb_group display="visible" id="120770919513460">
+        <transform>
+            <color enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </color>
+            <blink blink_color="" enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </blink>
+            <stroke enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </stroke>
+            <level direction="up" enable="false" lower="" upper="">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </level>
+            <text enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </text>
+            <rotate enable="false" pivot="center,199,488" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </rotate>
+            <translate direction="down" distance="1000" enable="true"
+                offset="" threshold="enable">
+                <threshold fixed1="1" fixed2="2" fixed3="3" fixed4="4"
+                    fixed5="5" high="" low=""/>
+                <value fixed1="1000" fixed2="1000" fixed3="1000"
+                    fixed4="1000" fixed5="1000" high="" low="" normal=""/>
+                <map datasource_id="GROUPLEV1" param1="fixed value" param2=""
+                    param3="" param4="" param5=""/>
+            </translate>
+        </transform>
+    </gb_group>
+    <gb_group display="visible" id="120770919513450">
+        <transform>
+            <color enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </color>
+            <blink blink_color="" enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </blink>
+            <stroke enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </stroke>
+            <level direction="up" enable="false" lower="" upper="">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </level>
+            <text enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </text>
+            <rotate enable="false" pivot="center,348,488" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </rotate>
+            <translate direction="left" distance="1000" enable="true"
+                offset="" threshold="enable">
+                <threshold fixed1="1" fixed2="2" fixed3="3" fixed4="4"
+                    fixed5="5" high="" low=""/>
+                <value fixed1="1000" fixed2="1000" fixed3="1000"
+                    fixed4="1000" fixed5="1000" high="" low="" normal=""/>
+                <map datasource_id="GROUPLEV1" param1="fixed value" param2=""
+                    param3="" param4="" param5=""/>
+            </translate>
+        </transform>
+    </gb_group>
+    <gb_group display="visible" id="120770919513440">
+        <transform>
+            <color enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </color>
+            <blink blink_color="" enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </blink>
+            <stroke enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </stroke>
+            <level direction="up" enable="false" lower="" upper="">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </level>
+            <text enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </text>
+            <rotate enable="false" pivot="center,505,489" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </rotate>
+            <translate direction="right" distance="1000" enable="true"
+                offset="" threshold="enable">
+                <threshold fixed1="1" fixed2="2" fixed3="3" fixed4="4"
+                    fixed5="5" high="" low=""/>
+                <value fixed1="1000" fixed2="1000" fixed3="1000"
+                    fixed4="1000" fixed5="1000" high="" low="" normal=""/>
+                <map datasource_id="GROUPLEV1" param1="fixed value" param2=""
+                    param3="" param4="" param5=""/>
+            </translate>
+        </transform>
+    </gb_group>
+    <gb_group display="visible" id="120770919513430">
+        <transform>
+            <color enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </color>
+            <blink blink_color="" enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </blink>
+            <stroke enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </stroke>
+            <level direction="up" enable="false" lower="" upper="">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </level>
+            <text enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </text>
+            <rotate enable="false" pivot="center,42,545" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </rotate>
+            <translate direction="upper_left" distance="1000"
+                enable="true" offset="" threshold="enable">
+                <threshold fixed1="1" fixed2="2" fixed3="3" fixed4="4"
+                    fixed5="5" high="" low=""/>
+                <value fixed1="1000" fixed2="1000" fixed3="1000"
+                    fixed4="1000" fixed5="1000" high="" low="" normal=""/>
+                <map datasource_id="GROUPLEV1" param1="fixed value" param2=""
+                    param3="" param4="" param5=""/>
+            </translate>
+        </transform>
+    </gb_group>
+    <gb_group display="visible" id="120770919513420">
+        <transform>
+            <color enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </color>
+            <blink blink_color="" enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </blink>
+            <stroke enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </stroke>
+            <level direction="up" enable="false" lower="" upper="">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </level>
+            <text enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </text>
+            <rotate enable="false" pivot="center,204,545" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </rotate>
+            <translate direction="upper_right" distance="1000"
+                enable="true" offset="" threshold="enable">
+                <threshold fixed1="1" fixed2="2" fixed3="3" fixed4="4"
+                    fixed5="5" high="" low=""/>
+                <value fixed1="1000" fixed2="1000" fixed3="1000"
+                    fixed4="1000" fixed5="1000" high="" low="" normal=""/>
+                <map datasource_id="GROUPLEV1" param1="fixed value" param2=""
+                    param3="" param4="" param5=""/>
+            </translate>
+        </transform>
+    </gb_group>
+    <gb_group display="visible" id="120770919513410">
+        <transform>
+            <color enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </color>
+            <blink blink_color="" enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </blink>
+            <stroke enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </stroke>
+            <level direction="up" enable="false" lower="" upper="">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </level>
+            <text enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </text>
+            <rotate enable="false" pivot="center,350,548" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </rotate>
+            <translate direction="lower_left" distance="1000"
+                enable="true" offset="" threshold="enable">
+                <threshold fixed1="1" fixed2="2" fixed3="3" fixed4="4"
+                    fixed5="5" high="" low=""/>
+                <value fixed1="1000" fixed2="1000" fixed3="1000"
+                    fixed4="1000" fixed5="1000" high="" low="" normal=""/>
+                <map datasource_id="GROUPLEV1" param1="fixed value" param2=""
+                    param3="" param4="" param5=""/>
+            </translate>
+        </transform>
+    </gb_group>
+    <gb_group display="visible" id="120770919513400">
+        <transform>
+            <color enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </color>
+            <blink blink_color="" enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </blink>
+            <stroke enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </stroke>
+            <level direction="up" enable="false" lower="" upper="">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </level>
+            <text enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </text>
+            <rotate enable="false" pivot="center,507,550" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </rotate>
+            <translate direction="lower_right" distance="1000"
+                enable="true" offset="" threshold="enable">
+                <threshold fixed1="1" fixed2="2" fixed3="3" fixed4="4"
+                    fixed5="5" high="" low=""/>
+                <value fixed1="1000" fixed2="1000" fixed3="1000"
+                    fixed4="1000" fixed5="1000" high="" low="" normal=""/>
+                <map datasource_id="GROUPLEV1" param1="fixed value" param2=""
+                    param3="" param4="" param5=""/>
+            </translate>
+        </transform>
+    </gb_group>
+    <gb_group display="visible" id="120772483819400">
+        <transform>
+            <color enable="true" threshold="disable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="GROUPLEV1" param1="" param2=""
+                    param3="" param4="" param5=""/>
+            </color>
+            <blink blink_color="" enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </blink>
+            <stroke enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </stroke>
+            <level direction="up" enable="false" lower="" upper="">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </level>
+            <text enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </text>
+            <rotate enable="false" pivot="center,171,54" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </rotate>
+            <translate direction="up" distance="" enable="false"
+                offset="" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </translate>
+        </transform>
+    </gb_group>
+    <gb_group display="visible" id="120772591503100">
+        <transform>
+            <color enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </color>
+            <blink blink_color="" enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </blink>
+            <stroke enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </stroke>
+            <level direction="up" enable="false" lower="" upper="">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </level>
+            <text enable="true" threshold="disable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="GROUPLEV1" param1="" param2=""
+                    param3="" param4="" param5=""/>
+            </text>
+            <rotate enable="false" pivot="center,736,55" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </rotate>
+            <translate direction="up" distance="" enable="false"
+                offset="" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </translate>
+        </transform>
+    </gb_group>
+    <gb_group display="visible" id="120781430623500">
+        <transform>
+            <color enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </color>
+            <blink blink_color="" enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </blink>
+            <stroke enable="false">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </stroke>
+            <level direction="right" enable="true" lower="0" upper="5">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="GROUPLEV1" param1="" param2=""
+                    param3="" param4="" param5=""/>
+            </level>
+            <text enable="false" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </text>
+            <rotate enable="false" pivot="center,683,450" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </rotate>
+            <translate direction="up" distance="" enable="false"
+                offset="" threshold="enable">
+                <threshold fixed1="" fixed2="" fixed3="" fixed4=""
+                    fixed5="" high="" low=""/>
+                <value fixed1="" fixed2="" fixed3="" fixed4="" fixed5=""
+                    high="" low="" normal=""/>
+                <map datasource_id="" param1="" param2="" param3=""
+                    param4="" param5=""/>
+            </translate>
+        </transform>
+    </gb_group>
+</gb_job>

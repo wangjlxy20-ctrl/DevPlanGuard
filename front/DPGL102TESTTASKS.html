@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Expires" content="0">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Cache-Control" content="no-cache, private">
+  <link type="text/css" rel="stylesheet" href="./css/common.css">
+  <style type="text/css">
+      /* <![CDATA[ */
+      .task-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 13px;
+        table-layout: fixed;
+      }
+      .task-table th,
+      .task-table td {
+        border: 1px solid #999;
+        padding: 6px;
+        vertical-align: middle;
+        word-break: break-all;
+      }
+      .task-table th {
+        background-color: #f0f0f0;
+        font-weight: bold;
+        text-align: center;
+      }
+      .scope-hint {
+        font-size: 13px;
+        margin: 6px 0 10px;
+      }
+      /* ]]> */
+    </style>
+  <script type="text/javascript" src="./js/denyDirectAccess.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/jquery.min.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/buttonDef.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/navigation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/objectManipulation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/dataCheck.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/dataUtil.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/timeManipulation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/svg.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/common.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/gb_gf_ezg.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/finalTaskForUserCommon.js" charset="UTF-8"></script>
+  <script type="text/javascript">
+      writeTitle();
+    </script>
+  <script type="text/javascript">
+      //<![CDATA[
+    gf_page=   "";
+    gf_title1= "DevPlanGuard";
+    gf_title2= "TEST TASKS MANAGEMENT";
+    gf_id=     "DPGL102TESTTASKS";
+    gf_remarks="TEST TASKS MANAGEMENT";
+    gf_onload= "";
+      CreateHideMenu(gf_page, gf_title1, gf_title2, gf_id, gf_onload);
+      //]]>
+    </script>
+  <script type="text/javascript">
+      //<![CDATA[
+      function _chkInputValue() {
+        return true;
+      }
+      //]]>
+    </script>
+  <script type="text/javascript">
+      //<![CDATA[
+      function finalTaskForUser() {}
+      //]]>
+    </script>
+  <title>dummytitle</title>
+ </head>
+ <body>
+  <div id="wrapper">
+   <input type="hidden" id="grandsight_ex_disp_date_format" name="grandsight_ex_disp_date_format" value=""> <input type="hidden" id="grandsight_ex_time_zone" name="grandsight_ex_time_zone" value="">
+   <table style="width: 100%">
+    <tbody>
+     <tr>
+      <td id="root">
+       <h1>
+        <script>
+                  document.write(gf_title2);
+                </script></h1>
+       <table style="width: 100%; margin-bottom: 8px">
+        <tbody>
+         <tr>
+          <td style="text-align: left"><span class="NMLLBL_NORMAL" id="NMLLBL_NOW_DATE" value="">YYYY/MM/DD HH:MI:SS</span></td>
+          <td style="text-align: right; white-space: nowrap"><input class="BTNCMD" name="BTNCMD_BACK" onclick="
+                          document.main.COMMAND_NAME.value =
+                            'COMMAND_BTNCMD_BACK';
+                          SendBTN(this.name);
+                        " readonly size="" type="text" value="BACK"></td>
+         </tr>
+        </tbody>
+       </table><!-- 数据范围说明（LEADER / MEMBER 文案不同） -->
+       <div class="scope-hint">
+        <span class="NMLLBL_NORMAL" id="NMLLBL_LOGIN_HINT" value=""></span> <span class="NMLLBL_NORMAL" id="NMLLBL_VIEW_SCOPE" value=""></span>
+       </div><!-- BACK 返回画面（Creator 按角色写入） --> <input type="hidden" id="NMLTXT_BACK_SCREEN" name="NMLTXT_BACK_SCREEN" value="">
+       <table id="TABLE_TEST_TASK" class="task-table">
+        <thead>
+         <tr>
+          <th>Task Code</th>
+          <th>Task Name</th>
+          <th>Project</th>
+          <th>Requirement</th>
+          <th>Priority</th>
+          <th>Status</th>
+          <th>Assignee</th>
+         </tr>
+        </thead>
+        <tbody>
+         <!-- ===== TEMPLATE ROW（Creator 按此复制，名字保持不变） ===== -->
+         <tr>
+          <td><span class="NMLLBL_NORMAL" id="NMLLBL_TASK_CODE" value=""></span></td>
+          <td><span class="NMLLBL_NORMAL" id="NMLLBL_TASK_NAME" value=""></span></td>
+          <td><span class="NMLLBL_NORMAL" id="NMLLBL_PROJECT_NAME" value=""></span></td>
+          <td><span class="NMLLBL_NORMAL" id="NMLLBL_REQUIREMENT_NAME" value=""></span></td>
+          <td><span class="NMLLBL_NORMAL" id="NMLLBL_PRIORITY" value=""></span></td>
+          <td><span class="NMLLBL_NORMAL" id="NMLLBL_STATUS" value=""></span></td>
+          <td><span class="NMLLBL_NORMAL" id="NMLLBL_ASSIGNEE" value=""></span> <input type="hidden" id="NMLTXT_TASK_ID" name="NMLTXT_TASK_ID" value=""></td>
+         </tr>
+        </tbody>
+       </table></td>
+     </tr>
+     <tr>
+      <td>
+       <div id="errorLocation" style="font-size: small; color: Gray"></div></td>
+     </tr>
+    </tbody>
+   </table>
+  </div>
+  <script type="text/javascript">
+      //<![CDATA[
+      CreateFooter();
+      //]]>
+    </script>
+ </body>
+</html>

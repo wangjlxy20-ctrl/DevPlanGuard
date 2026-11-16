@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="420" height="220" viewBox="0 0 420 220" xmlns="http://www.w3.org/2000/svg">
+  <g id="_GBEZG_ROOT_" x="0" y="0" width="420" height="220">
+    <rect id="background" x="0" y="0" width="420" height="220" style="fill:rgb(255,255,255);"/>
+    <text id="title" x="10" y="20" style="font-family:Segoe UI,Arial;font-size:13px;font-weight:bold;fill:#1a73e8;">Open tasks by due date</text>
+
+    <!-- bar0 已逾期：color 动态红色 -->
+    <g id="dbar0" svgControl="ON">
+      <rect id="FULL_SIZE" x="20" y="50" width="40" height="120" style="fill:rgb(245,220,220);"/>
+      <rect id="CURRENT_SIZE" x="20" y="50" width="40" height="0" style="fill:rgb(225,87,89);"/>
+    </g>
+    <text svgControl="ON" id="dval0" x="28" y="46" style="font-family:Segoe UI,Arial;font-size:11px;fill:#3c4a5a;">0</text>
+    <text id="lbl0" x="18" y="189" style="font-family:Segoe UI,Arial;font-size:10px;fill:#7c8896;">Overdue</text>
+
+    <!-- bar1 7天内 -->
+    <g id="dbar1" svgControl="ON">
+      <rect id="FULL_SIZE" x="100" y="50" width="40" height="120" style="fill:rgb(250,235,215);"/>
+      <rect id="CURRENT_SIZE" x="100" y="50" width="40" height="0" style="fill:rgb(242,142,43);"/>
+    </g>
+    <text svgControl="ON" id="dval1" x="108" y="46" style="font-family:Segoe UI,Arial;font-size:11px;fill:#3c4a5a;">0</text>
+    <text id="lbl1" x="100" y="189" style="font-family:Segoe UI,Arial;font-size:10px;fill:#7c8896;">&lt;=7d</text>
+
+    <!-- bar2 30天内 -->
+    <g id="dbar2" svgControl="ON">
+      <rect id="FULL_SIZE" x="180" y="50" width="40" height="120" style="fill:rgb(248,242,215);"/>
+      <rect id="CURRENT_SIZE" x="180" y="50" width="40" height="0" style="fill:rgb(237,201,72);"/>
+    </g>
+    <text svgControl="ON" id="dval2" x="188" y="46" style="font-family:Segoe UI,Arial;font-size:11px;fill:#3c4a5a;">0</text>
+    <text id="lbl2" x="178" y="189" style="font-family:Segoe UI,Arial;font-size:10px;fill:#7c8896;">&lt;=30d</text>
+
+    <!-- bar3 30天以上 -->
+    <g id="dbar3" svgControl="ON">
+      <rect id="FULL_SIZE" x="260" y="50" width="40" height="120" style="fill:rgb(219,230,245);"/>
+      <rect id="CURRENT_SIZE" x="260" y="50" width="40" height="0" style="fill:rgb(78,121,167);"/>
+    </g>
+    <text svgControl="ON" id="dval3" x="268" y="46" style="font-family:Segoe UI,Arial;font-size:11px;fill:#3c4a5a;">0</text>
+    <text id="lbl3" x="252" y="189" style="font-family:Segoe UI,Arial;font-size:10px;fill:#7c8896;">&gt;30d</text>
+
+    <!-- bar4 未排期 -->
+    <g id="dbar4" svgControl="ON">
+      <rect id="FULL_SIZE" x="340" y="50" width="40" height="120" style="fill:rgb(230,235,240);"/>
+      <rect id="CURRENT_SIZE" x="340" y="50" width="40" height="0" style="fill:rgb(150,160,172);"/>
+    </g>
+    <text svgControl="ON" id="dval4" x="348" y="46" style="font-family:Segoe UI,Arial;font-size:11px;fill:#3c4a5a;">0</text>
+    <text id="lbl4" x="332" y="189" style="font-family:Segoe UI,Arial;font-size:10px;fill:#7c8896;">No date</text>
+
+    <line x1="10" y1="170" x2="410" y2="170" style="stroke:rgb(200,210,220);stroke-width:1;"/>
+  </g>
+</svg>

@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-cache, private" />
+    <!-- ========== HEADER ======================================== -->
+    <!-- ========== CSS =========================================== -->
+    <link type="text/css" rel="stylesheet" href="./css/common.css" />
+    <!-- ========================================================== -->
+    <!-- ========== USER CSS ====================================== -->
+    <style type="text/css">
+      /* <![CDATA[ */
+      .layout {
+        display: flex;
+        gap: 16px;
+        align-items: flex-start;
+      }
+      .sidebar {
+        width: 220px;
+        flex-shrink: 0;
+        background: #f7f7f7;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 8px;
+      }
+      .content {
+        flex: 1;
+        min-width: 0;
+      }
+      .menu-item {
+        width: 100%;
+        box-sizing: border-box;
+        border: none;
+        background: transparent;
+        text-align: left;
+        padding: 8px 10px;
+        margin-bottom: 2px;
+        cursor: pointer;
+        border-radius: 3px;
+        font-size: 14px;
+        color: #333;
+      }
+      .menu-item:hover {
+        background: #e8f0fe;
+      }
+      .menu-item.active {
+        background: #1a73e8;
+        color: #fff;
+      }
+      .menu-group > summary {
+        list-style: none;
+        padding: 8px 10px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #333;
+        cursor: pointer;
+        border-radius: 3px;
+      }
+      .menu-group > summary::-webkit-details-marker {
+        display: none;
+      }
+      .menu-group > summary::after {
+        content: "\25B8";
+        float: right;
+        color: #888;
+      }
+      .menu-group[open] > summary::after {
+        content: "\25BE";
+      }
+      .menu-group > summary:hover {
+        background: #e8f0fe;
+      }
+      .submenu {
+        padding-left: 12px;
+      }
+
+      .dashboard-top-area {
+        text-align: center;
+        margin-bottom: 14px;
+      }
+      .page-title {
+        margin: 0;
+        font-size: 32px;
+        font-weight: bold;
+        color: #1a73e8;
+      }
+      .time-area {
+        white-space: nowrap;
+        font-size: 13px;
+        margin-top: 6px;
+        color: #5b6b7c;
+      }
+
+      /* 项目选择区 */
+      .select-bar {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background: #f4f7fb;
+        border: 1px solid #d8dee7;
+        border-radius: 6px;
+        padding: 10px 14px;
+        margin-bottom: 14px;
+      }
+      .select-bar label {
+        font-weight: bold;
+        font-size: 14px;
+        color: #33475b;
+        white-space: nowrap;
+      }
+      .select-bar select {
+        flex: 1;
+        max-width: 480px;
+        padding: 6px 8px;
+        font-size: 14px;
+      }
+
+      /* 图表网格 */
+      .chart-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+        margin-bottom: 14px;
+      }
+      .chart-card {
+        border: 1px solid #d8dee7;
+        border-radius: 6px;
+        padding: 10px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+      }
+      .chart-card.full {
+        grid-column: 1 / -1;
+      }
+      /* The user's original style can be described here */
+
+      /* ]]> */
+    </style>
+    <!-- ========================================================== -->
+    <!-- ========== SCRIPT ======================================== -->
+    <script
+      type="text/javascript"
+      src="./js/denyDirectAccess.js"
+      charset="UTF-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./js/jquery.min.js"
+      charset="UTF-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./js/buttonDef.js"
+      charset="UTF-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./js/navigation.js"
+      charset="UTF-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./js/objectManipulation.js"
+      charset="UTF-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./js/dataCheck.js"
+      charset="UTF-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./js/dataUtil.js"
+      charset="UTF-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./js/timeManipulation.js"
+      charset="UTF-8"
+    ></script>
+    <script type="text/javascript" src="./js/svg.js" charset="UTF-8"></script>
+    <script
+      type="text/javascript"
+      src="./js/common.js"
+      charset="UTF-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./js/gb_gf_ezg.js"
+      charset="UTF-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./js/finalTaskForUserCommon.js"
+      charset="UTF-8"
+    ></script>
+    <!-- ========================================================== -->
+    <!-- ========== MENU ========================================== -->
+    <script type="text/javascript">
+      writeTitle();
+    </script>
+    <script type="text/javascript">
+      //<![CDATA[
+      // Common header output
+      // gf_page   : Page output (current page / all pages)
+      // gf_title1 : Screen title 1 (up to 27 double-byte characters)
+      // gf_title2 : Screen title 21 (up to 30 double-byte characters)
+      // gf_id     : Screen ID
+      // gf_comment: Screen comment
+      // gf_onload : Specify the script when loading the screen (describe only when there is processing)
+      gf_page = "";
+      gf_title1 = "DevPlanGuard";
+      gf_title2 = "DYNAMIC DASHBOARD";
+      gf_id = "DPGL_DYN_DASHBOARD";
+      gf_remarks = "THIS IS A DYNAMIC DASHBOARD FOR LEADER";
+      gf_onload = "";
+      CreateHideMenu(gf_page, gf_title1, gf_title2, gf_id, gf_onload);
+      //]]>
+    </script>
+    <!-- ========================================================== -->
+    <!-- ========== INPUT CHECK SCRIPT ============================ -->
+    <script type="text/javascript">
+      //<![CDATA[
+      function menuGo(screenId, el) {
+        document.main.COMMAND_NAME.value = "COMMAND_LNKMOV_AC_OPEN_FROM_MENU";
+        linkOpen(screenId, el.value, el.name);
+      }
+      // EzgSvg 隐藏 iframe 控制：加载本图形的控制 JSP
+      function ezgControl(ifr, graphicName, embName) {
+        if (!top.htmlFrame) {
+          return;
+        }
+        var index = window.location.href.lastIndexOf("/");
+        var noUrl = window.location.href.substring(0, index) + "/none";
+        if (ifr.src == "" || ifr.src == "about:blank" || ifr.src == noUrl) {
+          ifr.src =
+            "./_EzgSvgControl.jsp?PJT_NAME=default&GRAPHIC_NAME=" +
+            graphicName +
+            "&SVGEMB_NAME=" +
+            embName +
+            "&REFRESH_TIME=500&SCREEN_ID=" +
+            top.htmlFrame.document.main.SCREEN_ID.value +
+            "&WINDOW_ID=" +
+            top.name;
+        }
+      }
+      function _chkInputValue() {
+        return true;
+      }
+      function finalTaskForUser() {}
+      //]]>
+    </script>
+    <!-- ========================================================== -->
+    <!-- ========== USER SCRIPT =================================== -->
+    <script type="text/javascript">
+      //<![CDATA[
+
+      // You can write your own script here
+
+      function finalTaskForUser() {
+        // You can describe the process immediately after the screen is displayed here.
+      }
+
+      //]]>
+    </script>
+    <!-- ========================================================== -->
+    <title>dummytitle</title>
+    <!-- ========================================================== --></head
+  ><!-- ========== CUSTOMIZE ===================================== -->
+  <body>
+    <div id="wrapper">
+      <input
+        type="hidden"
+        id="grandsight_ex_disp_date_format"
+        name="grandsight_ex_disp_date_format"
+        value=""
+      />
+      <input
+        type="hidden"
+        id="grandsight_ex_time_zone"
+        name="grandsight_ex_time_zone"
+        value=""
+      />
+      <table style="width: 100%">
+        <tbody>
+            <td>
+              <div
+            id="nav-bar"
+            style="
+              display: flex;
+              justify-content: flex-end;
+              gap: 6px;
+              padding: 4px 8px;
+              margin-bottom: 14px;
+              background: #f7f7f7;
+              border-bottom: 1px solid #ddd;
+            "
+          >
+            <input
+              type="text"
+              class="BTNCMD"
+              name="BTNCMD_BACK"
+              value="Back"
+              readonly
+              onclick="
+                document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_BACK';
+                SendBTN(this.name);
+              "
+            />
+            <input
+              type="text"
+              class="BTNCMD"
+              name="BTNCMD_MAIN"
+              value="Main"
+              readonly
+              onclick="
+                document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_MAIN';
+                SendBTN(this.name);
+              "
+            />
+            <input
+              type="text"
+              class="BTNCMD"
+              name="BTNCMD_LOGOUT"
+              value="Logout"
+              readonly
+              onclick="
+                document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_LOGOUT';
+                SendBTN(this.name);
+              "
+            />
+          </div>
+
+          <div class="dashboard-top-area">
+            <h1 class="page-title">MONITORING DASHBOARD</h1>
+            <div class="time-area">
+              SystemTime：<span
+                class="NMLLBL_NORMAL"
+                id="NMLLBL_NOW_DATE"
+                value=""
+                >YYYY/MM/DD HH:MI:SS</span
+              >
+            </div>
+          </div>
+
+          <!-- ========== 项目选择 ========== -->
+          <div class="select-bar">
+            <label for="NMLDLD_PROJECT">Project：</label>
+            <select
+              id="NMLDLD_PROJECT"
+              name="NMLDLD_PROJECT"
+              onchange="
+                document.main.COMMAND_NAME.value =
+                  'COMMAND_BTNCMD_PROJECT_SELECT';
+                SendBTN('BTNCMD_PROJECT_SELECT');
+              "
+            >
+              <option value="">-- SELECT --</option>
+            </select>
+            <input type="hidden" class="BTNCMD" name="BTNCMD_PROJECT_SELECT" />
+          </div>
+
+          <!-- ========== KPI 卡片 ========== -->
+          <div class="chart-card full">
+            <embed
+              name="SVGEMB_KPI"
+              src="./gb_ezg/default/src/kpi_metrics.svg"
+              type="image/svg+xml"
+              width="420"
+              height="110"
+            />
+            <iframe
+              frameborder="0"
+              height="0"
+              width="0"
+              name="SVGIFR_KPI"
+              scrolling="no"
+              src="about:blank"
+              onload="ezgControl(this, 'kpi_metrics', 'SVGEMB_KPI')"
+            >
+              This will be displayed in browsers that have an iframe
+              available.</iframe
+            >
+          </div>
+
+          <!-- ========== 状态 / 纳期 ========== -->
+          <div class="chart-grid">
+            <div class="chart-card">
+              <embed
+                name="SVGEMB_STATUS"
+                src="./gb_ezg/default/src/chart_status.svg"
+                type="image/svg+xml"
+                width="360"
+                height="220"
+              />
+              <iframe
+                frameborder="0"
+                height="0"
+                width="0"
+                name="SVGIFR_STATUS"
+                scrolling="no"
+                src="about:blank"
+                onload="ezgControl(this, 'chart_status', 'SVGEMB_STATUS')"
+              >
+                This will be displayed in browsers that have an iframe
+                available.</iframe
+              >
+            </div>
+
+            <div class="chart-card">
+              <embed
+                name="SVGEMB_DUE"
+                src="./gb_ezg/default/src/chart_due.svg"
+                type="image/svg+xml"
+                width="420"
+                height="220"
+              />
+              <iframe
+                frameborder="0"
+                height="0"
+                width="0"
+                name="SVGIFR_DUE"
+                scrolling="no"
+                src="about:blank"
+                onload="ezgControl(this, 'chart_due', 'SVGEMB_DUE')"
+              >
+                This will be displayed in browsers that have an iframe
+                available.</iframe
+              >
+            </div>
+          </div>
+
+          <!-- ========== 缺陷 / 成员负载 ========== -->
+          <div class="chart-grid">
+            <div class="chart-card">
+              <embed
+                name="SVGEMB_SEVERITY"
+                src="./gb_ezg/default/src/chart_severity.svg"
+                type="image/svg+xml"
+                width="400"
+                height="220"
+              />
+              <iframe
+                frameborder="0"
+                height="0"
+                width="0"
+                name="SVGIFR_SEVERITY"
+                scrolling="no"
+                src="about:blank"
+                onload="ezgControl(this, 'chart_severity', 'SVGEMB_SEVERITY')"
+              >
+                This will be displayed in browsers that have an iframe
+                available.</iframe
+              >
+            </div>
+
+            <div class="chart-card">
+              <embed
+                name="SVGEMB_WORKLOAD"
+                src="./gb_ezg/default/src/chart_workload.svg"
+                type="image/svg+xml"
+                width="400"
+                height="240"
+              />
+              <iframe
+                frameborder="0"
+                height="0"
+                width="0"
+                name="SVGIFR_WORKLOAD"
+                scrolling="no"
+                src="about:blank"
+                onload="ezgControl(this, 'chart_workload', 'SVGEMB_WORKLOAD')"
+              >
+                This will be displayed in browsers that have an iframe
+                available.</iframe
+              >
+            </div>
+          </div>
+
+          <div id="errorLocation" style="font-size: small; color: Gray"></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- ========================================================== -->
+    <!-- ========== FOOTER ======================================== -->
+    <script type="text/javascript">
+      //<![CDATA[
+      CreateFooter();
+      //]]>
+    </script>
+    <!-- ========================================================== -->
+  </body>
+</html>

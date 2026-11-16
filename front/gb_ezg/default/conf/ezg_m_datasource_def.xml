@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasource_def>
+    <datasource_disp id="Data source ID" type="Data source type"/>
+    <datasource id="ORDER_SAMPLE_A" type="CUSTOM">
+        <param name="CLASS_NAME" value="com.yse.gb.gf.ezg.CustomSample_A"/>
+    </datasource>
+    <datasource id="ORDER_SAMPLE_B" type="CUSTOM">
+        <param name="CLASS_NAME" value="com.yse.gb.gf.ezg.CustomSample_B"/>
+    </datasource>
+    <datasource id="CIRCLE" type="CUSTOM">
+        <param name="CLASS_NAME" value="sample.testezg.Circle"/>
+    </datasource>
+    <datasource id="LINE" type="CUSTOM">
+        <param name="CLASS_NAME" value="sample.testezg.Line"/>
+    </datasource>
+    <datasource id="CHARACTER" type="CUSTOM">
+        <param name="CLASS_NAME" value="sample.testezg.Character"/>
+    </datasource>
+    <datasource id="LINE_AUTO" type="CUSTOM">
+        <param name="CLASS_NAME" value="sample.testezg.Line_auto"/>
+    </datasource>
+    <datasource id="RECTANGLE" type="CUSTOM">
+        <param name="CLASS_NAME" value="sample.testezg.Rectangle"/>
+    </datasource>
+    <datasource id="POLYGON" type="CUSTOM">
+        <param name="CLASS_NAME" value="sample.testezg.Polygon"/>
+    </datasource>
+    <datasource id="ARC" type="CUSTOM">
+        <param name="CLASS_NAME" value="sample.testezg.Arc"/>
+    </datasource>
+    <datasource id="ARC_PAINT" type="CUSTOM">
+        <param name="CLASS_NAME" value="sample.testezg.Arc_paint"/>
+    </datasource>
+    <datasource id="LINE_CONTINUE" type="CUSTOM">
+        <param name="CLASS_NAME" value="sample.testezg.Line_continue"/>
+    </datasource>
+    <datasource id="IMAGE" type="CUSTOM">
+        <param name="CLASS_NAME" value="sample.testezg.Image"/>
+    </datasource>
+    <datasource id="REFERENCE" type="CUSTOM">
+        <param name="CLASS_NAME" value="sample.testezg.Reference"/>
+    </datasource>
+    <datasource id="GROUPLEV1" type="CUSTOM">
+        <param name="CLASS_NAME" value="sample.testezg.Group_lev1"/>
+    </datasource>
+    <datasource id="GROUPLEV3" type="CUSTOM">
+        <param name="CLASS_NAME" value="sample.testezg.Group_lev3"/>
+    </datasource>
+    <datasource id="RECTANGLE_PAINT" type="CUSTOM">
+        <param name="CLASS_NAME" value="sample.testezg.Rectangle_paint"/>
+    </datasource>
+    <datasource id="POLYGON_PAINT" type="CUSTOM">
+        <param name="CLASS_NAME" value="sample.testezg.Polygon_paint"/>
+    </datasource>
+    <datasource id="CIRCLE_PAINT" type="CUSTOM">
+        <param name="CLASS_NAME" value="sample.testezg.Circle_paint"/>
+    </datasource>
+    <datasource id="TEST" type="CUSTOM">
+        <param name="CLASS_NAME" value="sample.testezg.Test"/>
+    </datasource>
+    <datasource id="COUSTOM_OMC" type="CUSTOM">
+        <param name="CLASS_NAME" value="job.screen.svg.Custom_Omc"/>
+    </datasource>
+    <datasource id="SVG_TEST" type="CUSTOM">
+        <param name="CLASS_NAME" value="job.screen.svg.SVG_TEST"/>
+    </datasource>
+    <datasource id="NEW_TANK" type="CUSTOM">
+        <param name="CLASS_NAME" value="job.screen.svg.NEW_TANK"/>
+    </datasource>
+<datasource id="SUBMIT_TREND" type="CUSTOM">
+  <param name="CLASS_NAME" value="job.svg.SubmitTrendCollection"/>
+</datasource>
+<datasource id="LEADER_DASHBOARD" type="CUSTOM">
+  <param name="CLASS_NAME" value="job.svg.LeaderDashboardCollection"/>
+</datasource>
+</datasource_def>

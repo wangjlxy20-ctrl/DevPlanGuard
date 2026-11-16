@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-cache, private" />
+    <!-- ========== HEADER ======================================== -->
+    <!-- ========== CSS =========================================== -->
+    <link type="text/css" rel="stylesheet" href="./css/common.css" />
+    <!-- ========================================================== -->
+    <!-- ========== USER CSS ====================================== -->
+    <style type="text/css">
+      /* <![CDATA[ */
+      /* Dashboard全局样式，兼容IE */
+      .dashboard-top-area {
+        text-align: center;
+        margin-bottom: 16px;
+      }
+      .page-title {
+        margin: 0;
+        font-size: 40px;
+        font-weight: bold;
+        color: #8b0bed;
+      }
+      .time-area {
+        white-space: nowrap;
+        font-size: 14px;
+        margin-top: 6px;
+      }
+      /* information card */
+      .info-card {
+        border: 1px solid #999;
+        padding: 14px 16px;
+        margin-bottom: 16px;
+        border-radius: 3px;
+      }
+      .card-title {
+        font-weight: bold;
+        margin-bottom: 10px;
+        font-size: 25px;
+        color: #1ae60f;
+        text-align: center;
+      }
+      /* two-column flex container */
+      .two-col-wrap {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .col-item {
+        width: 50%;
+        box-sizing: border-box;
+        padding-right: 16px;
+        line-height: 2.4;
+      }
+      .label-text {
+        display: inline-block;
+      }
+      /* ]]> */
+    </style>
+    <!-- ========================================================== -->
+    <!-- ========== SCRIPT ======================================== -->
+    <script
+      type="text/javascript"
+      src="./js/denyDirectAccess.js"
+      charset="UTF-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./js/jquery.min.js"
+      charset="UTF-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./js/buttonDef.js"
+      charset="UTF-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./js/navigation.js"
+      charset="UTF-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./js/objectManipulation.js"
+      charset="UTF-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./js/dataCheck.js"
+      charset="UTF-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./js/dataUtil.js"
+      charset="UTF-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./js/timeManipulation.js"
+      charset="UTF-8"
+    ></script>
+    <script type="text/javascript" src="./js/svg.js" charset="UTF-8"></script>
+    <script
+      type="text/javascript"
+      src="./js/common.js"
+      charset="UTF-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./js/gb_gf_ezg.js"
+      charset="UTF-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./js/finalTaskForUserCommon.js"
+      charset="UTF-8"
+    ></script>
+    <!-- ========================================================== -->
+    <!-- ========== MENU ========================================== -->
+    <script type="text/javascript">
+      writeTitle();
+    </script>
+    <script type="text/javascript">
+      //<![CDATA[
+      // Common header output
+      // gf_page   : Page output (current page / all pages)
+      // gf_title1 : Screen title 1 (up to 27 double-byte characters)
+      // gf_title2 : Screen title 2 (up to 30 double-byte characters)
+      // gf_id     : Screen ID
+      // gf_comment: Screen comment
+      // gf_onload : Specify the script when loading the screen (describe only when there is processing)
+      gf_page = "";
+      gf_title1 = "DevPlanGuard";
+      gf_title2 = "PROJECT·MONITORING";
+      gf_id = "DPGL101";
+      gf_remarks = "DELIVERY TIME QUALITY RISK";
+      gf_onload = "";
+      CreateHideMenu(gf_page, gf_title1, gf_title2, gf_id, gf_onload);
+      //]]>
+    </script>
+    <!-- ========================================================== -->
+    <!-- ========== INPUT CHECK SCRIPT ============================ -->
+    <script type="text/javascript">
+      //<![CDATA[
+      function _chkInputValue() {
+        return true;
+      }
+      //]]>
+    </script>
+    <!-- ========================================================== -->
+    <!-- ========== USER SCRIPT =================================== -->
+    <script type="text/javascript">
+      //<![CDATA[
+      // You can write your own script here
+      function finalTaskForUser() {
+        // You can describe the process immediately after the screen is displayed here.
+      }
+      //]]>
+    </script>
+    <!-- ========================================================== -->
+    <title>dummytitle</title>
+    <!-- ========================================================== --></head
+  ><!-- ========== CUSTOMIZE ===================================== -->
+  <body>
+    <div id="wrapper">
+      <!-- ===== 通用按钮栏：Back / Dashboard / Logout ===== -->
+      <div
+        id="nav-bar"
+        style="
+          position: sticky;
+          top: 0;
+          z-index: 999;
+          display: flex;
+          justify-content: flex-end;
+          gap: 6px;
+          padding: 4px 8px;
+          background: #f7f7f7;
+          border-bottom: 1px solid #ddd;
+        "
+      >
+        <input
+          type="text"
+          class="BTNCMD"
+          name="BTNCMD_BACK"
+          value="Back"
+          readonly
+          onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_BACK';
+            SendBTN(this.name);
+          "
+        />
+        <input
+          type="text"
+          class="BTNCMD"
+          name="BTNCMD_MAIN"
+          value="Main"
+          readonly
+          onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_MAIN';
+            SendBTN(this.name);
+          "
+        />
+        <input
+          type="text"
+          class="BTNCMD"
+          name="BTNCMD_LOGOUT"
+          value="Logout"
+          readonly
+          onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_LOGOUT';
+            SendBTN(this.name);
+          "
+        />
+      </div>
+      <!-- ===== /通用按钮栏 ===== -->
+      <input
+        type="hidden"
+        id="grandsight_ex_disp_date_format"
+        name="grandsight_ex_disp_date_format"
+        value=""
+      />
+      <input
+        type="hidden"
+        id="grandsight_ex_time_zone"
+        name="grandsight_ex_time_zone"
+        value=""
+      />
+      <table style="width: 100%">
+        <tbody>
+          <tr>
+            <td id="root">
+              <!-- Top: Title centered,SystemTime placed under the title -->
+              <div class="dashboard-top-area">
+                <h1 class="page-title">
+                  <script>
+                    document.write(gf_title2);
+                  </script>
+                </h1>
+                <div class="time-area">
+                  <span>SystemTime：</span>
+                  <span class="NMLLBL_NORMAL" id="NMLLBL_NOW_DATE" value=""
+                    >YYYY/MM/DD HH:MI:SS
+                  </span>
+                </div>
+              </div>
+              <!-- Project Basic Info -->
+              <div class="info-card">
+                <div class="card-title">Project Basic Information</div>
+                <div class="two-col-wrap">
+                  <div class="col-item">
+                    <span class="label-text">ProjectCode：</span>
+                    <span
+                      class="NMLLBL_NORMAL"
+                      id="NMLLBL_DISPLAY_INFO_PROJECT_CODE"
+                      value=""
+                    ></span>
+                  </div>
+                  <div class="col-item">
+                    <span class="label-text">ProjectName：</span>
+                    <span
+                      class="NMLLBL_NORMAL"
+                      id="NMLLBL_DISPLAY_INFO_PROJECT_NAME"
+                      value=""
+                    ></span>
+                  </div>
+                  <div class="col-item">
+                    <span class="label-text">Description：</span>
+                    <span
+                      class="NMLLBL_NORMAL"
+                      id="NMLLBL_DISPLAY_INFO_DESCRIPTION"
+                      value=""
+                    ></span>
+                  </div>
+                  <div class="col-item">
+                    <span class="label-text">ProjectManager：</span>
+                    <span
+                      class="NMLLBL_NORMAL"
+                      id="NMLLBL_DISPLAY_INFO_PROJECT_LEADER"
+                      value=""
+                    ></span>
+                  </div>
+                  <div class="col-item">
+                    <span class="label-text">Priority：</span>
+                    <span
+                      class="NMLLBL_NORMAL"
+                      id="NMLLBL_DISPLAY_INFO_PRIORITY"
+                      value=""
+                    ></span>
+                  </div>
+                  <div class="col-item">
+                    <span class="label-text">Status：</span>
+                    <span
+                      class="NMLLBL_NORMAL"
+                      id="NMLLBL_DISPLAY_INFO_STATUS"
+                      value=""
+                    ></span>
+                  </div>
+                  <div class="col-item">
+                    <span class="label-text">StartTime：</span>
+                    <span
+                      class="NMLLBL_NORMAL"
+                      id="NMLLBL_DISPLAY_INFO_START_TIME"
+                      value=""
+                    ></span>
+                  </div>
+                  <div class="col-item">
+                    <span class="label-text">PlannedEndTime：</span>
+                    <span
+                      class="NMLLBL_NORMAL"
+                      id="NMLLBL_DISPLAY_INFO_PLANNED_END_TIME"
+                      value=""
+                    ></span>
+                  </div>
+                  <div class="col-item">
+                    <span class="label-text">ActualEndTime：</span>
+                    <span
+                      class="NMLLBL_NORMAL"
+                      id="NMLLBL_DISPLAY_INFO_ACTUAL_END_TIME"
+                      value=""
+                    ></span>
+                  </div>
+                  <div class="col-item">
+                    <span class="label-text">ProjectCreator：</span>
+                    <span
+                      class="NMLLBL_NORMAL"
+                      id="NMLLBL_DISPLAY_INFO_PROJECT_CREATOR"
+                      value=""
+                    ></span>
+                  </div>
+                  <!-- Placeholder, to fill in the two columns -->
+                  <!-- <div class="col-item"></div> -->
+                </div>
+              </div>
+              <div class="info-card">
+                <div class="card-title">
+                  Schedule, Risk &amp; Quality Dashboard
+                </div>
+                <div
+                  class="two-col-wrap"
+                  style="
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 10px;
+                    align-items: start;
+                  "
+                >
+                  <div class="col-item" style="grid-column: 1; grid-row: 1">
+                    <div
+                      style="
+                        font-weight: bold;
+                        color: #0b5394;
+                        font-size: 14px;
+                        margin-bottom: 2px;
+                      "
+                    >
+                      Open tasks by due date
+                    </div>
+                    <embed
+                      name="CHART_DUE_STATUS"
+                      src="./gb_ezg/default/src/chart_blank.svg"
+                      type="image/svg+xml"
+                      width="460"
+                      height="240"
+                    />
+                    <div
+                      style="font-size: 12px; color: #0b5394; margin-top: 2px"
+                    >
+                      <span id="CHART_DUE_LEGEND" class="NMLLBL_NORMAL"></span>
+                    </div>
+                    <div
+                      style="
+                        font-size: 11px;
+                        color: #666;
+                        margin-top: 4px;
+                        line-height: 1.4;
+                      "
+                    >
+                      Bar height = number of open tasks. Categories: Overdue /
+                      Due within 7 days / Due within 30 days / Beyond 30 days /
+                      No due date.
+                    </div>
+                  </div>
+                  <div
+                    class="col-item"
+                    style="grid-column: 1 / span 2; grid-row: 2"
+                  >
+                    <table class="project-table" id="TABLE_RISK_TASKS">
+                      <thead>
+                        <tr>
+                          <th>Task Code</th>
+                          <th>Task Name</th>
+                          <th>Status</th>
+                          <th>Assignee</th>
+                          <th>Overdue(d)</th>
+                          <th>Open Defects</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <span
+                              class="NMLLBL_NORMAL"
+                              id="NMLLBL_RISK_TASK_CODE"
+                              name="NMLLBL_RISK_TASK_CODE"
+                              value=""
+                            ></span>
+                          </td>
+                          <td>
+                            <span
+                              class="NMLLBL_NORMAL"
+                              id="NMLLBL_RISK_TASK_NAME"
+                              name="NMLLBL_RISK_TASK_NAME"
+                              value=""
+                            ></span>
+                          </td>
+                          <td>
+                            <span
+                              class="NMLLBL_NORMAL"
+                              id="NMLLBL_RISK_TASK_STATUS"
+                              name="NMLLBL_RISK_TASK_STATUS"
+                              value=""
+                            ></span>
+                          </td>
+                          <td>
+                            <span
+                              class="NMLLBL_NORMAL"
+                              id="NMLLBL_RISK_TASK_ASSIGNEE"
+                              name="NMLLBL_RISK_TASK_ASSIGNEE"
+                              value=""
+                            ></span>
+                          </td>
+                          <td>
+                            <span
+                              class="NMLLBL_NORMAL"
+                              id="NMLLBL_RISK_TASK_DAYS_LEFT"
+                              name="NMLLBL_RISK_TASK_DAYS_LEFT"
+                              value=""
+                            ></span>
+                          </td>
+                          <td>
+                            <span
+                              class="NMLLBL_NORMAL"
+                              id="NMLLBL_RISK_TASK_OPEN_DEFECTS"
+                              name="NMLLBL_RISK_TASK_OPEN_DEFECTS"
+                              value=""
+                            ></span>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="col-item" style="grid-column: 2; grid-row: 1">
+                    <div
+                      style="
+                        font-weight: bold;
+                        color: #0b5394;
+                        font-size: 14px;
+                        margin-bottom: 2px;
+                      "
+                    >
+                      Defects by severity
+                    </div>
+                    <embed
+                      name="CHART_DEFECT_SEVERITY"
+                      src="./gb_ezg/default/src/chart_blank.svg"
+                      type="image/svg+xml"
+                      width="420"
+                      height="240"
+                    />
+                    <div
+                      style="font-size: 12px; color: #0b5394; margin-top: 2px"
+                    >
+                      <span
+                        id="CHART_SEVERITY_LEGEND"
+                        class="NMLLBL_NORMAL"
+                      ></span>
+                    </div>
+                    <div
+                      style="
+                        font-size: 11px;
+                        color: #666;
+                        margin-top: 4px;
+                        line-height: 1.4;
+                      "
+                    >
+                      Share of defects in this project grouped by severity (HIGH
+                      / MEDIUM / LOW).
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div
+                id="errorLocation"
+                style="font-size: small; color: Gray; margin-top: 12px"
+              ></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- ========================================================== -->
+    <!-- ========== FOOTER ======================================== -->
+    <script type="text/javascript">
+      //<![CDATA[
+      CreateFooter();
+      //]]>
+    </script>
+    <!-- ========================================================== -->
+  </body>
+</html>

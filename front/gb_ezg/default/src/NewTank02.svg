@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+                     "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg height="600"
+    onclick="if(typeof(wobj.gb_gf_ezg_svgComOnClick)==&apos;function&apos;)wobj.gb_gf_ezg_svgComOnClick(evt);"
+    onload="if(typeof(wobj.gb_gf_ezg_svgComOnLoad)==&apos;function&apos;)wobj.gb_gf_ezg_svgComOnLoad(evt);"
+    onmousedown="if(typeof(wobj.gb_gf_ezg_svgComOnMouseDown)==&apos;function&apos;)wobj.gb_gf_ezg_svgComOnMouseDown(evt);"
+    onmouseup="if(typeof(wobj.gb_gf_ezg_svgComOnMouseUp)==&apos;function&apos;)wobj.gb_gf_ezg_svgComOnMouseUp(evt);"
+    viewBox="0 0 800 600" width="800" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="_GBEZG_ROOT_">
+        <rect height="100%" id="background"
+            style="fill:rgb(255,255,255);" width="100%" x="0" y="0"/>
+        <defs/>
+        <rect height="12" id="line10" style="fill: rgb(255,255,255);"
+            width="19" x="237" y="487">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </rect>
+        <rect height="12" id="line11" style="fill: rgb(255,255,255);"
+            width="19" x="437" y="487">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </rect>
+        <rect height="21" id="line04" style="fill: rgb(255,255,255);"
+            width="12" x="281" y="146">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </rect>
+        <rect height="21" id="line07" style="fill: rgb(255,255,255);"
+            width="12" x="282" y="363">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </rect>
+        <rect height="21" id="line05" style="fill: rgb(255,255,255);"
+            width="12" x="478" y="146">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </rect>
+        <rect height="21" id="line06" style="fill: rgb(255,255,255);"
+            width="12" x="677" y="146">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </rect>
+        <rect height="21" id="line08" style="fill: rgb(255,255,255);"
+            width="12" x="479" y="362">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </rect>
+        <rect height="21" id="line09" style="fill: rgb(255,255,255);"
+            width="12" x="679" y="362">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </rect>
+        <rect height="12" id="line01" style="fill: rgb(255,255,255);"
+            width="19" x="164" y="123">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </rect>
+        <rect height="12" id="line02" style="fill: rgb(255,255,255);"
+            width="19" x="324" y="123">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </rect>
+        <rect height="12" id="line03" style="fill: rgb(255,255,255);"
+            width="19" x="517" y="124">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </rect>
+        <rect height="12" id="line12" style="fill: rgb(255,255,255);"
+            width="19" x="632" y="486">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </rect>
+        <image height="133" id="tank01" width="117" x="236"
+            xlink:href="../images/tank01.png" y="230"/>
+        <ellipse cx="294.0" cy="63.5" id="val01_lamp2" rx="8.0" ry="8.5" style="fill: rgb(0,0,0);">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </ellipse>
+        <ellipse cx="484.0" cy="63.5" id="val02_lamp2" rx="8.0" ry="8.5" style="fill: rgb(0,0,0);">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </ellipse>
+        <ellipse cx="684.0" cy="63.5" id="val03_lamp2" rx="8.0" ry="8.5" style="fill: rgb(0,0,0);">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </ellipse>
+        <ellipse cx="291.0" cy="523.5" id="val04_lamp2" rx="8.0"
+            ry="8.5" style="fill: rgb(0,0,0);">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </ellipse>
+        <ellipse cx="490.0" cy="523.5" id="val05_lamp2" rx="8.0"
+            ry="8.5" style="fill: rgb(0,0,0);">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </ellipse>
+        <ellipse cx="684.0" cy="523.5" id="val06_lamp2" rx="8.0"
+            ry="8.5" style="fill: rgb(0,0,0);">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </ellipse>
+        <rect height="20" id="tank01_meter01" style="fill: rgb(0,0,0);"
+            width="20" x="360" y="318">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </rect>
+        <rect height="20" id="tank01_meter02" style="fill: rgb(0,0,0);"
+            width="20" x="360" y="299">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </rect>
+        <rect height="20" id="tank01_meter03" style="fill: rgb(0,0,0);"
+            width="20" x="360" y="280">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </rect>
+        <rect height="20" id="tank01_meter04" style="fill: rgb(0,0,0);"
+            width="20" x="360" y="261">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </rect>
+        <rect height="20" id="tank01_meter05" style="fill: rgb(0,0,0);"
+            width="20" x="360" y="242">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </rect>
+        <rect height="20" id="tank02_meter01" style="fill: rgb(0,0,0);"
+            width="20" x="546" y="318">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </rect>
+        <rect height="20" id="tank02_meter02" style="fill: rgb(0,0,0);"
+            width="20" x="546" y="299">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </rect>
+        <rect height="20" id="tank02_meter03" style="fill: rgb(0,0,0);"
+            width="20" x="546" y="280">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </rect>
+        <rect height="20" id="tank02_meter04" style="fill: rgb(0,0,0);"
+            width="20" x="546" y="261">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </rect>
+        <rect height="20" id="tank02_meter05" style="fill: rgb(0,0,0);"
+            width="20" x="546" y="242">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </rect>
+        <rect height="20" id="tank03_meter01" style="fill: rgb(0,0,0);"
+            width="20" x="741" y="318">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </rect>
+        <rect height="20" id="tank03_meter02" style="fill: rgb(0,0,0);"
+            width="20" x="741" y="299">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </rect>
+        <rect height="20" id="tank03_meter03" style="fill: rgb(0,0,0);"
+            width="20" x="741" y="281">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </rect>
+        <rect height="20" id="tank03_meter04" style="fill: rgb(0,0,0);"
+            width="20" x="741" y="261">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </rect>
+        <rect height="20" id="tank03_meter05" style="fill: rgb(0,0,0);"
+            width="20" x="741" y="242">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </rect>
+        <image height="133" id="134360840187100" width="117" x="425"
+            xlink:href="../images/tank01.png" y="229"/>
+        <image height="133" id="134360841091101" width="117" x="619"
+            xlink:href="../images/tank01.png" y="228"/>
+        <g id="tank01_label">
+            <rect height="18" id="tank01_label"
+                style="fill: none; stroke: rgb(192,192,192); stroke-width: 1.0;"
+                width="42" x="359" y="345"/>
+            <text frame_height="18" frame_width="42" frame_x="359"
+                frame_y="345" id="tank01_label"
+                style=" font-family:&apos;MS Gothic&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+                x="359" xml:space="preserve" y="361"><animate
+                    attributeName="fill" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/></text>
+        </g>
+        <g id="tank02_label">
+            <rect height="18" id="tank02_label"
+                style="fill: none; stroke: rgb(192,192,192); stroke-width: 1.0;"
+                width="42" x="545" y="344"/>
+            <text frame_height="18" frame_width="42" frame_x="545"
+                frame_y="344" id="tank02_label"
+                style=" font-family:&apos;MS Gothic&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+                x="545" xml:space="preserve" y="360"><animate
+                    attributeName="fill" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/></text>
+        </g>
+        <g id="tank03_label">
+            <rect height="18" id="tank03_label"
+                style="fill: none; stroke: rgb(192,192,192); stroke-width: 1.0;"
+                width="42" x="740" y="343"/>
+            <text frame_height="18" frame_width="42" frame_x="740"
+                frame_y="343" id="tank03_label"
+                style=" font-family:&apos;MS Gothic&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+                x="740" xml:space="preserve" y="359"><animate
+                    attributeName="fill" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/></text>
+        </g>
+        <ellipse cx="313.0" cy="523.5" id="val04_lamp3" rx="8.0"
+            ry="8.5" style="fill: rgb(0,0,0);">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </ellipse>
+        <ellipse cx="270.0" cy="523.5" id="val04_lamp1" rx="8.0"
+            ry="8.5" style="fill: rgb(0,0,0);">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </ellipse>
+        <ellipse cx="468.0" cy="523.5" id="val05_lamp1" rx="8.0"
+            ry="8.5" style="fill: rgb(0,0,0);">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </ellipse>
+        <ellipse cx="513.0" cy="523.5" id="val05_lamp3" rx="8.0"
+            ry="8.5" style="fill: rgb(0,0,0);">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </ellipse>
+        <ellipse cx="272.0" cy="63.5" id="val01_lamp1" rx="8.0" ry="8.5" style="fill: rgb(0,0,0);">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </ellipse>
+        <ellipse cx="316.0" cy="63.5" id="val01_lamp3" rx="8.0" ry="8.5" style="fill: rgb(0,0,0);">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </ellipse>
+        <ellipse cx="462.0" cy="63.5" id="val02_lamp1" rx="8.0" ry="8.5" style="fill: rgb(0,0,0);">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </ellipse>
+        <ellipse cx="505.0" cy="63.5" id="val02_lamp3" rx="8.0" ry="8.5" style="fill: rgb(0,0,0);">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </ellipse>
+        <ellipse cx="661.0" cy="63.5" id="val03_lamp1" rx="8.0" ry="8.5" style="fill: rgb(0,0,0);">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </ellipse>
+        <ellipse cx="706.0" cy="63.5" id="val03_lamp3" rx="8.0" ry="8.5" style="fill: rgb(0,0,0);">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </ellipse>
+        <ellipse cx="662.0" cy="523.5" id="val06_lamp1" rx="8.0"
+            ry="8.5" style="fill: rgb(0,0,0);">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </ellipse>
+        <ellipse cx="706.0" cy="523.5" id="val06_lamp3" rx="8.0"
+            ry="8.5" style="fill: rgb(0,0,0);">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </ellipse>
+        <g id="134361604948400">
+            <line id="1343616049484_c_000" original-x1="517"
+                original-x2="643" original-y1="137" original-y2="137"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 2.0;stroke-dasharray: inherit;"
+                x1="516" x2="644" y1="137" y2="137">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </line>
+            <line id="1343616049484_c_100" original-x1="517"
+                original-x2="643" original-y1="122" original-y2="122"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 2.0;stroke-dasharray: inherit;"
+                x1="516" x2="644" y1="122" y2="122">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </line>
+        </g>
+        <g id="134361607613500">
+            <line id="1343616076135_c_000" original-x1="326"
+                original-x2="452" original-y1="137" original-y2="137"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 2.0;stroke-dasharray: inherit;"
+                x1="325" x2="453" y1="137" y2="137">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </line>
+            <line id="1343616076135_c_100" original-x1="326"
+                original-x2="452" original-y1="122" original-y2="122"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 2.0;stroke-dasharray: inherit;"
+                x1="325" x2="453" y1="122" y2="122">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </line>
+        </g>
+        <g id="134361609452600">
+            <line id="1343616094526_c_000" original-x1="526"
+                original-x2="652" original-y1="500" original-y2="500"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 2.0;stroke-dasharray: inherit;"
+                x1="525" x2="653" y1="500" y2="500">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </line>
+            <line id="1343616094526_c_100" original-x1="526"
+                original-x2="652" original-y1="485" original-y2="485"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 2.0;stroke-dasharray: inherit;"
+                x1="525" x2="653" y1="485" y2="485">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </line>
+        </g>
+        <g id="134361610417700">
+            <line id="1343616104177_c_000" original-x1="329"
+                original-x2="455" original-y1="500" original-y2="500"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 2.0;stroke-dasharray: inherit;"
+                x1="328" x2="456" y1="500" y2="500">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </line>
+            <line id="1343616104177_c_100" original-x1="329"
+                original-x2="455" original-y1="485" original-y2="485"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 2.0;stroke-dasharray: inherit;"
+                x1="328" x2="456" y1="485" y2="485">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </line>
+        </g>
+        <g id="1343616361941">
+            <line id="1343616183342" original-x1="280" original-x2="280"
+                original-y1="148" original-y2="226"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 2.0;stroke-dasharray: inherit;"
+                x1="280" x2="280" y1="147" y2="227">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </line>
+            <line id="1343616188532" original-x1="295" original-x2="295"
+                original-y1="148" original-y2="226"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 2.0;stroke-dasharray: inherit;"
+                x1="295" x2="295" y1="147" y2="227">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </line>
+        </g>
+        <g id="134361636528100">
+            <line id="1343616365281_c_000" original-x1="477"
+                original-x2="477" original-y1="149" original-y2="227"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 2.0;stroke-dasharray: inherit;"
+                x1="477" x2="477" y1="148" y2="228">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </line>
+            <line id="1343616365281_c_100" original-x1="492"
+                original-x2="492" original-y1="149" original-y2="227"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 2.0;stroke-dasharray: inherit;"
+                x1="492" x2="492" y1="148" y2="228">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </line>
+        </g>
+        <g id="134361637668200">
+            <line id="1343616376682_c_000" original-x1="676"
+                original-x2="676" original-y1="148" original-y2="226"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 2.0;stroke-dasharray: inherit;"
+                x1="676" x2="676" y1="147" y2="227">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </line>
+            <line id="1343616376682_c_100" original-x1="691"
+                original-x2="691" original-y1="148" original-y2="226"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 2.0;stroke-dasharray: inherit;"
+                x1="691" x2="691" y1="147" y2="227">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </line>
+        </g>
+        <g id="134361638708200">
+            <line id="1343616387082_c_000" original-x1="280"
+                original-x2="280" original-y1="364" original-y2="442"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 2.0;stroke-dasharray: inherit;"
+                x1="280" x2="280" y1="363" y2="443">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </line>
+            <line id="1343616387082_c_100" original-x1="295"
+                original-x2="295" original-y1="364" original-y2="442"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 2.0;stroke-dasharray: inherit;"
+                x1="295" x2="295" y1="363" y2="443">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </line>
+        </g>
+        <g id="134361639655300">
+            <line id="1343616396553_c_000" original-x1="477"
+                original-x2="477" original-y1="363" original-y2="441"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 2.0;stroke-dasharray: inherit;"
+                x1="477" x2="477" y1="362" y2="442">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </line>
+            <line id="1343616396553_c_100" original-x1="492"
+                original-x2="492" original-y1="363" original-y2="441"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 2.0;stroke-dasharray: inherit;"
+                x1="492" x2="492" y1="362" y2="442">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </line>
+        </g>
+        <g id="134361641330300">
+            <line id="1343616413303_c_000" original-x1="678"
+                original-x2="678" original-y1="362" original-y2="440"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 2.0;stroke-dasharray: inherit;"
+                x1="678" x2="678" y1="361" y2="441">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </line>
+            <line id="1343616413303_c_100" original-x1="693"
+                original-x2="693" original-y1="362" original-y2="440"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 2.0;stroke-dasharray: inherit;"
+                x1="693" x2="693" y1="361" y2="441">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </line>
+        </g>
+        <image height="118" id="1343622322947" width="149" x="11"
+            xlink:href="../images/plant1.png" y="67"/>
+        <image height="128" id="1343622763192" width="157" x="13"
+            xlink:href="../images/plant2.png" y="414"/>
+        <g id="1343616026802">
+            <line id="134361594972200" original-x1="166"
+                original-x2="260" original-y1="136" original-y2="136"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 2.0;stroke-dasharray: inherit;"
+                x1="165" x2="261" y1="136" y2="136">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </line>
+            <line id="134361600474000" original-x1="166"
+                original-x2="260" original-y1="122" original-y2="122"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 2.0;stroke-dasharray: inherit;"
+                x1="165" x2="261" y1="122" y2="122">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </line>
+        </g>
+        <g id="134361611432700">
+            <line id="1343616114327_c_000" original-x1="172"
+                original-x2="266" original-y1="499" original-y2="499"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 2.0;stroke-dasharray: inherit;"
+                x1="171" x2="267" y1="499" y2="499">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </line>
+            <line id="1343616114327_c_100" original-x1="172"
+                original-x2="266" original-y1="485" original-y2="485"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 2.0;stroke-dasharray: inherit;"
+                x1="171" x2="267" y1="485" y2="485">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </line>
+        </g>
+        <image height="70" id="134362447066900" width="78" x="443"
+            xlink:href="../images/val01.png" y="79"/>
+        <image height="70" id="134362447476901" width="78" x="641"
+            xlink:href="../images/val01.png" y="80"/>
+        <image height="70" id="134362447750902" width="78" x="250"
+            xlink:href="../images/val01.png" y="440"/>
+        <image height="70" id="134362448070903" width="78" x="448"
+            xlink:href="../images/val01.png" y="438"/>
+        <image height="70" id="134362448533904" width="78" x="646"
+            xlink:href="../images/val01.png" y="437"/>
+        <image height="70" id="134362449295905" width="78" x="252"
+            xlink:href="../images/val01.png" y="78"/>
+        <g id="val01_txt">
+            <rect height="18" id="val01_txt"
+                style="fill: none; stroke: rgb(192,192,192); stroke-width: 1.0;"
+                width="79" x="264" y="30"/>
+            <text frame_height="18" frame_width="79" frame_x="264"
+                frame_y="30" id="val01_txt"
+                style=" font-family:&apos;MS Gothic&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+                x="264" xml:space="preserve" y="46">バルブ1<animate
+                    attributeName="fill" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/></text>
+        </g>
+        <g id="val02_txt">
+            <rect height="18" id="val02_txt"
+                style="fill: none; stroke: rgb(192,192,192); stroke-width: 1.0;"
+                width="79" x="453" y="32"/>
+            <text frame_height="18" frame_width="79" frame_x="453"
+                frame_y="32" id="val02_txt"
+                style=" font-family:&apos;MS Gothic&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+                x="453" xml:space="preserve" y="48">バルブ2<animate
+                    attributeName="fill" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/></text>
+        </g>
+        <g id="val03_txt">
+            <rect height="18" id="val03_txt"
+                style="fill: none; stroke: rgb(192,192,192); stroke-width: 1.0;"
+                width="79" x="652" y="32"/>
+            <text frame_height="18" frame_width="79" frame_x="652"
+                frame_y="32" id="val03_txt"
+                style=" font-family:&apos;MS Gothic&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+                x="652" xml:space="preserve" y="48">バルブ3<animate
+                    attributeName="fill" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/></text>
+        </g>
+        <g id="val04_txt">
+            <rect height="18" id="val04_txt"
+                style="fill: none; stroke: rgb(192,192,192); stroke-width: 1.0;"
+                width="79" x="260" y="540"/>
+            <text frame_height="18" frame_width="79" frame_x="260"
+                frame_y="540" id="val04_txt"
+                style=" font-family:&apos;MS Gothic&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+                x="260" xml:space="preserve" y="556">バルブ4<animate
+                    attributeName="fill" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/></text>
+        </g>
+        <g id="val05_txt">
+            <rect height="18" id="val05_txt"
+                style="fill: none; stroke: rgb(192,192,192); stroke-width: 1.0;"
+                width="79" x="460" y="539"/>
+            <text frame_height="18" frame_width="79" frame_x="460"
+                frame_y="539" id="val05_txt"
+                style=" font-family:&apos;MS Gothic&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+                x="460" xml:space="preserve" y="555">バルブ5<animate
+                    attributeName="fill" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/></text>
+        </g>
+        <g id="val06_txt">
+            <rect height="18" id="val06_txt"
+                style="fill: none; stroke: rgb(192,192,192); stroke-width: 1.0;"
+                width="79" x="654" y="538"/>
+            <text frame_height="18" frame_width="79" frame_x="654"
+                frame_y="538" id="val06_txt"
+                style=" font-family:&apos;MS Gothic&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+                x="654" xml:space="preserve" y="554">バルブ6<animate
+                    attributeName="fill" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/></text>
+        </g>
+    </g>
+    <script>var wobj = window.parent;if(!wobj) { wobj = window; }</script>
+</svg>

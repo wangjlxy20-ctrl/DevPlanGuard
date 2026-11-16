@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-cache, private" />
+    <!-- ========== HEADER ======================================== -->
+    <!-- ========== CSS =========================================== -->
+    <link type="text/css" rel="stylesheet" href="./css/common.css" />
+    <!-- ========================================================== -->
+    <!-- ========== USER CSS ====================================== -->
+    <style type="text/css">
+      /* <![CDATA[ */
+      /* The user's original style can be described here */
+      /* ]]> */
+    </style>
+    <!-- ========================================================== -->
+    <!-- ========== SCRIPT ======================================== -->
+    <script
+      type="text/javascript"
+      src="./js/denyDirectAccess.js"
+      charset="UTF-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./js/jquery.min.js"
+      charset="UTF-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./js/buttonDef.js"
+      charset="UTF-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./js/navigation.js"
+      charset="UTF-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./js/objectManipulation.js"
+      charset="UTF-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./js/dataCheck.js"
+      charset="UTF-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./js/dataUtil.js"
+      charset="UTF-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./js/timeManipulation.js"
+      charset="UTF-8"
+    ></script>
+    <script type="text/javascript" src="./js/svg.js" charset="UTF-8"></script>
+    <script
+      type="text/javascript"
+      src="./js/common.js"
+      charset="UTF-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./js/gb_gf_ezg.js"
+      charset="UTF-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./js/finalTaskForUserCommon.js"
+      charset="UTF-8"
+    ></script>
+    <!-- ========================================================== -->
+    <!-- ========== MENU ========================================== -->
+    <script type="text/javascript">
+      writeTitle();
+    </script>
+    <script type="text/javascript">
+      //<![CDATA[
+      // Common header output
+      // gf_page   : Page output (current page / all pages)
+      // gf_title1 : Screen title 1 (up to 27 double-byte characters)
+      // gf_title2 : Screen title 21 (up to 30 double-byte characters)
+      // gf_id     : Screen ID
+      // gf_comment: Screen comment
+      // gf_onload : Specify the script when loading the screen (describe only when there is processing)
+      gf_page = "";
+      gf_title1 = "DevPlanGuard";
+      gf_title2 = "DevPlanGuaed Leader's project preview";
+      gf_id = "DPGL100";
+      gf_remarks = "show leader's project";
+      gf_onload = "";
+      CreateHideMenu(gf_page, gf_title1, gf_title2, gf_id, gf_onload);
+      //]]>
+    </script>
+    <!-- ========================================================== -->
+    <!-- ========== INPUT CHECK SCRIPT ============================ -->
+    <script type="text/javascript">
+      //<![CDATA[
+      function _chkInputValue() {
+        return true;
+      }
+      //]]>
+    </script>
+    <!-- ========================================================== -->
+    <!-- ========== USER SCRIPT =================================== -->
+    <script type="text/javascript">
+      //<![CDATA[
+      // You can write your own script here
+      function finalTaskForUser() {
+        // You can describe the process immediately after the screen is displayed here.
+      }
+      //]]>
+    </script>
+    <!-- ========================================================== -->
+    <title>dummytitle</title>
+    <!-- ========================================================== --></head
+  ><!-- ========== CUSTOMIZE ===================================== -->
+  <body>
+    <div id="wrapper">
+      <!-- ===== 通用按钮栏===== -->
+      <div
+        id="nav-bar"
+        style="
+          position: sticky;
+          top: 0;
+          z-index: 999;
+          display: flex;
+          justify-content: flex-end;
+          gap: 6px;
+          padding: 4px 8px;
+          background: #ffffff;
+          border-bottom: 1px solid #ddd;
+        "
+      >
+        <input
+          class="BTNCMD"
+          name="BTNCMD_DASHBOARD"
+          onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_DASHBOARD';
+            SendBTN(this.name);
+          "
+          readonly
+          size=""
+          type="text"
+          value="DASHBOARD"
+        />
+        <input
+          class="BTNCMD"
+          name="BTNCMD_FILES"
+          onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_FILES';
+            SendBTN(this.name);
+          "
+          readonly
+          size=""
+          type="text"
+          value="FILES"
+        />
+        <input
+          class="BTNCMD"
+          name="BTNCMD_SEARCH"
+          onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_SUBBMITED_TASKS';
+            SendBTN(this.name);
+          "
+          readonly
+          size=""
+          type="text"
+          value="SUBMITTED TASKS"
+        />
+        <input
+          type="text"
+          class="BTNCMD"
+          name="BTNCMD_BACK"
+          value="Back"
+          readonly
+          onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_BACK';
+            SendBTN(this.name);
+          "
+        />
+        <input
+          type="text"
+          class="BTNCMD"
+          name="BTNCMD_MAIN"
+          value="Main"
+          readonly
+          onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_MAIN';
+            SendBTN(this.name);
+          "
+        />
+        <input
+          type="text"
+          class="BTNCMD"
+          name="BTNCMD_LOGOUT"
+          value="Logout"
+          readonly
+          onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_LOGOUT';
+            SendBTN(this.name);
+          "
+        />
+      </div>
+      <!-- ===== /通用按钮栏 ===== -->
+      <input
+        type="hidden"
+        id="grandsight_ex_disp_date_format"
+        name="grandsight_ex_disp_date_format"
+        value=""
+      />
+      <input
+        type="hidden"
+        id="grandsight_ex_time_zone"
+        name="grandsight_ex_time_zone"
+        value=""
+      />
+      <table style="width: 100%">
+        <tbody>
+          <tr>
+            <td id="root">
+              <!-- Screen name -->
+              <h1>
+                <script>
+                  document.write(gf_title2);
+                </script>
+              </h1>
+              <!-- ========== WELCOME ========== -->
+              <p style="font-size: 14px; line-height: 1.9; margin: 8px 0">
+                HELLO
+                <span
+                  class="NMLLBL_NORMAL"
+                  id="NMLLBL_DISPLAY_INFO_USERNAME"
+                  value=""
+                  style="font-weight: bold"
+                ></span>
+                , Welcome to DevPlanGuard. Your Permission is
+                <span
+                  class="NMLLBL_NORMAL"
+                  id="NMLLBL_DISPLAY_INFO_PERMISSION"
+                  value=""
+                  style="font-weight: bold"
+                ></span>
+                -
+                <span
+                  class="NMLLBL_NORMAL"
+                  id="NMLLBL_DISPLAY_INFO_ROLE"
+                  value=""
+                  style="font-weight: bold"
+                ></span>
+                . Here are the projects you manage.
+              </p>
+              <!-- System time -->
+              <div
+                style="
+                  text-align: right;
+                  font-size: 12px;
+                  color: #0404fa;
+                  margin-bottom: 10px;
+                "
+              >
+                <span class="NMLLBL_NORMAL" id="NMLLBL_NOW_DATE" value="">
+                  YYYY/MM/DD HH:MI:SS
+                </span>
+                <!-- Logout button -->
+              </div>
+            </td>
+            <!-- ========== SEARCH AND NEW CREATION ========== -->
+          </tr>
+        </tbody>
+      </table>
+      <table
+        style="
+          width: 100%;
+          border-collapse: collapse;
+          font-size: 13px;
+          margin-bottom: 10px;
+        "
+      >
+        <tbody>
+          <tr>
+            <td style="width: 45%; text-align: left; vertical-align: bottom">
+              <div style="font-weight: bold; margin-bottom: 3px">
+                PROJECT CODE ID
+              </div>
+              <input
+                type="text"
+                name="NMLTXT_INPUT_INFO"
+                value=""
+                size="20"
+                maxlength="20"
+                class="NMLTXT_NORMAL"
+                onchange="classObjChange(this, 'NMLTXT_CHANGE')"
+                onkeypress="
+                  onKeyPressChange(event.keyCode, this, 'NMLTXT_CHANGE')
+                "
+                onkeydown="
+                  onKeyDownChange(event.keyCode, this, 'NMLTXT_CHANGE')
+                "
+              />
+            </td>
+            <!-- right -->
+            <td
+              style="
+                text-align: right;
+                vertical-align: bottom;
+                white-space: nowrap;
+              "
+            >
+              <input
+                class="BTNCMD"
+                name="BTNCMD_SEARCH"
+                onclick="
+                  document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_SEARCH';
+                  SendBTN(this.name);
+                "
+                readonly
+                size=""
+                type="text"
+                value="SEARCH"
+                style="margin-left: 6px"
+              /><input
+                class="BTNCMD"
+                name="BTNCMD_ADD_NEW"
+                onclick="
+                  document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_ADD_NEW';
+                  SendBTN(this.name);
+                "
+                readonly
+                size=""
+                type="text"
+                value="ADD SOMETHING NEW"
+                style="margin-left: 6px"
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div style="line-height: 10px"></div>
+      <!-- ========== PROJECTS ========== -->
+      <!-- Creator Row  -->
+      <table
+        id="TABLE_PROJECT"
+        style="width: 100%; border-collapse: collapse; font-size: 13px"
+      >
+        <tbody>
+          <tr style="text-align: center; background-color: #eef3fb">
+            <th style="width: 180px; border: 1px solid #9bb3d6; padding: 6px">
+              PROJECT CODE ID
+            </th>
+            <th style="border: 1px solid #9bb3d6; padding: 6px">
+              PROJECT NAME
+            </th>
+            <th style="width: 120px; border: 1px solid #9bb3d6; padding: 3px">
+              REQUIREMENT
+            </th>
+            <th style="width: 120px; border: 1px solid #9bb3d6; padding: 3px">
+              MEMBER
+            </th>
+          </tr>
+          <!-- ===== Template row ===== -->
+          <tr>
+            <td
+              style="
+                text-align: center;
+                border: 1px solid #c5d3e8;
+                padding: 6px;
+              "
+            >
+              <!--  linkScreenId  -->
+              <input
+                class="LINK_TEXT"
+                name="LNKMOV_DETAILS"
+                onclick="
+                  document.main.COMMAND_NAME.value = 'COMMAND_LNKMOV_DETAILS';
+                  var linkScreenId = 'DPGL101';
+                  linkOpen(linkScreenId, this.value, this.name);
+                "
+                readonly
+                size="20"
+                type="text"
+                value="DETAILS"
+              />
+            </td>
+            <td
+              style="
+                text-align: center;
+                border: 1px solid #c5d3e8;
+                padding: 6px;
+              "
+            >
+              <span
+                class="NMLLBL_NORMAL"
+                id="NMLLBL_PROJECT_NAME"
+                value=""
+              ></span>
+            </td>
+            <td style="border: 1px solid #9bb3d6; padding: 3px">
+              <input
+                type="hidden"
+                id="NMLTXT_PROJECT_ID"
+                name="NMLTXT_PROJECT_ID"
+                value=""
+              />
+              <input
+                class="LINK_TEXT"
+                name="LNKMOV_REQUIREMENT"
+                onclick="
+                  document.main.COMMAND_NAME.value =
+                    'COMMAND_LNKMOV_REQUIREMENT';
+                  var hidden =
+                    this.closest('tr').querySelector('input[type=hidden]');
+                  var pid = hidden ? hidden.value : this.value;
+                  linkOpen('DPGL100RE', pid, this.name);
+                "
+                readonly
+                size="20"
+                type="text"
+                value=""
+              />
+            </td>
+            <td style="border: 1px solid #9bb3d6; padding: 3px">
+              <input
+                class="LINK_TEXT"
+                name="LNKMOV_MEMBER"
+                onclick="
+                  document.main.COMMAND_NAME.value = 'COMMAND_LNKMOV_MEMBER';
+                  var hidden =
+                    this.closest('tr').querySelector('input[type=hidden]');
+                  var pid = hidden ? hidden.value : this.value;
+                  linkOpen('DPGL100MEM', pid, this.name);
+                "
+                readonly
+                size="20"
+                type="text"
+                value=""
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div id="errorLocation" style="font-size: small; color: Gray"></div>
+    </div>
+    <!-- ========================================================== -->
+    <!-- ========== FOOTER ======================================== -->
+    <script type="text/javascript">
+      //<![CDATA[
+      CreateFooter();
+      //]]>
+    </script>
+    <!-- ========================================================== -->
+  </body>
+</html>

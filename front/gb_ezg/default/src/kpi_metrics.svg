@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="420" height="110" viewBox="0 0 420 110" xmlns="http://www.w3.org/2000/svg">
+  <g id="_GBEZG_ROOT_" x="0" y="0" width="420" height="110">
+    <rect id="background" x="0" y="0" width="420" height="110" style="fill:rgb(255,255,255);"/>
+    <!-- Pending Review -->
+    <g id="kg0">
+      <rect id="kbg0" x="10" y="30" width="95" height="70" rx="6" style="fill:rgb(244,247,250);stroke:rgb(220,228,236);stroke-width:1;"/>
+      <text id="kname0" x="18" y="50" style="font-family:Segoe UI,Arial;font-size:10px;fill:#7c8896;">Pending Review</text>
+      <text svgControl="ON" id="kval0" x="20" y="86" style="font-family:Segoe UI,Arial;font-size:24px;font-weight:bold;fill:#59a14f;">0<animate attributeName="fill" begin="0s" dur="0s" repeatCount="indefinite" calcMode="discrete" values="rgb(89,161,79);rgb(89,161,79)"/></text>
+    </g>
+    <!-- Unassigned -->
+    <g id="kg1">
+      <rect id="kbg1" x="115" y="30" width="95" height="70" rx="6" style="fill:rgb(244,247,250);stroke:rgb(220,228,236);stroke-width:1;"/>
+      <text id="kname1" x="123" y="50" style="font-family:Segoe UI,Arial;font-size:10px;fill:#7c8896;">Unassigned</text>
+      <text svgControl="ON" id="kval1" x="125" y="86" style="font-family:Segoe UI,Arial;font-size:24px;font-weight:bold;fill:#59a14f;">0<animate attributeName="fill" begin="0s" dur="0s" repeatCount="indefinite" calcMode="discrete" values="rgb(89,161,79);rgb(89,161,79)"/></text>
+    </g>
+    <!-- Overdue -->
+    <g id="kg2">
+      <rect id="kbg2" x="220" y="30" width="95" height="70" rx="6" style="fill:rgb(244,247,250);stroke:rgb(220,228,236);stroke-width:1;"/>
+      <text id="kname2" x="228" y="50" style="font-family:Segoe UI,Arial;font-size:10px;fill:#7c8896;">Overdue</text>
+      <text svgControl="ON" id="kval2" x="230" y="86" style="font-family:Segoe UI,Arial;font-size:24px;font-weight:bold;fill:#59a14f;">0<animate attributeName="fill" begin="0s" dur="0s" repeatCount="indefinite" calcMode="discrete" values="rgb(89,161,79);rgb(89,161,79)"/></text>
+    </g>
+    <!-- Open Defects -->
+    <g id="kg3">
+      <rect id="kbg3" x="325" y="30" width="95" height="70" rx="6" style="fill:rgb(244,247,250);stroke:rgb(220,228,236);stroke-width:1;"/>
+      <text id="kname3" x="333" y="50" style="font-family:Segoe UI,Arial;font-size:10px;fill:#7c8896;">Open Defects</text>
+      <text svgControl="ON" id="kval3" x="335" y="86" style="font-family:Segoe UI,Arial;font-size:24px;font-weight:bold;fill:#59a14f;">0<animate attributeName="fill" begin="0s" dur="0s" repeatCount="indefinite" calcMode="discrete" values="rgb(89,161,79);rgb(89,161,79)"/></text>
+    </g>
+  </g>
+</svg>

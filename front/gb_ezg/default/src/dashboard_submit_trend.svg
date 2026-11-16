@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="340" height="220" viewBox="0 0 340 220" xmlns="http://www.w3.org/2000/svg">
+  <g id="_GBEZG_ROOT_" x="0" y="0" width="340" height="220">
+    <rect id="background" x="0" y="0" width="340" height="220" style="fill:rgb(255,255,255);"/>
+    <text id="title" x="10" y="18" style="font-family:Segoe UI,Arial;font-size:13px;font-weight:bold;fill:#1a73e8;">My submissions (last 7 days)</text>
+    <text id="total_label" x="250" y="18" style="font-family:Segoe UI,Arial;font-size:12px;fill:#5b6b7c;">total</text>
+    <text svgControl="ON" id="total_value" x="288" y="18" style="font-family:Segoe UI,Arial;font-size:14px;font-weight:bold;fill:#c9a227;">0</text>
+    <g id="bar0" svgControl="ON">
+      <rect id="FULL_SIZE" x="18" y="55" width="32" height="120" style="fill:rgb(219,230,245);"/>
+      <rect id="CURRENT_SIZE" x="18" y="55" width="32" height="0" style="fill:rgb(26,115,232);"/>
+    </g>
+    <text svgControl="ON" id="val0" x="24" y="51" style="font-family:Segoe UI,Arial;font-size:11px;fill:#3c4a5a;">0</text>
+    <text id="day0" x="22" y="189" style="font-family:Segoe UI,Arial;font-size:10px;fill:#7c8896;">-</text>
+    <g id="bar1" svgControl="ON">
+      <rect id="FULL_SIZE" x="62" y="55" width="32" height="120" style="fill:rgb(219,230,245);"/>
+      <rect id="CURRENT_SIZE" x="62" y="55" width="32" height="0" style="fill:rgb(26,115,232);"/>
+    </g>
+    <text svgControl="ON" id="val1" x="68" y="51" style="font-family:Segoe UI,Arial;font-size:11px;fill:#3c4a5a;">0</text>
+    <text id="day1" x="66" y="189" style="font-family:Segoe UI,Arial;font-size:10px;fill:#7c8896;">-</text>
+    <g id="bar2" svgControl="ON">
+      <rect id="FULL_SIZE" x="106" y="55" width="32" height="120" style="fill:rgb(219,230,245);"/>
+      <rect id="CURRENT_SIZE" x="106" y="55" width="32" height="0" style="fill:rgb(26,115,232);"/>
+    </g>
+    <text svgControl="ON" id="val2" x="112" y="51" style="font-family:Segoe UI,Arial;font-size:11px;fill:#3c4a5a;">0</text>
+    <text id="day2" x="110" y="189" style="font-family:Segoe UI,Arial;font-size:10px;fill:#7c8896;">-</text>
+    <g id="bar3" svgControl="ON">
+      <rect id="FULL_SIZE" x="150" y="55" width="32" height="120" style="fill:rgb(219,230,245);"/>
+      <rect id="CURRENT_SIZE" x="150" y="55" width="32" height="0" style="fill:rgb(26,115,232);"/>
+    </g>
+    <text svgControl="ON" id="val3" x="156" y="51" style="font-family:Segoe UI,Arial;font-size:11px;fill:#3c4a5a;">0</text>
+    <text id="day3" x="154" y="189" style="font-family:Segoe UI,Arial;font-size:10px;fill:#7c8896;">-</text>
+    <g id="bar4" svgControl="ON">
+      <rect id="FULL_SIZE" x="194" y="55" width="32" height="120" style="fill:rgb(219,230,245);"/>
+      <rect id="CURRENT_SIZE" x="194" y="55" width="32" height="0" style="fill:rgb(26,115,232);"/>
+    </g>
+    <text svgControl="ON" id="val4" x="200" y="51" style="font-family:Segoe UI,Arial;font-size:11px;fill:#3c4a5a;">0</text>
+    <text id="day4" x="198" y="189" style="font-family:Segoe UI,Arial;font-size:10px;fill:#7c8896;">-</text>
+    <g id="bar5" svgControl="ON">
+      <rect id="FULL_SIZE" x="238" y="55" width="32" height="120" style="fill:rgb(219,230,245);"/>
+      <rect id="CURRENT_SIZE" x="238" y="55" width="32" height="0" style="fill:rgb(26,115,232);"/>
+    </g>
+    <text svgControl="ON" id="val5" x="244" y="51" style="font-family:Segoe UI,Arial;font-size:11px;fill:#3c4a5a;">0</text>
+    <text id="day5" x="242" y="189" style="font-family:Segoe UI,Arial;font-size:10px;fill:#7c8896;">-</text>
+    <g id="bar6" svgControl="ON">
+      <rect id="FULL_SIZE" x="282" y="55" width="32" height="120" style="fill:rgb(219,230,245);"/>
+      <rect id="CURRENT_SIZE" x="282" y="55" width="32" height="0" style="fill:rgb(26,115,232);"/>
+    </g>
+    <text svgControl="ON" id="val6" x="288" y="51" style="font-family:Segoe UI,Arial;font-size:11px;fill:#3c4a5a;">0</text>
+    <text id="day6" x="286" y="189" style="font-family:Segoe UI,Arial;font-size:10px;fill:#7c8896;">-</text>
+    <line x1="10" y1="175" x2="330" y2="175" style="stroke:rgb(200,210,220);stroke-width:1;"/>
+  </g>
+</svg>

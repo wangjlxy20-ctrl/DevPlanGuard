@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Expires" content="0">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Cache-Control" content="no-cache, private">
+  <link type="text/css" rel="stylesheet" href="./css/common.css">
+  <style type="text/css">
+      /* <![CDATA[ */
+      .header-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 10px;
+      }
+      .form-table {
+        width: 100%;
+        max-width: 820px;
+        border-collapse: collapse;
+        font-size: 13px;
+      }
+      .form-table th,
+      .form-table td {
+        border: 1px solid #bbb;
+        padding: 8px;
+        vertical-align: middle;
+      }
+      .form-table th {
+        width: 200px;
+        background-color: #f5f5f5;
+        text-align: left;
+        font-weight: bold;
+      }
+      .form-table input[type="text"],
+      .form-table select,
+      .form-table textarea {
+        width: 95%;
+        font-size: 13px;
+        padding: 3px;
+        box-sizing: border-box;
+      }
+      .form-table textarea {
+        height: 80px;
+        resize: vertical;
+      }
+      .count-input {
+        width: 70px !important;
+      }
+      .radio-row label {
+        margin-right: 18px;
+        font-size: 13px;
+      }
+      .section-title {
+        margin: 18px 0 6px;
+        font-size: 14px;
+        font-weight: bold;
+        border-left: 4px solid #4a90e2;
+        padding-left: 8px;
+      }
+      .bug-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 13px;
+      }
+      .bug-table th,
+      .bug-table td {
+        border: 1px solid #bbb;
+        padding: 6px;
+        vertical-align: top;
+      }
+      .bug-table th {
+        background-color: #f5f5f5;
+        text-align: left;
+        font-weight: bold;
+      }
+      .bug-table input[type="text"],
+      .bug-table select,
+      .bug-table textarea {
+        width: 100%;
+        font-size: 13px;
+        padding: 3px;
+        box-sizing: border-box;
+      }
+      .bug-table textarea {
+        height: 48px;
+        resize: vertical;
+      }
+      .btn-area {
+        margin-top: 14px;
+        text-align: center;
+      }
+      .required-mark {
+        color: #e74c3c;
+        margin-left: 3px;
+      }
+      /* ]]> */
+    </style>
+  <script type="text/javascript" src="./js/denyDirectAccess.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/jquery.min.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/buttonDef.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/navigation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/objectManipulation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/dataCheck.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/dataUtil.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/timeManipulation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/svg.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/common.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/gb_gf_ezg.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/finalTaskForUserCommon.js" charset="UTF-8"></script>
+  <script type="text/javascript">
+      writeTitle();
+    </script>
+  <script type="text/javascript">
+      //<![CDATA[
+    gf_page=   "";
+    gf_title1= "DevPlanGuard";
+    gf_title2= "SUBMIT TEST RESULT";
+    gf_id=     "DPGL120SUBT";
+    gf_remarks="FILL THE TEST RESULT AND BUG LIST";
+    gf_onload= "";
+      CreateHideMenu(gf_page, gf_title1, gf_title2, gf_id, gf_onload);
+      //]]>
+    </script>
+  <script type="text/javascript">
+      //<![CDATA[
+      // 切换 BUG 列表显隐；切回 PASSED 时清空已填内容，防止误提交脏数据
+      function toggleBugList(result) {
+        var area = document.getElementById("BUG_LIST_AREA");
+        if (result === "FAILED") {
+          area.style.display = "";
+        } else {
+          area.style.display = "none";
+          clearBugList();
+        }
+      }
+      // 清空 BUG 列表 5 行
+      function clearBugList() {
+        for (var i = 0; i < 5; i++) {
+          var title = document.getElementById("NMLTXT_BUG_TITLE_" + i);
+          var severity = document.getElementById("NMLDLD_BUG_SEVERITY_" + i);
+          var desc = document.getElementById("NMLTXA_BUG_DESC_" + i);
+          if (title) title.value = "";
+          if (severity) severity.selectedIndex = 0;
+          if (desc) desc.value = "";
+        }
+      }
+      //]]>
+      //<![CDATA[
+      function _chkInputValue() {
+        return true;
+      }
+      //]]>
+    </script>
+  <script type="text/javascript">
+      //<![CDATA[
+      function finalTaskForUser() {}
+      //]]>
+    </script>
+  <title>dummytitle</title>
+ </head>
+ <body>
+  <div id="wrapper">
+   <!-- ===== 通用按钮栏：Back / Dashboard / Logout ===== -->
+   <div id="nav-bar" style="
+          position: sticky;
+          top: 0;
+          z-index: 999;
+          display: flex;
+          justify-content: flex-end;
+          gap: 6px;
+          padding: 4px 8px;
+          background: #f7f7f7;
+          border-bottom: 1px solid #ddd;
+        ">
+    <input type="text" class="BTNCMD" name="BTNCMD_BACK" value="Back" readonly onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_BACK';
+            SendBTN(this.name);
+          "> <input type="text" class="BTNCMD" name="BTNCMD_MAIN" value="Main" readonly onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_MAIN';
+            SendBTN(this.name);
+          "> <input type="text" class="BTNCMD" name="BTNCMD_LOGOUT" value="Logout" readonly onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_LOGOUT';
+            SendBTN(this.name);
+          ">
+   </div><!-- ===== /通用按钮栏 ===== --> <input type="hidden" id="grandsight_ex_disp_date_format" name="grandsight_ex_disp_date_format" value=""> <input type="hidden" id="grandsight_ex_time_zone" name="grandsight_ex_time_zone" value=""> <input type="hidden" id="NMLTXT_MY_ROLE" name="NMLTXT_MY_ROLE" value=""> <input type="hidden" id="NMLTXT_PROJECT_ID" name="NMLTXT_PROJECT_ID" value="">
+   <table style="width: 100%">
+    <tbody>
+     <tr>
+      <td id="root">
+       <h1>
+        <script>
+                  document.write(gf_title2);
+                </script></h1><!-- Header: Time -->
+       <table class="header-table">
+        <tbody>
+         <tr>
+          <td style="text-align: left; vertical-align: middle"><span class="NMLLBL_NORMAL" id="NMLLBL_NOW_DATE" value="">YYYY/MM/DD HH:MI:SS</span></td>
+         </tr>
+        </tbody>
+       </table><!-- Hidden keys brought over from the task list --> <input type="hidden" id="NMLTXT_TASK_ID" name="NMLTXT_TASK_ID" value=""> <input type="hidden" id="NMLTXT_TEST_PLAN_ID" name="NMLTXT_TEST_PLAN_ID" value=""> <!-- TEST RESULT FORM -->
+       <table class="form-table">
+        <tbody>
+         <tr>
+          <th>Task</th>
+          <td><span class="NMLLBL_NORMAL" id="NMLLBL_TASK_CODE" value=""></span> <span class="NMLLBL_NORMAL" id="NMLLBL_TASK_NAME" value=""></span></td>
+         </tr>
+         <tr>
+          <th>Test Plan<span class="required-mark">*</span></th>
+          <td><textarea id="NMLTXA_TEST_PLAN" name="NMLTXA_TEST_PLAN"></textarea></td>
+         </tr>
+         <tr>
+          <th>Task Type</th>
+          <td><span class="NMLLBL_NORMAL" id="NMLLBL_TASK_TYPE" value=""></span></td>
+         </tr>
+         <tr>
+          <th>TASK DESCRIPTION</th>
+          <td><span class="NMLLBL_NORMAL" id="NMLLBL_TASK_DESC" value=""></span></td>
+         </tr>
+         <tr>
+          <th>Test Case Design<span class="required-mark">*</span></th>
+          <td><textarea id="NMLTXA_TEST_CASE_DESIGN" name="NMLTXA_TEST_CASE_DESIGN"></textarea></td>
+         </tr>
+         <tr>
+          <th>Passed / Failed<span class="required-mark">*</span></th>
+          <td><input class="count-input" type="text" id="NMLTXT_PASSED_COUNT" name="NMLTXT_PASSED_COUNT" value=""> / <input class="count-input" type="text" id="NMLTXT_FAILED_COUNT" name="NMLTXT_FAILED_COUNT" value=""></td>
+         </tr>
+         <tr>
+          <th>Test Result<span class="required-mark">*</span></th>
+          <td class="radio-row"><label> <input type="radio" name="NMLOPT_TEST_RESULT" value="PASSED" id="NMLOPT_TEST_RESULT_PASSED" onchange="toggleBugList(this.value)"> PASSED </label> <label> <input type="radio" name="NMLOPT_TEST_RESULT" value="FAILED" id="NMLOPT_TEST_RESULT_FAILED" onchange="toggleBugList(this.value)"> FAILED </label></td>
+         </tr>
+         <tr>
+          <th>Test Report URL</th>
+          <td><input type="text" id="NMLTXT_DELIVERABLE_URL" name="NMLTXT_DELIVERABLE_URL" value=""></td>
+         </tr>
+         <tr>
+          <th>Submission Note</th>
+          <td><textarea id="NMLTXA_SUBMISSION_NOTE" name="NMLTXA_SUBMISSION_NOTE"></textarea></td>
+         </tr>
+         <tr>
+          <th>Attachment</th>
+          <td><input type="file" id="upload_files"> <input type="button" id="upload_button" value="Upload"> <input type="hidden" id="NMLTXT_DELIVERABLE_FILE" name="NMLTXT_DELIVERABLE_FILE" value="">
+           <div id="upload_result" style="margin-top:6px;color:#555"></div></td>
+         </tr>
+        </tbody>
+       </table><!-- BUG LIST: one row = one DEFECT task -->
+       <div id="BUG_LIST_AREA" style="display: none">
+        <div class="section-title">
+         Bug List (required when Test Result = FAILED)
+        </div>
+        <table class="bug-table" id="TABLE_BUG_LIST">
+         <tbody>
+          <tr>
+           <th style="width: 40px; text-align: center">No.</th>
+           <th style="width: 240px">Bug Title<span class="required-mark">*</span></th>
+           <th style="width: 130px">Severity<span class="required-mark">*</span></th>
+           <th>Bug Description<span class="required-mark">*</span></th>
+          </tr>
+          <tr>
+           <td style="text-align: center">1</td>
+           <td><input type="text" id="NMLTXT_BUG_TITLE_0" name="NMLTXT_BUG_TITLE_0" value=""></td>
+           <td><select id="NMLDLD_BUG_SEVERITY_0" name="NMLDLD_BUG_SEVERITY_0"> <option value="">-- SELECT --</option> <option value="LOW">LOW</option> <option value="MEDIUM">MEDIUM</option> <option value="HIGH">HIGH</option> <option value="CRITICAL">CRITICAL</option> </select></td>
+           <td><textarea id="NMLTXA_BUG_DESC_0" name="NMLTXA_BUG_DESC_0"></textarea></td>
+          </tr>
+          <tr>
+           <td style="text-align: center">2</td>
+           <td><input type="text" id="NMLTXT_BUG_TITLE_1" name="NMLTXT_BUG_TITLE_1" value=""></td>
+           <td><select id="NMLDLD_BUG_SEVERITY_1" name="NMLDLD_BUG_SEVERITY_1"> <option value="">-- SELECT --</option> <option value="LOW">LOW</option> <option value="MEDIUM">MEDIUM</option> <option value="HIGH">HIGH</option> <option value="CRITICAL">CRITICAL</option> </select></td>
+           <td><textarea id="NMLTXA_BUG_DESC_1" name="NMLTXA_BUG_DESC_1"></textarea></td>
+          </tr>
+          <tr>
+           <td style="text-align: center">3</td>
+           <td><input type="text" id="NMLTXT_BUG_TITLE_2" name="NMLTXT_BUG_TITLE_2" value=""></td>
+           <td><select id="NMLDLD_BUG_SEVERITY_2" name="NMLDLD_BUG_SEVERITY_2"> <option value="">-- SELECT --</option> <option value="LOW">LOW</option> <option value="MEDIUM">MEDIUM</option> <option value="HIGH">HIGH</option> <option value="CRITICAL">CRITICAL</option> </select></td>
+           <td><textarea id="NMLTXA_BUG_DESC_2" name="NMLTXA_BUG_DESC_2"></textarea></td>
+          </tr>
+          <tr>
+           <td style="text-align: center">4</td>
+           <td><input type="text" id="NMLTXT_BUG_TITLE_3" name="NMLTXT_BUG_TITLE_3" value=""></td>
+           <td><select id="NMLDLD_BUG_SEVERITY_3" name="NMLDLD_BUG_SEVERITY_3"> <option value="">-- SELECT --</option> <option value="LOW">LOW</option> <option value="MEDIUM">MEDIUM</option> <option value="HIGH">HIGH</option> <option value="CRITICAL">CRITICAL</option> </select></td>
+           <td><textarea id="NMLTXA_BUG_DESC_3" name="NMLTXA_BUG_DESC_3"></textarea></td>
+          </tr>
+          <tr>
+           <td style="text-align: center">5</td>
+           <td><input type="text" id="NMLTXT_BUG_TITLE_4" name="NMLTXT_BUG_TITLE_4" value=""></td>
+           <td><select id="NMLDLD_BUG_SEVERITY_4" name="NMLDLD_BUG_SEVERITY_4"> <option value="">-- SELECT --</option> <option value="LOW">LOW</option> <option value="MEDIUM">MEDIUM</option> <option value="HIGH">HIGH</option> <option value="CRITICAL">CRITICAL</option> </select></td>
+           <td><textarea id="NMLTXA_BUG_DESC_4" name="NMLTXA_BUG_DESC_4"></textarea></td>
+          </tr>
+         </tbody>
+        </table>
+       </div><!-- BUTTONS -->
+       <div class="btn-area">
+        <input class="BTNCMD" name="BTNCMD_ADD" onclick="
+                    document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_ADD';
+                    SendBTN(this.name);
+                  " readonly size="" type="text" value="ADD"><input class="BTNCMD" name="BTNCMD_CANCEL" onclick="
+                    document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_CANCEL';
+                    SendBTN(this.name);
+                  " readonly size="" type="text" value="CANCEL">
+       </div></td>
+     </tr>
+     <tr>
+      <td>
+       <div id="errorLocation" style="font-size: small; color: Gray"></div></td>
+     </tr>
+    </tbody>
+   </table>
+  </div>
+  <script type="text/javascript">
+      //<![CDATA[
+      jQuery(function(){
+        jQuery("#upload_button").on("click", function(){
+          var fileList = jQuery("#upload_files").prop("files");
+          if(!fileList || fileList.length === 0){ alert("Please choose a file first."); return; }
+          var formData = new FormData();
+          formData.append("files", fileList[0]);
+          jQuery.ajax("./servlet/FileUpload", {
+            method: "POST", contentType: false, data: formData, processData: false, dataType: "text"
+          }).done(function(data){
+            var resp = JSON.parse(data);
+            if(resp.success && resp.files && resp.files.length > 0){
+              var fi = resp.files[0];
+              if(fi.success){
+                jQuery("#NMLTXT_DELIVERABLE_FILE").val(fi.storedFilename);
+                jQuery("#upload_result").html("Uploaded: " + fi.storedFilename);
+              } else { alert("Upload failed: " + fi.errorMessage); }
+            } else { alert("Upload failed: " + resp.errorMessage); }
+          }).fail(function(jqXHR){
+            if(jqXHR.status === 0){ alert("文件可能过大，或网络中断。"); }
+            else if(jqXHR.responseText){ try{ var r=JSON.parse(jqXHR.responseText); alert("Upload failed: " + r.errorMessage); }catch(e){ alert("Upload failed."); } }
+            else { alert("Upload failed."); }
+          });
+        });
+      });
+      //]]>
+    </script>
+  <script type="text/javascript">
+      //<![CDATA[
+      CreateFooter();
+      //]]>
+    </script>
+ </body>
+</html>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+                     "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg height="600"
+    onclick="if(typeof(gb_gf_ezg_svgComOnClick)==&apos;function&apos;)gb_gf_ezg_svgComOnClick(evt);"
+    onload="if(typeof(gb_gf_ezg_svgComOnLoad)==&apos;function&apos;)gb_gf_ezg_svgComOnLoad(evt);"
+    onmousedown="if(typeof(gb_gf_ezg_svgComOnMouseDown)==&apos;function&apos;)gb_gf_ezg_svgComOnMouseDown(evt);"
+    onmouseup="if(typeof(gb_gf_ezg_svgComOnMouseUp)==&apos;function&apos;)gb_gf_ezg_svgComOnMouseUp(evt);"
+    viewBox="0 0 800 600" width="800" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="_GBEZG_ROOT_">
+        <rect height="100%" id="background"
+            style="fill:rgb(255,255,255);" width="100%" x="0" y="0"/>
+        <defs/>
+        <g id="14443575374310">
+            <ellipse cx="74.0" cy="75.0" id="1444357537451_c_0"
+                rx="20.0" ry="20.0" style="fill: rgb(0,0,255);">
+                <animate attributeName="fill" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </ellipse>
+            <polygon fill-rule="evenodd" id="1444357537451_c_1"
+                points="54,105 74,75 94,105 54,105 " style="fill: rgb(0,0,255);">
+                <animate attributeName="fill" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </polygon>
+            <rect height="20" id="1444357537451_c_2"
+                style="fill: rgb(0,0,255);" width="10" x="89" y="65">
+                <animate attributeName="fill" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+        </g>
+    </g>
+</svg>

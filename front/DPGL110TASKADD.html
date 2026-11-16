@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Expires" content="0">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Cache-Control" content="no-cache, private">
+  <link type="text/css" rel="stylesheet" href="./css/common.css">
+  <style type="text/css">
+      /* <![CDATA[ */
+      .header-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 10px;
+      }
+      .form-table {
+        width: 100%;
+        max-width: 720px;
+        border-collapse: collapse;
+        font-size: 13px;
+      }
+      .form-table th,
+      .form-table td {
+        border: 1px solid #bbb;
+        padding: 8px;
+        vertical-align: middle;
+      }
+      .form-table th {
+        width: 180px;
+        background-color: #f5f5f5;
+        text-align: left;
+        font-weight: bold;
+      }
+      .form-table input[type="text"],
+      .form-table input[type="date"],
+      .form-table select,
+      .form-table textarea {
+        width: 95%;
+        font-size: 13px;
+        padding: 3px;
+        box-sizing: border-box;
+      }
+      .form-table textarea {
+        height: 80px;
+        resize: vertical;
+      }
+      .radio-row label {
+        margin-right: 18px;
+        font-size: 13px;
+      }
+      .btn-area {
+        margin-top: 14px;
+        text-align: center;
+      }
+      .required-mark {
+        color: #e74c3c;
+        margin-left: 3px;
+      }
+      .extra-title {
+        background-color: #eef4fb;
+        font-weight: bold;
+      }
+      /* ]]> */
+    </style>
+  <script type="text/javascript" src="./js/denyDirectAccess.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/jquery.min.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/buttonDef.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/navigation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/objectManipulation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/dataCheck.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/dataUtil.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/timeManipulation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/svg.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/common.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/gb_gf_ezg.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/finalTaskForUserCommon.js" charset="UTF-8"></script>
+  <script type="text/javascript">
+      writeTitle();
+    </script>
+  <script type="text/javascript">
+      //<![CDATA[
+    gf_page=   "";
+    gf_title1= "DevPlanGuard";
+    gf_title2= "DevPlanGuard - ADD A NEW TASK";
+    gf_id=     "DPGL110TASKADD";
+    gf_remarks="LEAD'S TASK ADDING PAGE";
+    gf_onload= "";
+      CreateHideMenu(gf_page, gf_title1, gf_title2, gf_id, gf_onload);
+      //]]>
+    </script>
+  <script type="text/javascript">
+      //<![CDATA[
+      // =========================================================
+      // Task Type 联动：选 TEST 显示测试信息，选 DEFECT 显示缺陷信息
+      // 与测试提交页 toggleBugList() 同样的做法（纯 HTML+JS，不改框架）
+      // =========================================================
+      var TEST_EXTRA_ROWS = ["TEST_EXTRA_PLAN_ROW", "TEST_EXTRA_CASE_ROW"];
+      var DEFECT_EXTRA_ROWS = ["DEFECT_EXTRA_SEVERITY_ROW"];
+      function setRowVisible(rowId, visible) {
+        var row = document.getElementById(rowId);
+        if (row) {
+          row.style.display = visible ? "" : "none";
+        }
+      }
+      // 清空隐藏区域的已填内容，防止切换类型后残留脏数据被提交
+      function clearTestFields() {
+        var plan = document.getElementById("NMLTXT_TEST_PLAN");
+        var design = document.getElementById("NMLTXA_TEST_CASE_DESIGN");
+        if (plan) plan.value = "";
+        if (design) design.value = "";
+      }
+      function clearDefectFields() {
+        var sev = document.getElementById("NMLDLD_SEVERITY");
+        if (sev) sev.selectedIndex = 0;
+      }
+      function toggleTaskTypeFields(type) {
+        var isTest = type === "TEST";
+        var isDefect = type === "DEFECT";
+        for (var i = 0; i < TEST_EXTRA_ROWS.length; i++) {
+          setRowVisible(TEST_EXTRA_ROWS[i], isTest);
+        }
+        for (var j = 0; j < DEFECT_EXTRA_ROWS.length; j++) {
+          setRowVisible(DEFECT_EXTRA_ROWS[j], isDefect);
+        }
+        if (!isTest) {
+          clearTestFields();
+        }
+        if (!isDefect) {
+          clearDefectFields();
+        }
+      }
+      //]]>
+    </script>
+  <script type="text/javascript">
+      //<![CDATA[
+      function _chkInputValue() {
+        return true;
+      }
+      //]]>
+    </script>
+  <script type="text/javascript">
+      //<![CDATA[
+      function finalTaskForUser() {
+        // 绑定 Task Type 变化事件（委托绑定，框架重绘 select 也不会失效）
+        if (window.jQuery) {
+          jQuery(document).off("change.dpgl110", "#NMLDLD_TASK_TYPE");
+          jQuery(document).on(
+            "change.dpgl110",
+            "#NMLDLD_TASK_TYPE",
+            function () {
+              toggleTaskTypeFields(this.value);
+            },
+          );
+          var sel = jQuery("#NMLDLD_TASK_TYPE");
+          if (sel.length) {
+            toggleTaskTypeFields(sel.val());
+          }
+        } else {
+          var s = document.getElementById("NMLDLD_TASK_TYPE");
+          if (s) {
+            s.onchange = function () {
+              toggleTaskTypeFields(this.value);
+            };
+            toggleTaskTypeFields(s.value);
+          }
+        }
+      }
+      //]]>
+    </script>
+  <title>dummytitle</title>
+ </head>
+ <body>
+  <div id="wrapper">
+   <!-- ===== 通用按钮栏：Back / Main / Logout =====-->
+   <div id="nav-bar" style="
+          position: sticky;
+          top: 0;
+          z-index: 999;
+          display: flex;
+          justify-content: flex-end;
+          gap: 6px;
+          padding: 4px 8px;
+          background: #f7f7f7;
+          border-bottom: 1px solid #ddd;
+        ">
+    <input type="text" class="BTNCMD" name="BTNCMD_BACK" value="Back" readonly onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_BACK';
+            SendBTN(this.name);
+          "> <input type="text" class="BTNCMD" name="BTNCMD_MAIN" value="Main" readonly onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_MAIN';
+            SendBTN(this.name);
+          "> <input type="text" class="BTNCMD" name="BTNCMD_LOGOUT" value="Logout" readonly onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_LOGOUT';
+            SendBTN(this.name);
+          ">
+   </div><!-- ===== /通用按钮栏 ===== --> <input type="hidden" id="grandsight_ex_disp_date_format" name="grandsight_ex_disp_date_format" value=""> <input type="hidden" id="grandsight_ex_time_zone" name="grandsight_ex_time_zone" value="">
+   <table style="width: 100%">
+    <tbody>
+     <tr>
+      <td id="root">
+       <h1>
+        <script>
+                  document.write(gf_title2);
+                </script></h1><!-- Top: Time && CANCEL (top right) -->
+       <table class="header-table">
+        <tbody>
+         <tr>
+          <td style="text-align: left; vertical-align: middle"><span class="NMLLBL_NORMAL" id="NMLLBL_NOW_DATE" value="">YYYY/MM/DD HH:MI:SS</span></td>
+         </tr>
+        </tbody>
+       </table><!-- HIDDEN requirement_id（Brought over from the previous page） --> <input type="hidden" id="NMLTXT_REQ_ID" name="NMLTXT_REQ_ID" value=""> <input type="hidden" id="NMLTXT_MY_ROLE" name="NMLTXT_MY_ROLE" value=""> <input type="hidden" id="NMLTXT_PROJECT_ID" name="NMLTXT_PROJECT_ID" value=""> <!-- TASK BASIC INFORMATION FORM  -->
+       <table class="form-table">
+        <tbody>
+         <tr>
+          <th>Requirement</th>
+          <td><span class="NMLLBL_NORMAL" id="NMLLBL_REQ_NAME" value=""></span></td>
+         </tr>
+         <tr>
+          <th>Task Name<span class="required-mark">*</span></th>
+          <td><input type="text" id="NMLTXT_TASK_NAME" name="NMLTXT_TASK_NAME" value=""></td>
+         </tr>
+         <tr>
+          <th>Description</th>
+          <td><textarea id="NMLTXA_DESCRIPTION" name="NMLTXA_DESCRIPTION"></textarea></td>
+         </tr>
+         <tr>
+          <th>Task Type</th>
+          <td><select id="NMLDLD_TASK_TYPE" name="NMLDLD_TASK_TYPE"> <option value="DEVELOPMENT">DEVELOPMENT</option> <option value="TEST">TEST</option> <option value="DEFECT">DEFECT</option> <option value="DOCUMENT">DOCUMENT</option> </select></td>
+         </tr><!-- ===== TEST TYPE EXTRA FIELDS (shown only when type = TEST) ===== -->
+         <tr id="TEST_EXTRA_PLAN_ROW" style="display: none">
+          <th>Test Plan<span class="required-mark">*</span></th>
+          <td><input type="text" id="NMLTXT_TEST_PLAN" name="NMLTXT_TEST_PLAN" value=""></td>
+         </tr>
+         <tr id="TEST_EXTRA_CASE_ROW" style="display: none">
+          <th>Test Case Design</th>
+          <td><textarea id="NMLTXA_TEST_CASE_DESIGN" name="NMLTXA_TEST_CASE_DESIGN" rows="10" cols="60" style="
+                          width: 95%;
+                          max-width: 680px;
+                          resize: vertical;
+                          font-family: monospace;
+                          font-size: 13px;
+                        " placeholder="Precondition: ...
+Steps:
+1. ...
+2. ...
+Expected result: ..."></textarea></td>
+         </tr><!-- ===== DEFECT TYPE EXTRA FIELDS (shown only when type = DEFECT) ===== -->
+         <tr id="DEFECT_EXTRA_SEVERITY_ROW" style="display: none">
+          <th>Severity<span class="required-mark">*</span></th>
+          <td><select id="NMLDLD_SEVERITY" name="NMLDLD_SEVERITY"> <option value="">-- Please select --</option> <option value="HIGH">HIGH</option> <option value="MEDIUM">MEDIUM</option> <option value="LOW">LOW</option> </select></td>
+         </tr>
+         <tr>
+          <th>Priority</th>
+          <td class="radio-row"><label><input type="radio" name="NMLOPT_PRIORITY" value="HIGH"> HIGH</label> <label><input type="radio" name="NMLOPT_PRIORITY" value="MEDIUM" checked> MEDIUM</label> <label><input type="radio" name="NMLOPT_PRIORITY" value="LOW"> LOW</label></td>
+         </tr>
+         <tr>
+          <th>Assignee</th>
+          <td><!-- Assignee: Creator dynamically fills in the project members; a placeholder option is kept here --> <select id="NMLDLD_ASSIGNEE" name="NMLDLD_ASSIGNEE"> <option value="">-- Please select --</option> </select></td>
+         </tr>
+         <tr>
+          <th>Planned Start Date<span class="required-mark">*</span></th>
+          <td><input class="LINK_TEXT" name="LNKINP_PLAN_DATE" onclick="
+                          var url = './_calendar_yyyymmdd.htm';
+                          var sx = '400';
+                          var sy = '400';
+                          var sh = '350';
+                          var sw = '700';
+                          var sob = 'LNKINP_PLAN_DATE';
+                          var ads = '';
+                          if (this.name.indexOf('_R_') + 1) {
+                            ads = this.name.substring(this.name.indexOf('_R_'));
+                          }
+                          if (document.querySelector('*[name=' + sob + ']')) {
+                            url =
+                              url +
+                              '?PARAM=' +
+                              document.querySelector('*[name=' + sob + ']')
+                                .value;
+                          }
+                          window.open(
+                            url,
+                            sob + ads,
+                            'left=' +
+                              sx +
+                              ',top=' +
+                              sy +
+                              ',width=' +
+                              sw +
+                              ',height=' +
+                              sh,
+                          );
+                        " readonly size="11" type="text" value="PLAN START DATE"></td>
+         </tr>
+         <tr>
+          <th>Planned End Date<span class="required-mark">*</span></th>
+          <td><input class="LINK_TEXT" name="LNKINP_PLAN_END_DATE" onclick="
+                          var url = './_calendar_yyyymmdd.htm';
+                          var sx = '400';
+                          var sy = '400';
+                          var sh = '350';
+                          var sw = '700';
+                          var sob = 'LNKINP_PLAN_END_DATE';
+                          var ads = '';
+                          if (this.name.indexOf('_R_') + 1) {
+                            ads = this.name.substring(this.name.indexOf('_R_'));
+                          }
+                          if (document.querySelector('*[name=' + sob + ']')) {
+                            url =
+                              url +
+                              '?PARAM=' +
+                              document.querySelector('*[name=' + sob + ']')
+                                .value;
+                          }
+                          window.open(
+                            url,
+                            sob + ads,
+                            'left=' +
+                              sx +
+                              ',top=' +
+                              sy +
+                              ',width=' +
+                              sw +
+                              ',height=' +
+                              sh,
+                          );
+                        " readonly size="11" type="text" value="PLAN END DATE"></td>
+         </tr>
+        </tbody>
+       </table><!-- SUBMIT BUTTON -->
+       <div class="btn-area">
+        <input class="BTNCMD" name="BTNCMD_ADD" onclick="
+                    document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_ADD';
+                    SendBTN(this.name);
+                  " readonly size="" type="text" value="ADD"> <input class="BTNCMD" name="BTNCMD_CANCEL" onclick="
+                    document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_CANCEL';
+                    SendBTN(this.name);
+                  " readonly size="" type="text" value="CANCEL">
+       </div></td>
+     </tr>
+     <tr>
+      <td>
+       <div id="errorLocation" style="font-size: small; color: Gray"></div></td>
+     </tr>
+    </tbody>
+   </table>
+  </div>
+  <script type="text/javascript">
+      //<![CDATA[
+      CreateFooter();
+      //]]>
+    </script>
+ </body>
+</html>

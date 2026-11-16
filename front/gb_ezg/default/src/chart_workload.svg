@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="240" viewBox="0 0 400 240" xmlns="http://www.w3.org/2000/svg">
+  <g id="_GBEZG_ROOT_" x="0" y="0" width="400" height="240">
+    <rect id="background" x="0" y="0" width="400" height="240" style="fill:rgb(255,255,255);"/>
+    <text id="title" x="10" y="20" style="font-family:Segoe UI,Arial;font-size:13px;font-weight:bold;fill:#1a73e8;">Member workload (tasks per person)</text>
+
+    <g id="wrow0" svgControl="ON">
+      <text svgControl="ON" id="wmlbl0" x="10" y="53" style="font-family:Segoe UI,Arial;font-size:11px;fill:#3c4a5a;">-</text>
+      <g id="wbar0" svgControl="ON">
+        <rect id="FULL_SIZE_G" x="85" y="40" width="250" height="14" style="fill:rgb(225,234,246);"/>
+        <rect id="CURRENT_SIZE_G" x="85" y="40" width="0" height="14" style="fill:rgb(78,121,167);"/>
+      </g>
+      <text svgControl="ON" id="wval0" x="342" y="53" style="font-family:Segoe UI,Arial;font-size:11px;fill:#3c4a5a;">0</text>
+    </g>
+
+    <g id="wrow1" svgControl="ON">
+      <text svgControl="ON" id="wmlbl1" x="10" y="77" style="font-family:Segoe UI,Arial;font-size:11px;fill:#3c4a5a;">-</text>
+      <g id="wbar1" svgControl="ON">
+        <rect id="FULL_SIZE_G" x="85" y="64" width="250" height="14" style="fill:rgb(225,234,246);"/>
+        <rect id="CURRENT_SIZE_G" x="85" y="64" width="0" height="14" style="fill:rgb(78,121,167);"/>
+      </g>
+      <text svgControl="ON" id="wval1" x="342" y="77" style="font-family:Segoe UI,Arial;font-size:11px;fill:#3c4a5a;">0</text>
+    </g>
+
+    <g id="wrow2" svgControl="ON">
+      <text svgControl="ON" id="wmlbl2" x="10" y="101" style="font-family:Segoe UI,Arial;font-size:11px;fill:#3c4a5a;">-</text>
+      <g id="wbar2" svgControl="ON">
+        <rect id="FULL_SIZE_G" x="85" y="88" width="250" height="14" style="fill:rgb(225,234,246);"/>
+        <rect id="CURRENT_SIZE_G" x="85" y="88" width="0" height="14" style="fill:rgb(78,121,167);"/>
+      </g>
+      <text svgControl="ON" id="wval2" x="342" y="101" style="font-family:Segoe UI,Arial;font-size:11px;fill:#3c4a5a;">0</text>
+    </g>
+
+    <g id="wrow3" svgControl="ON">
+      <text svgControl="ON" id="wmlbl3" x="10" y="125" style="font-family:Segoe UI,Arial;font-size:11px;fill:#3c4a5a;">-</text>
+      <g id="wbar3" svgControl="ON">
+        <rect id="FULL_SIZE_G" x="85" y="112" width="250" height="14" style="fill:rgb(225,234,246);"/>
+        <rect id="CURRENT_SIZE_G" x="85" y="112" width="0" height="14" style="fill:rgb(78,121,167);"/>
+      </g>
+      <text svgControl="ON" id="wval3" x="342" y="125" style="font-family:Segoe UI,Arial;font-size:11px;fill:#3c4a5a;">0</text>
+    </g>
+
+    <g id="wrow4" svgControl="ON">
+      <text svgControl="ON" id="wmlbl4" x="10" y="149" style="font-family:Segoe UI,Arial;font-size:11px;fill:#3c4a5a;">-</text>
+      <g id="wbar4" svgControl="ON">
+        <rect id="FULL_SIZE_G" x="85" y="136" width="250" height="14" style="fill:rgb(225,234,246);"/>
+        <rect id="CURRENT_SIZE_G" x="85" y="136" width="0" height="14" style="fill:rgb(78,121,167);"/>
+      </g>
+      <text svgControl="ON" id="wval4" x="342" y="149" style="font-family:Segoe UI,Arial;font-size:11px;fill:#3c4a5a;">0</text>
+    </g>
+
+    <g id="wrow5" svgControl="ON">
+      <text svgControl="ON" id="wmlbl5" x="10" y="173" style="font-family:Segoe UI,Arial;font-size:11px;fill:#3c4a5a;">-</text>
+      <g id="wbar5" svgControl="ON">
+        <rect id="FULL_SIZE_G" x="85" y="160" width="250" height="14" style="fill:rgb(225,234,246);"/>
+        <rect id="CURRENT_SIZE_G" x="85" y="160" width="0" height="14" style="fill:rgb(78,121,167);"/>
+      </g>
+      <text svgControl="ON" id="wval5" x="342" y="173" style="font-family:Segoe UI,Arial;font-size:11px;fill:#3c4a5a;">0</text>
+    </g>
+
+    <g id="wrow6" svgControl="ON">
+      <text svgControl="ON" id="wmlbl6" x="10" y="197" style="font-family:Segoe UI,Arial;font-size:11px;fill:#3c4a5a;">-</text>
+      <g id="wbar6" svgControl="ON">
+        <rect id="FULL_SIZE_G" x="85" y="184" width="250" height="14" style="fill:rgb(225,234,246);"/>
+        <rect id="CURRENT_SIZE_G" x="85" y="184" width="0" height="14" style="fill:rgb(78,121,167);"/>
+      </g>
+      <text svgControl="ON" id="wval6" x="342" y="197" style="font-family:Segoe UI,Arial;font-size:11px;fill:#3c4a5a;">0</text>
+    </g>
+
+    <g id="wrow7" svgControl="ON">
+      <text svgControl="ON" id="wmlbl7" x="10" y="221" style="font-family:Segoe UI,Arial;font-size:11px;fill:#3c4a5a;">-</text>
+      <g id="wbar7" svgControl="ON">
+        <rect id="FULL_SIZE_G" x="85" y="208" width="250" height="14" style="fill:rgb(225,234,246);"/>
+        <rect id="CURRENT_SIZE_G" x="85" y="208" width="0" height="14" style="fill:rgb(78,121,167);"/>
+      </g>
+      <text svgControl="ON" id="wval7" x="342" y="221" style="font-family:Segoe UI,Arial;font-size:11px;fill:#3c4a5a;">0</text>
+    </g>
+  </g>
+</svg>

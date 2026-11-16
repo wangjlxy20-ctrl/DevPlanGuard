@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Expires" content="0">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Cache-Control" content="no-cache, private"><!-- ========== HEADER ======================================== --> <!-- ========== CSS =========================================== -->
+  <link type="text/css" rel="stylesheet" href="./css/common.css"><!-- ========================================================== --> <!-- ========== USER CSS ====================================== -->
+  <style type="text/css">
+      .login-form {
+        width: 400px;
+        margin: 40px auto;
+      }
+      .login-item {
+        margin-bottom: 20px;
+      }
+      .login-label {
+        display: block;
+        margin-bottom: 6px;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      .login-input {
+        width: 100%;
+        height: 32px;
+        box-sizing: border-box;
+        padding: 4px 8px;
+        font-size: 15px;
+      }
+      .login-button {
+        width: 120px;
+        height: 35px;
+        margin-top: 10px;
+      }
+      .login-date {
+        display: block;
+        margin-top: 20px;
+      }
+      /* ===== DevPlanGuard 品牌标识 ===== */
+      .dp-brand {
+        margin: 10px auto 0 auto;
+        width: 400px;
+        font-family: "Segoe UI", "Microsoft YaHei", Arial, sans-serif;
+        font-size: 40px;
+        font-weight: 800;
+        letter-spacing: 1px;
+        line-height: 1.1;
+      }
+      .sys-title {
+        font-family: "Microsoft YaHei", "Meiryo", sans-serif;
+        font-size: 48px;
+        font-weight: 600;
+        display: inline-block;
+        padding-bottom: 4px;
+        border-bottom: 2px solid #3b82f6;
+        letter-spacing: 1px;
+      }
+      .dev {
+        color: #3b82f6;
+      }
+      .plan {
+        color: #22c55e;
+      }
+      .guard {
+        color: #eab308;
+      }
+      .dp-brand-sub {
+        width: 400px;
+        margin: 4px auto 0 auto;
+        font-size: 12px;
+        font-weight: 600;
+        color: #3c4a5a;
+        letter-spacing: 0.3px;
+      }
+      .dp-brand-sub-cn {
+        width: 400px;
+        margin: 2px auto 0 auto;
+        font-size: 12px;
+        color: #7c8896;
+      }
+      .dp-brand + .dp-brand-sub + .dp-brand-sub-cn + .login-form {
+        margin-top: 24px;
+      }
+      .dp-login-error #NMLLBL_LOGIN_ERROR,
+      .dp-login-error .NMLLBL_NORMAL {
+        color: #d93025 !important;
+        font-weight: 600;
+      }
+      .dp-login-error {
+        width: 400px;
+        margin: 14px auto 0 auto;
+        min-height: 18px;
+        font-size: 13px;
+        color: #d93025;
+        font-weight: 600;
+      }
+      /* <![CDATA[ */
+      /* The user's original style can be described here */
+      /* ]]> */
+    </style><!-- ========================================================== --> <!-- ========== SCRIPT ======================================== -->
+  <script type="text/javascript" src="./js/denyDirectAccess.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/jquery.min.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/buttonDef.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/navigation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/objectManipulation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/dataCheck.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/dataUtil.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/timeManipulation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/svg.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/common.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/gb_gf_ezg.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/finalTaskForUserCommon.js" charset="UTF-8"></script><!-- ========================================================== --> <!-- ========== MENU ========================================== -->
+  <script type="text/javascript">
+      writeTitle();
+    </script>
+  <script type="text/javascript">
+      //<![CDATA[
+      // Common header output
+      // gf_page   : Page output (current page / all pages)
+      // gf_title1 : Screen title 1 (up to 27 double-byte characters)
+      // gf_title2 : Screen title 21 (up to 30 double-byte characters)
+      // gf_id     : Screen ID
+      // gf_comment: Screen comment
+      // gf_onload : Specify the script when loading the screen (describe only when there is processing)
+    gf_page=   "";
+    gf_title1= "DevQuality";
+    gf_title2= "Login";
+    gf_id=     "DQ100";
+    gf_remarks="All Character Login Screen";
+    gf_onload= "";
+      CreateHideMenu(gf_page, gf_title1, gf_title2, gf_id, gf_onload);
+      //]]>
+    </script><!-- ========================================================== --> <!-- ========== INPUT CHECK SCRIPT ============================ -->
+  <script type="text/javascript">
+      //<![CDATA[
+      function _chkInputValue() {
+        return true;
+      }
+      //]]>
+    </script><!-- ========================================================== --> <!-- ========== USER SCRIPT =================================== -->
+  <script type="text/javascript">
+      //<![CDATA[
+      // You can write your own script here
+      function finalTaskForUser() {
+        // You can describe the process immediately after the screen is displayed here.
+      }
+      //]]>
+    </script><!-- ========================================================== -->
+  <title>dummytitle</title><!-- ========================================================== -->
+ </head><!-- ========== CUSTOMIZE ===================================== -->
+ <body>
+  <div id="wrapper">
+   <input type="hidden" id="grandsight_ex_disp_date_format" name="grandsight_ex_disp_date_format" value=""> <input type="hidden" id="grandsight_ex_time_zone" name="grandsight_ex_time_zone" value="">
+   <table style="width: 100%">
+    <tbody>
+     <tr>
+      <td id="root"><!-- Screen name -->
+       <h1>
+        <script>
+                  document.write(gf_title2);
+                </script></h1>
+       <div class="dp-brand">
+        <span class="sys-title"> <span class="dev">Dev</span><span class="plan">Plan</span><span class="guard">Guard</span> </span>
+       </div>
+       <div class="dp-brand-sub">
+        Software Development Management System
+       </div>
+       <div class="login-form">
+        <!-- UserId -->
+        <div class="login-item">
+         <label for="username" class="login-label">UserID</label> <input type="text" id="username" name="NMLTXT_USERNAME" value="" size="20" maxlength="20" style="ime-mode:" class="NMLTXT_NORMAL login-input" onchange="classObjChange(this, 'NMLTXT_CHANGE')" onkeypress="
+                      onKeyPressChange(event.keyCode, this, 'NMLTXT_CHANGE')
+                    " onkeydown="
+                      onKeyDownChange(event.keyCode, this, 'NMLTXT_CHANGE')
+                    ">
+        </div><!-- Password -->
+        <div class="login-item">
+         <label for="password" class="login-label">Password</label> <input type="password" id="password" name="NMLTXT_PASSWORD" value="" size="20" maxlength="20" style="ime-mode:" class="NMLTXT_NORMAL login-input" onchange="classObjChange(this, 'NMLTXT_CHANGE')" onkeypress="
+                      onKeyPressChange(event.keyCode, this, 'NMLTXT_CHANGE')
+                    " onkeydown="
+                      onKeyDownChange(event.keyCode, this, 'NMLTXT_CHANGE')
+                    ">
+        </div><!-- Login Button --> <input class="BTNCMD login-button" name="BTNCMD_LOGIN" onclick="
+                    document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_LOGIN';
+                    SendBTN(this.name);
+                  " readonly size="" type="text" value="LOGIN">
+        <div class="dp-login-error">
+         <span id="NMLLBL_LOGIN_ERROR" name="NMLLBL_LOGIN_ERROR" class="NMLLBL_NORMAL"></span>
+        </div><!-- Current Date and Time --> <span class="NMLLBL_NORMAL login-date" id="NMLLBL_NOW_DATE" value="">YYYY/MM/DD HH:MI:SS</span>
+       </div></td>
+     </tr>
+     <tr>
+      <td>
+       <div id="errorLocation" style="font-size: small; color: Gray"></div></td>
+     </tr>
+    </tbody>
+   </table>
+  </div><!-- ========================================================== --> <!-- ========== FOOTER ======================================== -->
+  <script type="text/javascript">
+      //<![CDATA[
+      CreateFooter();
+      //]]>
+    </script><!-- ========================================================== -->
+ </body>
+</html>

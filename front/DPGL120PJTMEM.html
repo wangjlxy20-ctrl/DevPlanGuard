@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Expires" content="0">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Cache-Control" content="no-cache, private">
+  <link type="text/css" rel="stylesheet" href="./css/common.css">
+  <style type="text/css">
+      /* <![CDATA[ */
+      .header-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 10px;
+      }
+      .info-box {
+        font-size: 13px;
+        line-height: 1.8;
+        margin-top: 6px;
+      }
+      .task-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 12px;
+        table-layout: fixed;
+      }
+      .task-table th,
+      .task-table td {
+        border: 1px solid #999;
+        padding: 6px;
+        vertical-align: middle;
+        word-break: break-all;
+      }
+      .task-table th {
+        background-color: #f0f0f0;
+        font-weight: bold;
+        text-align: center;
+      }
+      .col-pri {
+        width: 9%;
+        text-align: center;
+      }
+      .col-code {
+        width: 12%;
+      }
+      .col-name {
+        width: 16%;
+      }
+      .col-type {
+        width: 100px;
+        white-space: nowrap;
+      }
+      .col-project {
+        width: 14%;
+      }
+      .col-req {
+        width: 14%;
+      }
+      .col-due {
+        width: 12%;
+        text-align: center;
+      }
+      .col-days {
+        width: 9%;
+        text-align: center;
+      }
+      .col-submit {
+        width: 14%;
+        text-align: center;
+      }
+      .LINK_TEXT {
+        cursor: pointer;
+        color: #0000ee;
+        background: transparent;
+        border: 0;
+        text-decoration: underline;
+        font-size: 12px;
+      }
+      .section-title {
+        margin: 12px 0 8px;
+        font-weight: bold;
+        font-size: 14px;
+      }
+      /* 优先级色块 */
+      .pri-high,
+      .pri-medium,
+      .pri-low {
+        display: inline-block;
+        border-radius: 4px;
+        padding: 2px 8px;
+        font-size: 11px;
+      }
+      .pri-high {
+        background: #e74c3c;
+        color: #fff;
+      }
+      .pri-medium {
+        background: #f1c40f;
+        color: #5a4a00;
+      }
+      .pri-low {
+        background: #27ae60;
+        color: #fff;
+      }
+      /* 剩余天数：逾期红、临期橙、正常绿 */
+      .day-overdue {
+        color: #e74c3c;
+        font-weight: bold;
+      }
+      .day-soon {
+        color: #e67e22;
+        font-weight: bold;
+      }
+      .day-normal {
+        color: #27ae60;
+      }
+      /* ]]> */
+    </style>
+  <script type="text/javascript" src="./js/denyDirectAccess.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/jquery.min.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/buttonDef.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/navigation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/objectManipulation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/dataCheck.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/dataUtil.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/timeManipulation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/svg.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/common.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/gb_gf_ezg.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/finalTaskForUserCommon.js" charset="UTF-8"></script>
+  <script type="text/javascript">
+      writeTitle();
+    </script>
+  <script type="text/javascript">
+      //<![CDATA[
+    gf_page=   "";
+    gf_title1= "DevPlanGuard";
+    gf_title2= "YOUR TASK LIST";
+    gf_id=     "DPGL120PJTMEM";
+    gf_remarks="SHOW THE MEMBER'S TASK LIST";
+    gf_onload= "";
+      CreateHideMenu(gf_page, gf_title1, gf_title2, gf_id, gf_onload);
+      //]]>
+    </script>
+  <script type="text/javascript">
+      //<![CDATA[
+      function _chkInputValue() {
+        return true;
+      }
+      //]]>
+    </script>
+  <script type="text/javascript">
+      function finalTaskForUser() {
+        // 优先级色块
+        var pri = document.querySelectorAll(".pri-flag");
+        for (var i = 0; i < pri.length; i++) {
+          var v = (pri[i].textContent || "").trim().toUpperCase();
+          pri[i].classList.remove("pri-high", "pri-medium", "pri-low");
+          if (v === "HIGH") pri[i].classList.add("pri-high");
+          else if (v === "MEDIUM") pri[i].classList.add("pri-medium");
+          else if (v === "LOW") pri[i].classList.add("pri-low");
+        }
+        // 剩余天数着色：<0 逾期，<=3 临期，其余正常
+        var days = document.querySelectorAll(".day-flag");
+        for (var j = 0; j < days.length; j++) {
+          var d = parseInt((days[j].textContent || "").trim(), 10);
+          days[j].classList.remove("day-overdue", "day-soon", "day-normal");
+          if (isNaN(d)) continue;
+          if (d < 0) days[j].classList.add("day-overdue");
+          else if (d <= 3) days[j].classList.add("day-soon");
+          else days[j].classList.add("day-normal");
+        }
+      }
+    </script>
+  <title>dummytitle</title>
+  <style>
+      .BTNCMD_HIDE {
+        display: none !important;
+      }
+    </style>
+ </head>
+ <body>
+  <div id="wrapper">
+   <!-- ===== 通用按钮栏：Back / Main ===== -->
+   <div id="nav-bar" style="
+          position: sticky;
+          top: 0;
+          z-index: 999;
+          display: flex;
+          justify-content: flex-end;
+          gap: 6px;
+          padding: 4px 8px;
+          background: #f7f7f7;
+          border-bottom: 1px solid #ddd;
+        ">
+    <input type="text" class="BTNCMD" name="BTNCMD_BACK" value="Back" readonly onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_BACK';
+            SendBTN(this.name);
+          "> <input type="text" class="BTNCMD" name="BTNCMD_MAIN" value="Main" readonly onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_MAIN';
+            SendBTN(this.name);
+          "> <input class="BTNCMD" name="BTNCMD_LOGOUT" onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_LOGOUT';
+            SendBTN(this.name);
+          " readonly size="" type="text" value="LOGOUT">
+   </div><!-- ===== /通用按钮栏/和hidden ===== --> <input type="hidden" id="grandsight_ex_disp_date_format" name="grandsight_ex_disp_date_format" value=""> <input type="hidden" id="grandsight_ex_time_zone" name="grandsight_ex_time_zone" value=""> <input type="hidden" id="NMLTXT_MY_ROLE" name="NMLTXT_MY_ROLE" value=""> <input type="hidden" id="NMLTXT_PROJECT_ID" name="NMLTXT_PROJECT_ID" value="">
+   <table style="width: 100%">
+    <tbody>
+     <tr>
+      <td id="root">
+       <h1>
+        <script>
+                  document.write(gf_title2);
+                </script></h1><!-- Header: 左边时间+信息，右边 JOIN + LOGOUT -->
+       <table class="header-table">
+        <tbody>
+         <tr>
+          <td style="text-align: left; vertical-align: top"><span class="NMLLBL_NORMAL" id="NMLLBL_NOW_DATE" value="">YYYY/MM/DD HH:MI:SS</span>
+           <div class="info-box">
+            <div>
+             HELLO：<span class="NMLLBL_NORMAL" id="NMLLBL_HELLO_USERNAME" value=""></span>
+            </div>
+            <div>
+             Your project role is:<span class="NMLLBL_NORMAL" id="NMLLBL_MY_ROLE" value=""></span>
+            </div>
+            <div>
+             You currently have <span class="NMLLBL_NORMAL" id="NMLLBL_TASK_COUNT" value="">0</span> tasks assigned
+            </div>
+           </div></td>
+          <td style="
+                        text-align: right;
+                        vertical-align: top;
+                        white-space: nowrap;
+                      "><input class="BTNCMD" name="BTNCMD_JOIN_NEW_PROJECT" onclick="
+                          document.main.COMMAND_NAME.value =
+                            'COMMAND_BTNCMD_JOIN_NEW_PROJECT';
+                          SendBTN(this.name);
+                        " readonly size="" type="text" value="JOIN NEW PROJECT"></td>
+         </tr>
+        </tbody>
+       </table>
+       <div class="section-title">
+        My Tasks
+       </div>
+       <table id="TABLE_MEMBER_TASK" class="task-table">
+        <colgroup>
+         <col class="col-pri">
+         <col class="col-code">
+         <col class="col-name">
+         <col class="col-type">
+         <col class="col-project">
+         <col class="col-req">
+         <col class="col-due">
+         <col class="col-days">
+         <col class="col-submit">
+        </colgroup>
+        <thead>
+         <tr>
+          <th>Priority</th>
+          <th>Task Code</th>
+          <th>Task Name</th>
+          <th>Task Type</th>
+          <th>Project</th>
+          <th>Requirement</th>
+          <th>Task Due</th>
+          <th>Days Left</th>
+          <th>Submit</th>
+         </tr>
+        </thead>
+        <tbody>
+         <!-- ===== TEMPLATE ROW（Creator 按此复制，名字保持不变） ===== -->
+         <tr>
+          <td style="text-align: center"><span class="NMLLBL_NORMAL pri-flag" id="NMLLBL_PRIORITY" value=""></span></td>
+          <td><!-- 隐藏 task_id&&task_type + task_code 链接（点击进详情） --> <input type="hidden" id="NMLTXT_TASK_ID" name="NMLTXT_TASK_ID" value=""> <input type="hidden" id="NMLTXT_TASK_TYPE" name="NMLTXT_TASK_TYPE" value=""> <input class="LINK_TEXT" name="LNKMOV_TASK_CODE" onclick="COMMAND_LNKMOV_TASK_CODE" readonly size="" type="text" value=""></td>
+          <td><span class="NMLLBL_NORMAL" id="NMLLBL_TASK_NAME" value=""></span></td>
+          <td><span class="NMLLBL_NORMAL" id="NMLLBL_TASK_TYPE" value=""></span></td>
+          <td><span class="NMLLBL_NORMAL" id="NMLLBL_PROJECT_NAME" value=""></span></td>
+          <td><span class="NMLLBL_NORMAL" id="NMLLBL_REQ_NAME" value=""></span></td>
+          <td style="text-align: center"><span class="NMLLBL_NORMAL" id="NMLLBL_TASK_DUE" value=""></span></td>
+          <td style="text-align: center"><span class="NMLLBL_NORMAL day-flag" id="NMLLBL_DAYS_LEFT" value=""></span></td>
+          <td style="text-align: center"><!-- SUBMIT --> <input class="BTNCMD" name="BTNCMD_ADD" onclick="
+                          document.main.COMMAND_NAME.value =
+                            'COMMAND_BTNCMD_ADD';
+                          SendBTN(this.name);
+                        " readonly size="6" type="text" value="SUBMIT"><span class="NMLLBL_NORMAL" id="NMLLBL_SUBMITTED_STATE" name="NMLLBL_SUBMITTED_STATE"></span></td>
+         </tr>
+        </tbody>
+       </table></td>
+     </tr>
+     <tr>
+      <td>
+       <div id="errorLocation" style="font-size: small; color: Gray"></div></td>
+     </tr>
+    </tbody>
+   </table>
+  </div>
+  <script type="text/javascript">
+      //<![CDATA[
+      CreateFooter();
+      //]]>
+    </script>
+ </body>
+</html>

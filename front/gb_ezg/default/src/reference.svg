@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+                     "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg height="600"
+    onclick="if(typeof(gb_gf_ezg_svgComOnClick)==&apos;function&apos;)gb_gf_ezg_svgComOnClick(evt);"
+    onload="if(typeof(gb_gf_ezg_svgComOnLoad)==&apos;function&apos;)gb_gf_ezg_svgComOnLoad(evt);"
+    onmousedown="if(typeof(gb_gf_ezg_svgComOnMouseDown)==&apos;function&apos;)gb_gf_ezg_svgComOnMouseDown(evt);"
+    onmouseup="if(typeof(gb_gf_ezg_svgComOnMouseUp)==&apos;function&apos;)gb_gf_ezg_svgComOnMouseUp(evt);"
+    viewBox="0 0 800 600" width="800">
+    <g id="_GBEZG_ROOT_">
+        <rect height="100%" id="background"
+            style="fill:rgb(255,255,255);" width="100%" x="0" y="0"/>
+        <defs>
+            <g id="5">
+                <rect height="34" id="5"
+                    style="fill: none; stroke: rgb(192,192,192); stroke-width: 1.0;"
+                    width="42" x="64" y="53"/>
+                <text frame_height="34" frame_width="42" frame_x="64"
+                    frame_y="53" id="5"
+                    style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+                    x="64" xml:space="preserve" y="69">5<animate
+                        attributeName="fill" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/></text>
+            </g>
+            <g id="4">
+                <rect height="31" id="4"
+                    style="fill: none; stroke: rgb(192,192,192); stroke-width: 1.0;"
+                    width="34" x="64" y="53"/>
+                <text frame_height="31" frame_width="34" frame_x="64"
+                    frame_y="53" id="4"
+                    style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+                    x="64" xml:space="preserve" y="69">4<animate
+                        attributeName="fill" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/></text>
+            </g>
+            <g id="3">
+                <rect height="29" id="3"
+                    style="fill: none; stroke: rgb(192,192,192); stroke-width: 1.0;"
+                    width="39" x="64" y="53"/>
+                <text frame_height="29" frame_width="39" frame_x="64"
+                    frame_y="53" id="3"
+                    style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+                    x="64" xml:space="preserve" y="69">3<animate
+                        attributeName="fill" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/></text>
+            </g>
+            <g id="2">
+                <rect height="31" id="2"
+                    style="fill: none; stroke: rgb(192,192,192); stroke-width: 1.0;"
+                    width="36" x="64" y="53"/>
+                <text frame_height="31" frame_width="36" frame_x="64"
+                    frame_y="53" id="2"
+                    style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+                    x="64" xml:space="preserve" y="69">2<animate
+                        attributeName="fill" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/></text>
+            </g>
+            <g id="1">
+                <rect height="27" id="1"
+                    style="fill: none; stroke: rgb(192,192,192); stroke-width: 1.0;"
+                    width="35" x="64" y="53"/>
+                <text frame_height="27" frame_width="35" frame_x="64"
+                    frame_y="53" id="1"
+                    style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+                    x="64" xml:space="preserve" y="69">1<animate
+                        attributeName="fill" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/></text>
+            </g>
+            <rect height="32" id="1207615316340"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;"
+                width="71" x="6" y="169">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+            <rect height="31" id="1207615353667"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;"
+                width="71" x="5" y="386">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+            <rect height="32" id="120772384385000"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;"
+                width="65" x="589" y="176">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+            <rect height="32" id="120772384416200"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;"
+                width="69" x="459" y="175">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+            <rect height="32" id="120772384444300"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;"
+                width="72" x="305" y="176">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+            <rect height="32" id="120772384472400"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;"
+                width="74" x="148" y="172">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+            <rect height="32" id="120772388946340"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;"
+                width="71" x="6" y="273">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+            <rect height="32" id="120772388946330"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;"
+                width="62" x="594" y="279">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+            <rect height="32" id="120772388946320"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;"
+                width="69" x="462" y="281">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+            <rect height="32" id="120772388946310"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;"
+                width="71" x="306" y="272">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+            <rect height="32" id="120772388946300"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;"
+                width="73" x="151" y="271">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+            <rect height="31" id="120772396441200"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;"
+                width="74" x="621" y="397">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+            <rect height="31" id="120772396464600"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;"
+                width="74" x="530" y="396">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+            <rect height="31" id="120772396483400"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;"
+                width="74" x="438" y="393">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+            <rect height="31" id="120772396509900"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;"
+                width="74" x="349" y="392">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+            <rect height="31" id="120772396536500"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;"
+                width="74" x="263" y="393">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+            <rect height="31" id="120772396561500"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;"
+                width="74" x="176" y="390">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+            <rect height="31" id="120772396584900"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;"
+                width="74" x="88" y="388">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+            <rect height="31" id="120772403012680"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;"
+                width="74" x="6" y="508">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+            <rect height="31" id="120772403012660"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;"
+                width="74" x="621" y="508">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+            <rect height="31" id="120772403012650"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;"
+                width="74" x="527" y="508">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+            <rect height="31" id="120772403012640"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;"
+                width="74" x="438" y="508">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+            <rect height="31" id="120772403012630"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;"
+                width="74" x="351" y="508">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+            <rect height="31" id="120772403012620"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;"
+                width="74" x="263" y="508">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+            <rect height="31" id="120772403012610"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;"
+                width="74" x="180" y="507">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+            <rect height="31" id="120772403012600"
+                style="fill: none; stroke: rgb(0,0,0); stroke-width: 4.0;stroke-dasharray: inherit;"
+                width="74" x="96" y="508">
+                <animate attributeName="stroke" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/>
+            </rect>
+            <g id="120772409361400">
+                <rect height="34" id="120772409361400"
+                    style="fill: none; stroke: rgb(192,192,192); stroke-width: 1.0;"
+                    width="42" x="488" y="56"/>
+                <text frame_height="34" frame_width="42" frame_x="488"
+                    frame_y="56" id="120772409361400"
+                    style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+                    x="488" xml:space="preserve" y="72">5<animate
+                        attributeName="fill" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/></text>
+            </g>
+            <g id="120772409361401">
+                <rect height="31" id="120772409361401"
+                    style="fill: none; stroke: rgb(192,192,192); stroke-width: 1.0;"
+                    width="34" x="488" y="56"/>
+                <text frame_height="31" frame_width="34" frame_x="488"
+                    frame_y="56" id="120772409361401"
+                    style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+                    x="488" xml:space="preserve" y="72">4<animate
+                        attributeName="fill" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/></text>
+            </g>
+            <g id="120772409361402">
+                <rect height="29" id="120772409361402"
+                    style="fill: none; stroke: rgb(192,192,192); stroke-width: 1.0;"
+                    width="39" x="488" y="56"/>
+                <text frame_height="29" frame_width="39" frame_x="488"
+                    frame_y="56" id="120772409361402"
+                    style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+                    x="488" xml:space="preserve" y="72">3<animate
+                        attributeName="fill" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/></text>
+            </g>
+            <g id="120772409361403">
+                <rect height="31" id="120772409361403"
+                    style="fill: none; stroke: rgb(192,192,192); stroke-width: 1.0;"
+                    width="36" x="488" y="56"/>
+                <text frame_height="31" frame_width="36" frame_x="488"
+                    frame_y="56" id="120772409361403"
+                    style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+                    x="488" xml:space="preserve" y="72">2<animate
+                        attributeName="fill" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/></text>
+            </g>
+            <g id="120772409361404">
+                <rect height="27" id="120772409361404"
+                    style="fill: none; stroke: rgb(192,192,192); stroke-width: 1.0;"
+                    width="35" x="488" y="56"/>
+                <text frame_height="27" frame_width="35" frame_x="488"
+                    frame_y="56" id="120772409361404"
+                    style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+                    x="488" xml:space="preserve" y="72">1<animate
+                        attributeName="fill" begin="0s" dur="0s"
+                        repeatCount="indefinite" values=""/></text>
+            </g>
+        </defs>
+        <use absolute-x="64" absolute-y="53" height="27"
+            id="1207543582380" width="27" xlink:href="#"/>
+        <use absolute-x="6" absolute-y="169" height="32"
+            id="1207615309647" width="71" xlink:href="#1207615316340"/>
+        <use absolute-x="5" absolute-y="386" height="31"
+            id="1207615349731" width="71" xlink:href="#1207615353667"/>
+        <text frame_height="24" frame_width="96" frame_x="1" frame_y="0"
+            id="120762372100300"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="1" xml:space="preserve" y="16">参照形のテスト<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <text frame_height="25" frame_width="160" frame_x="608"
+            frame_y="56" id="120762374219320"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="608" xml:space="preserve" y="72">参照データをIDとして<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <text frame_height="26" frame_width="85" frame_x="708"
+            frame_y="294" id="120762374219310"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="708" xml:space="preserve" y="310">回転固定値<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <text frame_height="26" frame_width="28" frame_x="713"
+            frame_y="404" id="120762374219300"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="713" xml:space="preserve" y="420">移動<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <use absolute-x="589" absolute-y="176" height="32"
+            id="12077238438500" width="65" xlink:href="#120772384385000"/>
+        <use absolute-x="459" absolute-y="175" height="32"
+            id="12077238441620" width="69" xlink:href="#120772384416200"/>
+        <use absolute-x="305" absolute-y="176" height="32"
+            id="12077238444430" width="72" xlink:href="#120772384444300"/>
+        <use absolute-x="148" absolute-y="172" height="32"
+            id="12077238447240" width="74" xlink:href="#120772384472400"/>
+        <use absolute-x="6" absolute-y="273" height="32"
+            id="12077238894634" width="71" xlink:href="#120772388946340"/>
+        <use absolute-x="594" absolute-y="279" height="32"
+            id="12077238894633" width="62" xlink:href="#120772388946330"/>
+        <use absolute-x="462" absolute-y="281" height="32"
+            id="12077238894632" width="69" xlink:href="#120772388946320"/>
+        <use absolute-x="306" absolute-y="272" height="32"
+            id="12077238894631" width="71" xlink:href="#120772388946310"/>
+        <use absolute-x="151" absolute-y="271" height="32"
+            id="12077238894630" width="73" xlink:href="#120772388946300"/>
+        <use absolute-x="621" absolute-y="397" height="31"
+            id="12077239644120" width="74" xlink:href="#120772396441200"/>
+        <use absolute-x="530" absolute-y="396" height="31"
+            id="12077239646460" width="74" xlink:href="#120772396464600"/>
+        <use absolute-x="438" absolute-y="393" height="31"
+            id="12077239648340" width="74" xlink:href="#120772396483400"/>
+        <use absolute-x="349" absolute-y="392" height="31"
+            id="12077239650990" width="74" xlink:href="#120772396509900"/>
+        <use absolute-x="263" absolute-y="393" height="31"
+            id="12077239653650" width="74" xlink:href="#120772396536500"/>
+        <use absolute-x="176" absolute-y="390" height="31"
+            id="12077239656150" width="74" xlink:href="#120772396561500"/>
+        <use absolute-x="88" absolute-y="388" height="31"
+            id="12077239658490" width="74" xlink:href="#120772396584900"/>
+        <use absolute-x="6" absolute-y="508" height="31"
+            id="12077240301268" width="74" xlink:href="#120772403012680"/>
+        <text frame_height="23" frame_width="84" frame_x="714"
+            frame_y="507" id="120772403012670"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="714" xml:space="preserve" y="523">移動固定値<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <use absolute-x="621" absolute-y="508" height="31"
+            id="12077240301266" width="74" xlink:href="#120772403012660"/>
+        <use absolute-x="527" absolute-y="508" height="31"
+            id="12077240301265" width="74" xlink:href="#120772403012650"/>
+        <use absolute-x="438" absolute-y="508" height="31"
+            id="12077240301264" width="74" xlink:href="#120772403012640"/>
+        <use absolute-x="351" absolute-y="508" height="31"
+            id="12077240301263" width="74" xlink:href="#120772403012630"/>
+        <use absolute-x="263" absolute-y="508" height="31"
+            id="12077240301262" width="74" xlink:href="#120772403012620"/>
+        <use absolute-x="180" absolute-y="507" height="31"
+            id="12077240301261" width="74" xlink:href="#120772403012610"/>
+        <use absolute-x="96" absolute-y="508" height="31"
+            id="12077240301260" width="74" xlink:href="#120772403012600"/>
+        <use absolute-x="488" absolute-y="56" height="27"
+            id="12077240936140" width="27" xlink:href="#"/>
+        <text frame_height="26" frame_width="86" frame_x="180"
+            frame_y="53" id="120772409907800"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="180" xml:space="preserve" y="69">参照固定値<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <text frame_height="26" frame_width="28" frame_x="704"
+            frame_y="183" id="120849833806900"
+            style=" font-family:&apos;MS Mincho&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="704" xml:space="preserve" y="199">回転<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+    </g>
+</svg>

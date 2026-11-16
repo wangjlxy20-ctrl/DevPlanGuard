@@ -1,0 +1,52 @@
+apply plugin: 'java'
+
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation fileTree(dir: 'lib', include: '**/*.jar')
+}
+
+jar {
+	manifest {
+		attributes("Implementation-Title": "Gradle")
+	}
+	archiveFileName = project.name + ".jar"
+}
+
+tasks.register('copylib') {
+	doLast {
+		def dir = file("${buildDir}/repos/lib")
+		if (!dir.exists()) {
+			dir.mkdirs()
+		}
+
+		copy {
+			println("copy")
+			from configurations.runtimeClasspath.findAll { it.getName().endsWith('.jar') }
+			into dir
+		}
+	}
+}
+
+def deployDir = properties['monitor.deploy.dir']
+tasks.register('deployMonitor') {
+	dependsOn('build')
+	doLast {
+		def classes = project.getProjectDir().canonicalPath + "/build/classes/java/main"
+		def resources = project.getProjectDir().canonicalPath + "/build/resources/main"
+		def dest = deployDir;
+
+		println "deploy classes to ::: ${dest}"
+		copy {
+			from (classes)
+			from (resources)
+			from ("lib"){
+				into "lib"
+			}
+			into dest
+		}
+	}
+}

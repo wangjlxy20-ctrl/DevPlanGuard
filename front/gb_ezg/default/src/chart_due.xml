@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gb_job>
+<gb_obj display="visible" id="dbar0">
+<transform>
+<color enable="false" threshold="enable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></color>
+<blink blink_color="" enable="false"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></blink>
+<stroke enable="false"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></stroke>
+<level direction="up" enable="true" lower="0" upper="50"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="LEADER_DASHBOARD" param1="" param2="" param3="" param4="" param5=""/></level>
+<text enable="false" threshold="enable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></text>
+<rotate enable="false" pivot="center,0,0" threshold="enable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></rotate>
+<translate direction="up" distance="" enable="false" offset="" threshold="enable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></translate>
+</transform>
+</gb_obj>
+<gb_obj display="visible" id="dbar1">
+<transform>
+<color enable="false" threshold="enable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></color>
+<blink blink_color="" enable="false"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></blink>
+<stroke enable="false"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></stroke>
+<level direction="up" enable="true" lower="0" upper="50"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="LEADER_DASHBOARD" param1="" param2="" param3="" param4="" param5=""/></level>
+<text enable="false" threshold="enable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></text>
+<rotate enable="false" pivot="center,0,0" threshold="enable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></rotate>
+<translate direction="up" distance="" enable="false" offset="" threshold="enable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></translate>
+</transform>
+</gb_obj>
+<gb_obj display="visible" id="dbar2">
+<transform>
+<color enable="false" threshold="enable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></color>
+<blink blink_color="" enable="false"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></blink>
+<stroke enable="false"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></stroke>
+<level direction="up" enable="true" lower="0" upper="50"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="LEADER_DASHBOARD" param1="" param2="" param3="" param4="" param5=""/></level>
+<text enable="false" threshold="enable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></text>
+<rotate enable="false" pivot="center,0,0" threshold="enable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></rotate>
+<translate direction="up" distance="" enable="false" offset="" threshold="enable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></translate>
+</transform>
+</gb_obj>
+<gb_obj display="visible" id="dbar3">
+<transform>
+<color enable="false" threshold="enable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></color>
+<blink blink_color="" enable="false"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></blink>
+<stroke enable="false"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></stroke>
+<level direction="up" enable="true" lower="0" upper="50"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="LEADER_DASHBOARD" param1="" param2="" param3="" param4="" param5=""/></level>
+<text enable="false" threshold="enable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></text>
+<rotate enable="false" pivot="center,0,0" threshold="enable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></rotate>
+<translate direction="up" distance="" enable="false" offset="" threshold="enable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></translate>
+</transform>
+</gb_obj>
+<gb_obj display="visible" id="dbar4">
+<transform>
+<color enable="false" threshold="enable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></color>
+<blink blink_color="" enable="false"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></blink>
+<stroke enable="false"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></stroke>
+<level direction="up" enable="true" lower="0" upper="50"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="LEADER_DASHBOARD" param1="" param2="" param3="" param4="" param5=""/></level>
+<text enable="false" threshold="enable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></text>
+<rotate enable="false" pivot="center,0,0" threshold="enable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></rotate>
+<translate direction="up" distance="" enable="false" offset="" threshold="enable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></translate>
+</transform>
+</gb_obj>
+<gb_obj display="visible" id="dval0">
+<transform>
+<color enable="false" threshold="enable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></color>
+<blink blink_color="" enable="false"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></blink>
+<stroke enable="false"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></stroke>
+<level direction="up" enable="false" lower="" upper=""><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></level>
+<text enable="true" threshold="disable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="LEADER_DASHBOARD" param1="" param2="" param3="" param4="" param5=""/></text>
+<rotate enable="false" pivot="center,0,0" threshold="enable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></rotate>
+<translate direction="up" distance="" enable="false" offset="" threshold="enable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></translate>
+</transform>
+</gb_obj>
+<gb_obj display="visible" id="dval1">
+<transform>
+<color enable="false" threshold="enable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></color>
+<blink blink_color="" enable="false"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></blink>
+<stroke enable="false"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></stroke>
+<level direction="up" enable="false" lower="" upper=""><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></level>
+<text enable="true" threshold="disable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="LEADER_DASHBOARD" param1="" param2="" param3="" param4="" param5=""/></text>
+<rotate enable="false" pivot="center,0,0" threshold="enable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></rotate>
+<translate direction="up" distance="" enable="false" offset="" threshold="enable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></translate>
+</transform>
+</gb_obj>
+<gb_obj display="visible" id="dval2">
+<transform>
+<color enable="false" threshold="enable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></color>
+<blink blink_color="" enable="false"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></blink>
+<stroke enable="false"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></stroke>
+<level direction="up" enable="false" lower="" upper=""><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></level>
+<text enable="true" threshold="disable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="LEADER_DASHBOARD" param1="" param2="" param3="" param4="" param5=""/></text>
+<rotate enable="false" pivot="center,0,0" threshold="enable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></rotate>
+<translate direction="up" distance="" enable="false" offset="" threshold="enable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></translate>
+</transform>
+</gb_obj>
+<gb_obj display="visible" id="dval3">
+<transform>
+<color enable="false" threshold="enable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></color>
+<blink blink_color="" enable="false"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></blink>
+<stroke enable="false"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></stroke>
+<level direction="up" enable="false" lower="" upper=""><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></level>
+<text enable="true" threshold="disable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="LEADER_DASHBOARD" param1="" param2="" param3="" param4="" param5=""/></text>
+<rotate enable="false" pivot="center,0,0" threshold="enable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></rotate>
+<translate direction="up" distance="" enable="false" offset="" threshold="enable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></translate>
+</transform>
+</gb_obj>
+<gb_obj display="visible" id="dval4">
+<transform>
+<color enable="false" threshold="enable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></color>
+<blink blink_color="" enable="false"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></blink>
+<stroke enable="false"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></stroke>
+<level direction="up" enable="false" lower="" upper=""><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></level>
+<text enable="true" threshold="disable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="LEADER_DASHBOARD" param1="" param2="" param3="" param4="" param5=""/></text>
+<rotate enable="false" pivot="center,0,0" threshold="enable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></rotate>
+<translate direction="up" distance="" enable="false" offset="" threshold="enable"><threshold fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low=""/><value fixed1="" fixed2="" fixed3="" fixed4="" fixed5="" high="" low="" normal=""/><map datasource_id="" param1="" param2="" param3="" param4="" param5=""/></translate>
+</transform>
+</gb_obj>
+</gb_job>

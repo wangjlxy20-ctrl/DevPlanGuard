@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Expires" content="0">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Cache-Control" content="no-cache, private">
+  <link type="text/css" rel="stylesheet" href="./css/common.css">
+  <style type="text/css">
+      /* <![CDATA[ */
+      .header-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 12px;
+      }
+      .form-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 13px;
+      }
+      .form-table th,
+      .form-table td {
+        border: 1px solid #999;
+        padding: 10px;
+        text-align: left;
+        vertical-align: top;
+      }
+      .form-table th {
+        width: 200px;
+        background-color: #f0f0f0;
+      }
+      .form-table input[type="text"],
+      .form-table textarea {
+        width: 95%;
+        box-sizing: border-box;
+        font-size: 13px;
+        padding: 4px;
+      }
+      .form-table textarea {
+        resize: vertical;
+        min-height: 80px;
+      }
+      .btn-area {
+        margin-top: 16px;
+        text-align: center;
+      }
+      .required-mark {
+        color: red;
+      }
+      /* ]]> */
+    </style>
+  <script type="text/javascript" src="./js/denyDirectAccess.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/jquery.min.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/buttonDef.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/navigation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/objectManipulation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/dataCheck.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/dataUtil.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/timeManipulation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/svg.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/common.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/gb_gf_ezg.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/finalTaskForUserCommon.js" charset="UTF-8"></script>
+  <script type="text/javascript">
+      writeTitle();
+    </script>
+  <script type="text/javascript">
+      //<![CDATA[
+    gf_page=   "";
+    gf_title1= "DevPlanGuard";
+    gf_title2= "SUBMIT A TASK";
+    gf_id=     "DPGL120SUB";
+    gf_remarks="FILL THE INFO ABOUT THE TASK SUBMITTED";
+    gf_onload= "";
+      CreateHideMenu(gf_page, gf_title1, gf_title2, gf_id, gf_onload);
+      //]]>
+    </script>
+  <script type="text/javascript">
+      //<![CDATA[
+      function _chkInputValue() {
+        return true;
+      }
+      //]]>
+    </script>
+  <script type="text/javascript">
+      //<![CDATA[
+      function finalTaskForUser() {}
+      //]]>
+    </script>
+  <title>dummytitle</title>
+ </head>
+ <body>
+  <div id="wrapper">
+   <!-- ===== 通用按钮栏：Back / Dashboard / Logout ===== -->
+   <div id="nav-bar" style="
+          position: sticky;
+          top: 0;
+          z-index: 999;
+          display: flex;
+          justify-content: flex-end;
+          gap: 6px;
+          padding: 4px 8px;
+          background: #f7f7f7;
+          border-bottom: 1px solid #ddd;
+        ">
+    <input type="text" class="BTNCMD" name="BTNCMD_BACK" value="Back" readonly onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_BACK';
+            SendBTN(this.name);
+          "> <input type="text" class="BTNCMD" name="BTNCMD_MAIN" value="Main" readonly onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_MAIN';
+            SendBTN(this.name);
+          "> <input type="text" class="BTNCMD" name="BTNCMD_LOGOUT" value="Logout" readonly onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_LOGOUT';
+            SendBTN(this.name);
+          ">
+   </div><!-- ===== /通用按钮栏 ===== --> <input type="hidden" id="grandsight_ex_disp_date_format" name="grandsight_ex_disp_date_format" value=""> <input type="hidden" id="grandsight_ex_time_zone" name="grandsight_ex_time_zone" value="">
+   <table style="width: 100%">
+    <tbody>
+     <tr>
+      <td id="root">
+       <h1>
+        <script>
+                  document.write(gf_title2);
+                </script></h1><!-- Header: 时间 -->
+       <table class="header-table">
+        <tbody>
+         <tr>
+          <td style="text-align: left"><span class="NMLLBL_NORMAL" id="NMLLBL_NOW_DATE" value="">YYYY/MM/DD HH:MI:SS</span></td>
+         </tr>
+        </tbody>
+       </table><!-- hidden task_id // --> <input type="hidden" id="NMLTXT_TASK_ID" name="NMLTXT_TASK_ID" value=""> <input type="hidden" id="NMLTXT_MY_ROLE" name="NMLTXT_MY_ROLE" value=""> <input type="hidden" id="NMLTXT_PROJECT_ID" name="NMLTXT_PROJECT_ID" value=""> <!-- 提交表单table -->
+       <table class="form-table">
+        <tbody>
+         <tr>
+          <th>Task</th>
+          <td><span class="NMLLBL_NORMAL" id="NMLLBL_TASK_CODE" value=""></span> <span class="NMLLBL_NORMAL" id="NMLLBL_TASK_NAME" value=""></span> <span class="NMLLBL_NORMAL" id="NMLLBL_TASK_TYPE" value=""></span></td>
+         </tr>
+         <tr>
+          <th>Task Type</th>
+          <td><span class="NMLLBL_NORMAL" id="NMLLBL_TASK_TYPE" value=""></span></td>
+         </tr>
+         <tr>
+          <th>Deliverable Description<span class="required-mark">*</span></th>
+          <td><textarea id="NMLTXA_DELIVERABLE_DESCRIPTION" name="NMLTXA_DELIVERABLE_DESCRIPTION"></textarea></td>
+         </tr>
+         <tr>
+          <th>Deliverable URL</th>
+          <td><input type="text" id="NMLTXT_DELIVERABLE_URL" name="NMLTXT_DELIVERABLE_URL" value=""></td>
+         </tr>
+         <tr>
+          <th>Submission Note</th>
+          <td><textarea id="NMLTXA_SUBMISSION_NOTE" name="NMLTXA_SUBMISSION_NOTE"></textarea></td>
+         </tr>
+         <tr>
+          <th>Attachment</th>
+          <td><input type="file" id="upload_files"> <input type="button" id="upload_button" value="Upload"> <input type="hidden" id="NMLTXT_DELIVERABLE_FILE" name="NMLTXT_DELIVERABLE_FILE" value="">
+           <div id="upload_result" style="margin-top: 6px; color: #555"></div></td>
+         </tr>
+        </tbody>
+       </table><!-- 按钮：SUBMIT / CANCEL -->
+       <div class="btn-area">
+        <input class="BTNCMD" name="BTNCMD_ADD" onclick="
+                    document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_ADD';
+                    SendBTN(this.name);
+                  " readonly size="" type="text" value="SUBMIT"> <input class="BTNCMD" name="BTNCMD_CANCEL" onclick="
+                    document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_CANCEL';
+                    SendBTN(this.name);
+                  " readonly size="" type="text" value="CANCEL">
+       </div></td>
+     </tr>
+     <tr>
+      <td>
+       <div id="errorLocation" style="font-size: small; color: Gray"></div></td>
+     </tr>
+    </tbody>
+   </table>
+  </div>
+  <script type="text/javascript">
+      //<![CDATA[
+      jQuery(function () {
+        jQuery("#upload_button").on("click", function () {
+          var fileList = jQuery("#upload_files").prop("files");
+          if (!fileList || fileList.length === 0) {
+            alert("Please choose a file first.");
+            return;
+          }
+          var formData = new FormData();
+          formData.append("files", fileList[0]);
+          jQuery
+            .ajax("./servlet/FileUpload", {
+              method: "POST",
+              contentType: false,
+              data: formData,
+              processData: false,
+              dataType: "text",
+            })
+            .done(function (data) {
+              var resp = JSON.parse(data);
+              if (resp.success && resp.files && resp.files.length > 0) {
+                var fi = resp.files[0];
+                if (fi.success) {
+                  jQuery("#NMLTXT_DELIVERABLE_FILE").val(fi.storedFilename);
+                  jQuery("#upload_result").html(
+                    "Uploaded: " + fi.storedFilename,
+                  );
+                } else {
+                  alert("Upload failed: " + fi.errorMessage);
+                }
+              } else {
+                alert("Upload failed: " + resp.errorMessage);
+              }
+            })
+            .fail(function (jqXHR) {
+              if (jqXHR.status === 0) {
+                alert("文件可能过大，或网络中断。");
+              } else if (jqXHR.responseText) {
+                try {
+                  var r = JSON.parse(jqXHR.responseText);
+                  alert("Upload failed: " + r.errorMessage);
+                } catch (e) {
+                  alert("Upload failed.");
+                }
+              } else {
+                alert("Upload failed.");
+              }
+            });
+        });
+      });
+      //]]>
+    </script>
+  <script type="text/javascript">
+      //<![CDATA[
+      CreateFooter();
+      //]]>
+    </script>
+ </body>
+</html>

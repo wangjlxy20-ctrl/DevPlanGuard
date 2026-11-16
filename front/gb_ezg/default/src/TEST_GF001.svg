@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+                     "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg height="605"
+    onclick="if(typeof(wobj.gb_gf_ezg_svgComOnClick)==&apos;function&apos;)wobj.gb_gf_ezg_svgComOnClick(evt);"
+    onload="if(typeof(wobj.gb_gf_ezg_svgComOnLoad)==&apos;function&apos;)wobj.gb_gf_ezg_svgComOnLoad(evt);"
+    onmousedown="if(typeof(wobj.gb_gf_ezg_svgComOnMouseDown)==&apos;function&apos;)wobj.gb_gf_ezg_svgComOnMouseDown(evt);"
+    onmouseup="if(typeof(wobj.gb_gf_ezg_svgComOnMouseUp)==&apos;function&apos;)wobj.gb_gf_ezg_svgComOnMouseUp(evt);"
+    viewBox="0 0 855 605" width="855" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="_GBEZG_ROOT_">
+        <rect height="100%" id="background"
+            style="fill:rgb(255,255,255);" width="100%" x="0" y="0"/>
+        <defs/>
+        <line id="TEST_LINE"
+            onclick="if(typeof(wobj.gb_gf_ezg_pageOpen)==&apos;function&apos;)wobj.gb_gf_ezg_pageOpen(evt,&apos;TEST001&apos;,false)"
+            original-x1="50" original-x2="210" original-y1="80"
+            original-y2="80"
+            style="fill: none; stroke: rgb(0,0,0); stroke-width: 3.0;stroke-dasharray: inherit;"
+            x1="49" x2="211" y1="80" y2="80">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </line>
+        <g id="TEST_TEXT" onclick="if(typeof(wobj.gb_gf_ezg_executeApp)==&apos;function&apos;)wobj.gb_gf_ezg_executeApp(evt,&apos;C:/Windows/System32/notepad.exe&apos;)">
+            <rect height="50" id="TEST_TEXT"
+                style="fill: none; stroke: rgb(192,192,192); stroke-width: 1.0;"
+                width="160" x="60" y="100"/>
+            <text frame_height="50" frame_width="160" frame_x="60"
+                frame_y="100" id="TEST_TEXT"
+                style=" font-family:&apos;MS Gothic&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+                x="60" xml:space="preserve" y="116">*****<animate
+                    attributeName="fill" begin="0s" dur="0s"
+                    repeatCount="indefinite" values=""/></text>
+        </g>
+    </g>
+    <script>var wobj = window.parent;if(!wobj) { wobj = window; }</script>
+</svg>

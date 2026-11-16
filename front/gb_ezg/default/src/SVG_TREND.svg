@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+                     "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg height="600"
+    onclick="if(typeof(gb_gf_ezg_svgComOnClick)==&apos;function&apos;)gb_gf_ezg_svgComOnClick(evt);"
+    onload="if(typeof(gb_gf_ezg_svgComOnLoad)==&apos;function&apos;)gb_gf_ezg_svgComOnLoad(evt);"
+    onmousedown="if(typeof(gb_gf_ezg_svgComOnMouseDown)==&apos;function&apos;)gb_gf_ezg_svgComOnMouseDown(evt);"
+    onmouseup="if(typeof(gb_gf_ezg_svgComOnMouseUp)==&apos;function&apos;)gb_gf_ezg_svgComOnMouseUp(evt);"
+    viewBox="0 0 800 600" width="800"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="_GBEZG_ROOT_">
+        <rect height="100%" id="background"
+            style="fill:rgb(255,255,255);" width="100%" x="0" y="0"/>
+        <defs/>
+        <rect height="500" id="Graph_Area" style="fill: rgb(0,0,0);"
+            width="720" x="50" y="0">
+            <animate attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </rect>
+        <polyline id="line_red"
+            points="146,575 147,575 197,575 198,575 "
+            style="fill: none; stroke: rgb(204,0,0); stroke-width: 2.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <polyline id="line_blue" points="75,576 76,576 131,576 132,576 "
+            style="fill: none; stroke: rgb(51,102,255); stroke-width: 2.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <polyline id="line_bourder"
+            points="213,574 214,574 264,574 265,574 "
+            style="fill: none; stroke: rgb(0,255,0); stroke-width: 2.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <text frame_height="19" frame_width="25" frame_x="17"
+            frame_y="-1" id="y4"
+            style=" font-family:&apos;ＭＳ ゴシック&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="17" xml:space="preserve" y="15">100<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <text frame_height="23" frame_width="23" frame_x="19"
+            frame_y="89" id="y3"
+            style=" font-family:&apos;ＭＳ ゴシック&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="19" xml:space="preserve" y="105">80<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <text frame_height="21" frame_width="23" frame_x="19"
+            frame_y="240" id="y2"
+            style=" font-family:&apos;ＭＳ ゴシック&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="19" xml:space="preserve" y="256">50<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <text frame_height="25" frame_width="21" frame_x="21"
+            frame_y="438" id="y1"
+            style=" font-family:&apos;ＭＳ ゴシック&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="21" xml:space="preserve" y="454">10<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <text frame_height="16" frame_width="29" frame_x="33"
+            frame_y="504" id="x1"
+            style=" font-family:&apos;ＭＳ ゴシック&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="33" xml:space="preserve" y="520">00:00<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <text frame_height="17" frame_width="27" frame_x="111"
+            frame_y="504" id="x2"
+            style=" font-family:&apos;ＭＳ ゴシック&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="111" xml:space="preserve" y="520">00:00<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <text frame_height="18" frame_width="34" frame_x="191"
+            frame_y="504" id="x3"
+            style=" font-family:&apos;ＭＳ ゴシック&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="191" xml:space="preserve" y="520">00:00<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <text frame_height="18" frame_width="31" frame_x="272"
+            frame_y="504" id="x4"
+            style=" font-family:&apos;ＭＳ ゴシック&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="272" xml:space="preserve" y="520">00:00<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <text frame_height="17" frame_width="25" frame_x="354"
+            frame_y="504" id="x5"
+            style=" font-family:&apos;ＭＳ ゴシック&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="354" xml:space="preserve" y="520">00:00<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <text frame_height="20" frame_width="30" frame_x="434"
+            frame_y="504" id="x6"
+            style=" font-family:&apos;ＭＳ ゴシック&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="434" xml:space="preserve" y="520">00:00<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <text frame_height="19" frame_width="33" frame_x="513"
+            frame_y="504" id="x7"
+            style=" font-family:&apos;ＭＳ ゴシック&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="513" xml:space="preserve" y="520">00:00<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <text frame_height="17" frame_width="27" frame_x="594"
+            frame_y="504" id="x8"
+            style=" font-family:&apos;ＭＳ ゴシック&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="594" xml:space="preserve" y="520">00:00<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <text frame_height="18" frame_width="27" frame_x="675"
+            frame_y="504" id="x9"
+            style=" font-family:&apos;ＭＳ ゴシック&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="675" xml:space="preserve" y="520">00:00<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <text frame_height="18" frame_width="26" frame_x="749"
+            frame_y="504" id="x10"
+            style=" font-family:&apos;ＭＳ ゴシック&apos;; fill: rgb(0,0,0); font-size: 12.0pt; text-anchor: Start;"
+            x="749" xml:space="preserve" y="520">00:00<animate
+                attributeName="fill" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/></text>
+        <polyline id="line_mid"
+            points="292,574 293,574 343,574 344,574 "
+            style="fill: none; stroke: rgb(0,255,255); stroke-width: 2.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+        <polyline id="line_yellow"
+            points="363,573 364,573 414,573 415,573 "
+            style="fill: none; stroke: rgb(255,255,0); stroke-width: 2.0;stroke-dasharray: inherit;" svgControl="ON">
+            <animate attributeName="stroke" begin="0s" dur="0s"
+                repeatCount="indefinite" values=""/>
+        </polyline>
+    </g>
+</svg>

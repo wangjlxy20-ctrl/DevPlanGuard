@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Expires" content="0">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Cache-Control" content="no-cache, private"><!-- ========== HEADER ======================================== --> <!-- ========== CSS =========================================== -->
+  <link type="text/css" rel="stylesheet" href="./css/common.css"><!-- ========================================================== --> <!-- ========== USER CSS ====================================== -->
+  <style type="text/css">
+      /* <![CDATA[ */
+      /* Priority color blocks: HIGH red / MEDIUM yellow / LOW green (background color is determined by value) */
+      .pri-flag {
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        border-radius: 3px;
+        font-size: 0;
+        line-height: 0;
+        vertical-align: middle;
+      }
+      .pri-flag.pri-high {
+        background-color: #e74c3c;
+      }
+      .pri-flag.pri-medium {
+        background-color: #f1c40f;
+      }
+      .pri-flag.pri-low {
+        background-color: #27ae60;
+      }
+      /* The user's original style can be described here */
+      /* ]]> */
+    </style><!-- ========================================================== --> <!-- ========== SCRIPT ======================================== -->
+  <script type="text/javascript" src="./js/denyDirectAccess.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/jquery.min.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/buttonDef.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/navigation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/objectManipulation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/dataCheck.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/dataUtil.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/timeManipulation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/svg.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/common.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/gb_gf_ezg.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/finalTaskForUserCommon.js" charset="UTF-8"></script><!-- ========================================================== --> <!-- ========== MENU ========================================== -->
+  <script type="text/javascript">
+      writeTitle();
+    </script>
+  <script type="text/javascript">
+      //<![CDATA[
+    gf_page=   "";
+    gf_title1= "DevPlanGuard";
+    gf_title2= "DevPlanGuaed REQUIREMENT PAGE";
+    gf_id=     "DPGL100RE";
+    gf_remarks="MANAGE THE REQUIREMENT OF THE PROJECT";
+    gf_onload= "";
+      CreateHideMenu(gf_page, gf_title1, gf_title2, gf_id, gf_onload);
+      //]]>
+    </script><!-- ========================================================== --> <!-- ========== INPUT CHECK SCRIPT ============================ -->
+  <script type="text/javascript">
+      //<![CDATA[
+      function _chkInputValue() {
+        return true;
+      }
+      //]]>
+    </script><!-- ========================================================== --> <!-- ========== USER SCRIPT =================================== -->
+  <script type="text/javascript">
+      //<![CDATA[
+      function finalTaskForUser() {
+        // Read the text of each priority color block（HIGH/MEDIUM/LOW）
+        // Add corresponding class and clear text
+        var nodes = document.querySelectorAll('[id^="NMLLBL_PRIORITY_FLAG"]');
+        for (var i = 0; i < nodes.length; i++) {
+          var s = nodes[i];
+          var t = (s.textContent || "").toUpperCase();
+          if (t.indexOf("HIGH") >= 0) {
+            s.classList.add("pri-high");
+          } else if (t.indexOf("LOW") >= 0) {
+            s.classList.add("pri-low");
+          } else if (t.indexOf("MEDIUM") >= 0) {
+            s.classList.add("pri-medium");
+          }
+          s.innerHTML = "";
+        }
+      }
+      //]]>
+    </script><!-- ========================================================== -->
+  <title>dummytitle</title><!-- ========================================================== -->
+ </head><!-- ========== CUSTOMIZE ===================================== -->
+ <body>
+  <div id="wrapper">
+   <!-- ===== 通用按钮栏：Back / Main / Logout（样板同 DPGL200.html） =====
+-->
+   <div id="nav-bar" style="
+          position: sticky;
+          top: 0;
+          z-index: 999;
+          display: flex;
+          justify-content: flex-end;
+          gap: 6px;
+          padding: 4px 8px;
+          background: #f7f7f7;
+          border-bottom: 1px solid #ddd;
+        ">
+    <input type="text" class="BTNCMD" name="BTNCMD_BACK" value="Back" readonly onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_BACK';
+            SendBTN(this.name);
+          "> <input type="text" class="BTNCMD" name="BTNCMD_MAIN" value="Main" readonly onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_MAIN';
+            SendBTN(this.name);
+          "> <input type="text" class="BTNCMD" name="BTNCMD_LOGOUT" value="Logout" readonly onclick="
+            document.main.COMMAND_NAME.value = 'COMMAND_BTNCMD_LOGOUT';
+            SendBTN(this.name);
+          ">
+   </div><!-- ===== /通用按钮栏 ===== --> <input type="hidden" id="grandsight_ex_disp_date_format" name="grandsight_ex_disp_date_format" value=""> <input type="hidden" id="grandsight_ex_time_zone" name="grandsight_ex_time_zone" value=""> <!-- Current project ID (hidden fixed field) --> <input type="hidden" name="NMLTXT_PROJECT_ID" value="" size="" maxlength="" style="" class="NMLTXT_NORMAL">
+   <table style="width: 100%">
+    <tbody>
+     <tr>
+      <td id="root">
+       <h1 style="display: inline-block">
+        <script>
+                  document.write(gf_title2);
+                </script></h1><!-- ===== Top right corner: System time (left)   BACK / ADD (right) ===== -->
+       <table style="
+                  width: 100%;
+                  border-collapse: collapse;
+                  margin-bottom: 8px;
+                ">
+        <tbody>
+         <tr>
+          <td style="text-align: left; font-size: 12px; color: #555"><span class="NMLLBL_NORMAL" id="NMLLBL_NOW_DATE" value=""> YYYY/MM/DD HH:MI:SS </span></td>
+          <td style="text-align: right; white-space: nowrap"><input class="BTNCMD" name="BTNCMD_IMPORT_REQUIREMENTS" onclick="
+                          document.main.COMMAND_NAME.value =
+                            'COMMAND_BTNCMD_IMPORT_REQUIREMENTS';
+                          SendBTN(this.name);
+                        " readonly size="" type="text" value="IMPORT REQUIREMENTS"> <input class="BTNCMD" name="BTNCMD_ADD_REQUIREMENT" onclick="
+                          document.main.COMMAND_NAME.value =
+                            'COMMAND_BTNCMD_ADD_REQUIREMENT';
+                          SendBTN(this.name);
+                        " readonly size="20" type="text" value="ADD A NEW REQUIREMENT" style="margin-left: 6px"></td>
+         </tr>
+        </tbody>
+       </table><!-- ===== REQUIREMENTS INFO ===== -->
+       <table style="
+                  width: 100%;
+                  border-collapse: collapse;
+                  margin: 6px 0 10px;
+                ">
+        <tbody>
+         <tr>
+          <td style="text-align: left; font-size: 14px"><span class="NMLLBL_NORMAL" id="NMLLBL_DISPLAY_INFO" value="" style="font-weight: bold"></span></td>
+          <td style="
+                        text-align: right;
+                        font-size: 14px;
+                        white-space: nowrap;
+                      ">Manager : <input class="LINK_TEXT" name="LNKMOV_MANAGER" onclick="
+                          document.main.COMMAND_NAME.value =
+                            'COMMAND_LNKMOV_MANAGER';
+                          var linkScreenId = 'DPGL100MS';
+                          linkOpen(linkScreenId, this.value, this.name);
+                        " readonly size="12" type="text" value=""></td>
+         </tr>
+         <tr>
+          <td colspan="2" style="
+                        text-align: left;
+                        font-size: 14px;
+                        padding-top: 6px;
+                      ">Total Requirements : <span class="NMLLBL_NORMAL" id="NMLLBL_TOTAL_REQ" value="" style="font-weight: bold; color: #c0392b"></span></td>
+         </tr>
+        </tbody>
+       </table><!-- ========== REQUIREMENTS ========== -->
+       <table id="TABLE_REQUIREMENT" style="width: 100%; border-collapse: collapse; font-size: 13px">
+        <tbody>
+         <tr style="text-align: center; background-color: #eef3fb">
+          <th style="
+                        width: 40px;
+                        border: 1px solid #9bb3d6;
+                        padding: 6px;
+                      ">PRI</th>
+          <th style="
+                        width: 110px;
+                        border: 1px solid #9bb3d6;
+                        padding: 6px;
+                      ">REQ CODE<br>
+            (click to edit)</th>
+          <th style="
+                        width: 200px;
+                        border: 1px solid #9bb3d6;
+                        padding: 6px;
+                      ">REQ NAME</th>
+          <th style="
+                        width: 170px;
+                        border: 1px solid #9bb3d6;
+                        padding: 6px;
+                      ">PROJECT NAME</th>
+          <th style="
+                        width: 110px;
+                        border: 1px solid #9bb3d6;
+                        padding: 6px;
+                      ">START DATE</th>
+          <th style="
+                        width: 110px;
+                        border: 1px solid #9bb3d6;
+                        padding: 6px;
+                      ">END DATE</th>
+          <th style="
+                        width: 100px;
+                        border: 1px solid #9bb3d6;
+                        padding: 6px;
+                      ">STATUS</th><!-- Start / Complete 
+                    <th
+                      style="
+                        width: 80px;
+                        border: 1px solid #9bb3d6;
+                        padding: 6px;
+                      "
+                    >
+                      &nbsp;
+                    </th>
+                    <th
+                      style="
+                        width: 90px;
+                        border: 1px solid #9bb3d6;
+                        padding: 6px;
+                      "
+                    >
+                      &nbsp;
+                    </th>
+                    -->
+         </tr><!-- ===== Template row ===== -->
+         <tr>
+          <!-- PRIORITY COLOR BLOCKS：HIGH/MEDIUM/LOW -->
+          <td style="
+                        text-align: center;
+                        border: 1px solid #c5d3e8;
+                        padding: 6px;
+                      "><span class="NMLLBL_NORMAL pri-flag" id="NMLLBL_PRIORITY_FLAG" value=""></span></td><input type="hidden" id="NMLTXT_REQ_CODE" name="NMLTXT_REQ_CODE" value="">
+          <td style="
+                        text-align: center;
+                        border: 1px solid #c5d3e8;
+                        padding: 6px;
+                      "><input class="LINK_TEXT" name="LNKMOV_REQ_EDIT" onclick="
+                          document.main.COMMAND_NAME.value =
+                            'COMMAND_LNKMOV_REQ_EDIT';
+                          var linkScreenId = 'DPGL100REA';
+                          linkOpen(linkScreenId, this.value, this.name);
+                        " readonly size="" type="text" value=""></td>
+          <td style="border: 1px solid #c5d3e8; padding: 6px"><span class="NMLLBL_NORMAL" id="NMLLBL_REQ_NAME" value=""></span></td>
+          <td style="border: 1px solid #c5d3e8; padding: 6px"><span class="NMLLBL_NORMAL" id="NMLLBL_PROJECT_NAME" value=""></span></td>
+          <td style="
+                        text-align: center;
+                        border: 1px solid #c5d3e8;
+                        padding: 6px;
+                      "><span class="NMLLBL_NORMAL" id="NMLLBL_PLAN_START" value=""></span></td>
+          <td style="
+                        text-align: center;
+                        border: 1px solid #c5d3e8;
+                        padding: 6px;
+                      "><span class="NMLLBL_NORMAL" id="NMLLBL_PLAN_END" value=""></span></td>
+          <td style="
+                        text-align: center;
+                        border: 1px solid #c5d3e8;
+                        padding: 6px;
+                      "><span class="NMLLBL_NORMAL" id="NMLLBL_STATUS" value=""></span></td><!-- Start / Complete 
+                    <td
+                      style="
+                        text-align: center;
+                        border: 1px solid #c5d3e8;
+                        padding: 6px;
+                      "
+                    >
+                      <input
+                        class="BTNCMD"
+                        name="BTNCMD_START"
+                        onclick="
+                          document.main.COMMAND_NAME.value =
+                            'COMMAND_BTNCMD_START';
+                          SendBTN(this.name);
+                        "
+                        readonly
+                        size="7"
+                        type="text"
+                        value="START"
+                      /><span
+                        class="NMLLBL_NORMAL"
+                        id="NMLLBL_START_STATE"
+                        name="NMLLBL_START_STATE"
+                      ></span>
+                    </td>
+                    <td
+                      style="
+                        text-align: center;
+                        border: 1px solid #c5d3e8;
+                        padding: 6px;
+                      "
+                    >
+                      <input
+                        class="BTNCMD"
+                        name="BTNCMD_COMPLETE"
+                        onclick="
+                          document.main.COMMAND_NAME.value =
+                            'COMMAND_BTNCMD_COMPLETE';
+                          SendBTN(this.name);
+                        "
+                        readonly
+                        size="7"
+                        type="text"
+                        value="COMPLETE"
+                      /><span
+                        class="NMLLBL_NORMAL"
+                        id="NMLLBL_COMPLETE_STATE"
+                        name="NMLLBL_COMPLETE_STATE"
+                      ></span>
+                    </td>
+                    -->
+         </tr>
+        </tbody>
+       </table></td>
+     </tr>
+     <tr>
+      <td>
+       <div id="errorLocation" style="font-size: small; color: Gray"></div></td>
+     </tr>
+    </tbody>
+   </table>
+  </div><!-- ========================================================== --> <!-- ========== FOOTER ======================================== -->
+  <script type="text/javascript">
+      //<![CDATA[
+      CreateFooter();
+      //]]>
+    </script><!-- ========================================================== -->
+ </body>
+</html>

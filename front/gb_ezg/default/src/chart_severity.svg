@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="220" viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg">
+  <g id="_GBEZG_ROOT_" x="0" y="0" width="400" height="220">
+    <rect id="background" x="0" y="0" width="400" height="220" style="fill:rgb(255,255,255);"/>
+    <text id="title" x="10" y="20" style="font-family:Segoe UI,Arial;font-size:13px;font-weight:bold;fill:#1a73e8;">Defects by severity</text>
+
+    <!-- vbar0 CRITICAL：color 红色 -->
+    <g id="vbar0" svgControl="ON">
+      <rect id="FULL_SIZE_G" x="90" y="40" width="280" height="18" style="fill:rgb(245,220,220);"/>
+      <rect id="CURRENT_SIZE_G" x="90" y="40" width="0" height="18" style="fill:rgb(225,87,89);"/>
+    </g>
+    <text id="vlbl0" x="10" y="54" style="font-family:Segoe UI,Arial;font-size:11px;font-weight:bold;fill:#c0392b;">CRITICAL</text>
+    <text svgControl="ON" id="vval0" x="376" y="54" style="font-family:Segoe UI,Arial;font-size:11px;fill:#3c4a5a;">0</text>
+
+    <!-- vbar1 HIGH -->
+    <g id="vbar1" svgControl="ON">
+      <rect id="FULL_SIZE_G" x="90" y="72" width="280" height="18" style="fill:rgb(250,235,215);"/>
+      <rect id="CURRENT_SIZE_G" x="90" y="72" width="0" height="18" style="fill:rgb(242,142,43);"/>
+    </g>
+    <text id="vlbl1" x="10" y="86" style="font-family:Segoe UI,Arial;font-size:11px;fill:#e67e22;">HIGH</text>
+    <text svgControl="ON" id="vval1" x="376" y="86" style="font-family:Segoe UI,Arial;font-size:11px;fill:#3c4a5a;">0</text>
+
+    <!-- vbar2 MEDIUM -->
+    <g id="vbar2" svgControl="ON">
+      <rect id="FULL_SIZE_G" x="90" y="104" width="280" height="18" style="fill:rgb(248,242,215);"/>
+      <rect id="CURRENT_SIZE_G" x="90" y="104" width="0" height="18" style="fill:rgb(237,201,72);"/>
+    </g>
+    <text id="vlbl2" x="10" y="118" style="font-family:Segoe UI,Arial;font-size:11px;fill:#b8941f;">MEDIUM</text>
+    <text svgControl="ON" id="vval2" x="376" y="118" style="font-family:Segoe UI,Arial;font-size:11px;fill:#3c4a5a;">0</text>
+
+    <!-- vbar3 LOW -->
+    <g id="vbar3" svgControl="ON">
+      <rect id="FULL_SIZE_G" x="90" y="136" width="280" height="18" style="fill:rgb(219,230,245);"/>
+      <rect id="CURRENT_SIZE_G" x="90" y="136" width="0" height="18" style="fill:rgb(78,121,167);"/>
+    </g>
+    <text id="vlbl3" x="10" y="150" style="font-family:Segoe UI,Arial;font-size:11px;fill:#4e79a7;">LOW</text>
+    <text svgControl="ON" id="vval3" x="376" y="150" style="font-family:Segoe UI,Arial;font-size:11px;fill:#3c4a5a;">0</text>
+
+    <!-- vbar4 未分级 -->
+    <g id="vbar4" svgControl="ON">
+      <rect id="FULL_SIZE_G" x="90" y="168" width="280" height="18" style="fill:rgb(230,235,240);"/>
+      <rect id="CURRENT_SIZE_G" x="90" y="168" width="0" height="18" style="fill:rgb(150,160,172);"/>
+    </g>
+    <text id="vlbl4" x="10" y="182" style="font-family:Segoe UI,Arial;font-size:11px;fill:#7c8896;">未分级</text>
+    <text svgControl="ON" id="vval4" x="376" y="182" style="font-family:Segoe UI,Arial;font-size:11px;fill:#3c4a5a;">0</text>
+  </g>
+</svg>

@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="ja">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Expires" content="0">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Cache-Control" content="no-cache, private">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- ========== HEADER ======================================== -->
+  <!-- ========== CSS =========================================== -->
+  <!--<link type="text/css" rel="stylesheet" href="./css/common.css">-->
+  <link type="text/css" rel="stylesheet" href="./font-awesome-4.6.3/css/font-awesome.min.css">
+  <link type="text/css" rel="stylesheet" href="./bootstrap/bootstrap-5.2.0-dist/css/bootstrap.min.css">
+  <link type="text/css" rel="stylesheet" href="./css/access_control.css">
+  <!-- ========================================================== -->
+  <!-- ========== USER CSS ====================================== -->
+  <style type="text/css">
+/* <![CDATA[ */
+
+    /* ユーザーオリジナルのスタイルをここに記述できます */
+
+/* ]]> */
+</style>
+  <!-- ========================================================== -->
+  <!-- ========== SCRIPT ======================================== -->
+  <script src="./js/vue/vue.js"></script>
+  <script src="./js/vue/vue-i18n.js"></script>
+  <script type="text/javascript" src="./js/denyDirectAccess.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/jquery.min.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/objectManipulation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/multilingualization.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/multilingual/buttonDef.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/multilingual/navigation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/dataCheckI18n.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/dataUtil.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/timeManipulation.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/svg.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/commonI18n.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/gb_gf_ezg.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./bootstrap/bootstrap-5.2.0-dist/js/bootstrap.min.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/access_control.js" charset="UTF-8"></script>
+  <!-- ========================================================== -->
+  <!-- ========== MENU ========================================== -->
+  <script type="text/javascript">writeTitle();</script>
+  <script type="text/javascript">
+//<![CDATA[
+    // 共通ヘッダ部出力
+    // gf_page   : 頁出力(現在頁/全頁)
+    // gf_title1 : 画面タイトル１（全角２７文字以内）
+    // gf_title2 : 画面タイトル２（全角３０文字以内）
+    // gf_id     : 画面ID
+    // gf_comment: 画面コメント
+    // gf_onload : 画面ロード時のスクリプトを指定（処理がある場合のみ記述）
+    gf_page=   "";
+    gf_title1= "{{$t('ACM000_NMLLBL_001')}}";
+    gf_title2= "{{$t('ACM000_NMLLBL_002')}}";
+    gf_id=     "ACM000";
+    gf_remarks="";
+    gf_onload= "";
+    CreateHideMenu( gf_page , gf_title1 , gf_title2 , gf_id , gf_onload );
+    //共通ボタンを使用する場合は使用するボタンのコメントを外す。
+  //buttonDef("preButton"    , "PreCommand"   );
+  //buttonDef("nextButton"   , "NextCommand"  );
+  //buttonDef("delButton"    , "DelCommand"   );
+  //buttonDef("prtButton"    , "PrtCommand"   );
+  //buttonDef("redispButton" , "RedispCommand");
+  //buttonDef("menuButton"   , "MenuCommand"  );
+  //buttonDef("backButton"   , "BackCommand"  );
+  //buttonDef("execButton"   , "ExecCommand"  );
+    //ボタンの表示文字を変更して使用する時は下記のように個別に設定する。
+    // ChangeValue("preButton"   ,"前頁"    );
+    // ChangeValue("nextButton"  ,"次頁"    );
+    // ChangeValue("delButton"   ,"削除"    );
+    // ChangeValue("prtButton"   ,"印刷"    );
+    // ChangeValue("redispButton","再表示"  );
+    // ChangeValue("menuButton"  ,"メニュー");
+    // ChangeValue("backButton"  ,"戻る"    );
+    // ChangeValue("execButton"  ,"エントリ");
+//]]>
+</script>
+  <!-- ========================================================== -->
+  <!-- ========== MULTILINGUAL SCRIPT ============================ -->
+<script type="text/javascript">
+  window.addEventListener('DOMContentLoaded', function() {
+    initView();
+  });
+  setLocaleForACM000();
+</script>
+<!-- ========================================================== -->
+  <!-- ========== INPUT CHECK SCRIPT ============================ -->
+  <script type="text/javascript">
+//<![CDATA[
+    function _chkInputValue() {
+        return true;
+    }
+//]]>
+</script>
+  <!-- ========================================================== -->
+  <!-- ========== USER SCRIPT =================================== -->
+  <script type="text/javascript">
+//<![CDATA[
+// ユーザーオリジナルのスクリプトをここに記述できます
+function finalTaskForUser() {
+	// 画面表示直後の処理をここに記述できます
+
+	// 編集可能な最初の入力項目にフォーカスを当てる
+	focusOnEnabledInput();
+}
+//]]>
+</script>
+  <!-- ========================================================== -->
+  <title>ACM000</title>
+  <!-- ========================================================== -->
+ </head>
+ <!-- ========== CUSTOMIZE ===================================== -->
+ <body>
+  <div id="grandsight_ex_app" v-cloak>
+     <input type="hidden" id="GRANDSIGHT_EX_DEFAULT_LANG" name="GRANDSIGHT_EX_DEFAULT_LANG" value="">
+     <input type="hidden" id="grandsight_ex_locale" name="grandsight_ex_locale" value="">
+     <input type="hidden" id="grandsight_ex_default_locale" name="grandsight_ex_default_locale" value="">
+     <input type="hidden" id="grandsight_ex_disp_date_format" name="grandsight_ex_disp_date_format" value="">
+     <input type="hidden" id="grandsight_ex_time_zone" name="grandsight_ex_time_zone" value="">
+  <div id="wrapper" class="ACM000 container">
+   <div class="header-area">
+    <div style="float: right;">
+     <span class="NMLLBL_NORMAL" id="NMLLBL_AC_USER_ID"></span>
+     <span class="NMLLBL_NORMAL" id="NMLLBL_AC_USER_NAME"></span>
+     <input class="BTNCMD btn btn-outline-secondary btn-sm" type="button" name="BTNCMD_AC_RESET_PASSWORD" :value="$t('ACM000_BTNCMD_001')" size="" readonly onclick="document.main.COMMAND_NAME.value='COMMAND_BTNCMD_AC_RESET_PASSWORD';SendBTN(this.name);">
+     <input class="BTNCMD btn btn-outline-secondary btn-sm" type="button" name="BTNCMD_AC_LOGOUT" value="Logout" size="" readonly onclick="document.main.COMMAND_NAME.value='COMMAND_BTNCMD_AC_LOGOUT';SendBTN(this.name);">
+    </div>
+    <div style="clear: both;"></div>
+   </div>
+   <div class="mt-4 p-5 rounded" style="background-color: #eee; margin-bottom: 60px;">
+    <span style="font-size:30px;font-weight:500;" class="no-thank-yu">{{$t("ACM000_BTNCMD_004")}}</span>
+    <p style="font-size:21px; color: #333">{{$t("ACM000_NMLLBL_005")}}</p>
+   </div>
+      <table id="menu_list">
+          <tr>
+              <td>
+                  <input class="LINK_TEXT" type="text" name="LNKMOV_AC_OPEN_FROM_MENU" :value="$t('ACM000_NMLLBL_006')" size="" readonly onclick="document.main.COMMAND_NAME.value='COMMAND_LNKMOV_AC_OPEN_FROM_MENU';var linkScreenId='ACM100';linkOpen(linkScreenId,this.value,this.name);">
+              </td>
+              <td>
+                  {{$t("ACM000_NMLLBL_011")}}
+              </td>
+          </tr>
+          <tr>
+              <td>
+                  <input class="LINK_TEXT" type="text" name="LNKMOV_AC_OPEN_FROM_MENU" :value="$t('ACM000_NMLLBL_007')" size="" readonly onclick="document.main.COMMAND_NAME.value='COMMAND_LNKMOV_AC_OPEN_FROM_MENU';var linkScreenId='ACM200';linkOpen(linkScreenId,this.value,this.name);">
+              </td>
+              <td>
+                  {{$t("ACM000_NMLLBL_012")}}
+              </td>
+          </tr>
+          <tr>
+              <td>
+                  <input class="LINK_TEXT" type="text" name="LNKMOV_AC_OPEN_FROM_MENU" :value="$t('ACM000_NMLLBL_008')" size="" readonly onclick="document.main.COMMAND_NAME.value='COMMAND_LNKMOV_AC_OPEN_FROM_MENU';var linkScreenId='ACM300';linkOpen(linkScreenId,this.value,this.name);">
+              </td>
+              <td>
+                  {{$t("ACM000_NMLLBL_013")}}
+              </td>
+          </tr>
+          <tr>
+              <td>
+                  <input class="LINK_TEXT" type="text" name="LNKMOV_AC_OPEN_FROM_MENU" :value="$t('ACM000_NMLLBL_009')" size="" readonly onclick="document.main.COMMAND_NAME.value='COMMAND_LNKMOV_AC_OPEN_FROM_MENU';var linkScreenId='ACM400';linkOpen(linkScreenId,this.value,this.name);">
+              </td>
+              <td>
+                  {{$t("ACM000_NMLLBL_014")}}
+              </td>
+          </tr>
+          <tr>
+              <td>
+                  <input class="LINK_TEXT" type="text" name="LNKMOV_AC_OPEN_FROM_MENU" :value="$t('ACM000_NMLLBL_010')" size="" readonly onclick="document.main.COMMAND_NAME.value='COMMAND_LNKMOV_AC_OPEN_FROM_MENU';var linkScreenId='ACM500';linkOpen(linkScreenId,this.value,this.name);">
+              </td>
+              <td>
+                  {{$t("ACM000_NMLLBL_015")}}
+              </td>
+          </tr>
+          <tr>
+              <td>
+                  <input class="LINK_TEXT" type="text" name="LNKMOV_AC_OPEN_FROM_MENU" :value="$t('ACM000_NMLLBL_016')" size="" readonly onclick="document.main.COMMAND_NAME.value='COMMAND_LNKMOV_AC_OPEN_FROM_MENU';var linkScreenId='GLB200';linkOpen(linkScreenId,this.value,this.name);">
+              </td>
+              <td>
+                  {{$t("ACM000_NMLLBL_017")}}
+              </td>
+          </tr>
+      </table>
+  </div>
+  </div>
+  <!-- ========================================================== -->
+  <!-- ========== FOOTER ======================================== -->
+  <script type="text/javascript">
+//<![CDATA[
+    CreateFooter();
+//]]>
+</script>
+  <!-- ========================================================== -->
+ </body>
+</html>
