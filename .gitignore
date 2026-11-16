@@ -1,21 +1,34 @@
-# 1. 常规忽略（不管哪个端都要忽略的杂物）
+# 忽略 img 文件夹（图片存在本地，不提交）
+img/
+
+# 忽略文档文件
+*.xlsx
+*.docx
+
+# 1. 常规忽略
 *.class
 *.jar
-*.png
 *.log
 .env
 *.db
 *.sqlite
-node_modules/
 .idea/
 .gradle/
 .DS_Store
 Thumbs.db
 
-# 2. 忽略整个 backend 目录
+# 2. 忽略整个 front 目录
+/front/*
+
+# 3. 逐层放行 front 目录结构
+!/front/
+!/front/**/*.html
+!/front/**/*.jsp
+
+# 4. 忽略整个 backend 目录
 /backend/*
 
-# 3. 逐层放行 job 目录（注意路径拼写）
+# 5. 逐层放行 job 目录
 !/backend/dev/
 /backend/dev/*
 !/backend/dev/ex_bl/
